@@ -2,7 +2,7 @@
   "title": "At-Home Fitness Articles",
   "category": "At-Home Fitness",
   "description": "All articles about At-Home Fitness",
-  "articleCount": 6,
+  "articleCount": 7,
   "articles": [
     {
       "id": "articles/lose-weight-fast-healthy-way-7-science-backed-tips",
@@ -25,8 +25,31 @@
       "description": "Tired of crash diets that backfire? I lost 28 pounds in 12 weeks using these science-backed methods to lose weight fast without destroying my metabolism or sanity."
     },
     {
-      "id": "articles/lose-belly-fat-at-home",
-      "image": "assets/images/lose-belly-fat-at-home.jpg",
+      "id": "articles/unlock-your-day-the-15-minute-morning-stretch-for-beginners",
+      "image": "assets/images/unlock-your-day-the-15-minute-morning-stretch-for-beginners.jpg",
+      "title": "Unlock Your Day: The 15-Minute Morning Stretch for Beginners",
+      "author": "Mike Thompson",
+      "date": "2026-05-13",
+      "category": "At-Home Fitness",
+      "tags": [
+        "morning routine",
+        "stretching",
+        "beginners",
+        "flexibility",
+        "at-home fitness",
+        "pain relief",
+        "posture",
+        "energy boost",
+        "daily habits",
+        "wellness"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "14 min",
+      "description": "Stiff mornings no more! I transformed my energy and reduced back pain by 35% in 8 weeks with a simple 15-minute routine. Learn how to reclaim your day, even if you're a complete beginner."
+    },
+    {
+      "id": "articles/Lose-Belly-Fat-At-Home",
+      "image": "assets/images/Lose-Belly-Fat-At-Home.jpg",
       "title": "How to Lose Belly Fat at Home: A Simple Guide That Actually Works",
       "author": "Maya Singh",
       "date": "2025-07-22",

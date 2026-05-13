@@ -85,7 +85,30 @@
       ]
     },
     {
-      "id": "articles/lose-belly-fat-at-home",
+      "id": "articles/unlock-your-day-the-15-minute-morning-stretch-for-beginners",
+      "title": "Unlock Your Day: The 15-Minute Morning Stretch for Beginners",
+      "description": "Stiff mornings no more! I transformed my energy and reduced back pain by 35% in 8 weeks with a simple 15-minute routine. Learn how to reclaim your day, even if you're a complete beginner.",
+      "category": "At-Home Fitness",
+      "difficulty": "Beginner",
+      "author": "Mike Thompson",
+      "date": "2026-05-13",
+      "readTime": "14 min",
+      "image": "assets/images/unlock-your-day-the-15-minute-morning-stretch-for-beginners.jpg",
+      "tags": [
+        "morning routine",
+        "stretching",
+        "beginners",
+        "flexibility",
+        "at-home fitness",
+        "pain relief",
+        "posture",
+        "energy boost",
+        "daily habits",
+        "wellness"
+      ]
+    },
+    {
+      "id": "articles/Lose-Belly-Fat-At-Home",
       "title": "How to Lose Belly Fat at Home: A Simple Guide That Actually Works",
       "description": "Struggling to lose stubborn belly fat? This proven home-based approach combines simple workouts, smart eating habits, and daily lifestyle changes that actually work—no gym membership required.",
       "category": "At-Home Fitness",
@@ -93,7 +116,7 @@
       "author": "Maya Singh",
       "date": "2025-07-22",
       "readTime": "12 min",
-      "image": "assets/images/lose-belly-fat-at-home.jpg",
+      "image": "assets/images/Lose-Belly-Fat-At-Home.jpg",
       "tags": [
         "Belly Fat",
         "Weight Loss",
@@ -177,25 +200,6 @@
         "home fitness",
         "budget fitness",
         "apartment workout"
-      ]
-    },
-    {
-      "id": "articles/lose-weight-at-home-without-a-gym",
-      "title": "Lose Weight at Home Without a Gym: Beginner's Guide to Fat Loss (I Lost 35 Pounds in 6 Months)",
-      "description": "Don't waste money on gym memberships you won't use. After losing 35 pounds in 6 months using only home workouts and simple nutrition changes, here's exactly what works for sustainable fat loss.",
-      "category": "At-Home Fitness",
-      "difficulty": "Beginner",
-      "author": "Rachel Chen",
-      "date": "2025-07-08",
-      "readTime": "15 min",
-      "image": "assets/images/lose-weight-at-home-without-a-gym.jpg",
-      "tags": [
-        "weight loss",
-        "home fitness",
-        "fat loss",
-        "calorie deficit",
-        "HIIT workouts",
-        "nutrition tips"
       ]
     }
   ]

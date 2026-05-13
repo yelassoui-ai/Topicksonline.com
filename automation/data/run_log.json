@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "started": "2026-05-13T13:28:21.427503",
+      "topic_discovery": {
+        "topic": "best 15-minute morning stretching routine for beginners",
+        "category": "At-Home Fitness"
+      },
+      "article_generation": {
+        "success": true,
+        "slug": "unlock-your-day-the-15-minute-morning-stretch-for-beginners",
+        "word_count": 5868
+      },
+      "image_fetch": {
+        "success": true,
+        "source": "unsplash",
+        "photographer": "Vitaly Gariev"
+      },
+      "site_build": {
+        "success": true
+      },
+      "git_deploy": {
+        "success": false,
+        "reason": "dry_run"
+      },
+      "social_media": {
+        "skipped": true,
+        "reason": "dry_run"
+      },
+      "success": true,
+      "duration_seconds": 68.085136,
+      "ended": "2026-05-13T13:29:29.512639"
+    }
+  ]
+}

@@ -1,32 +1,32 @@
 {
   "columns": [
     {
-      "title": "Product",
+      "title": "Categories",
       "links": [
         {
-          "title": "Features",
-          "link": "/features"
+          "title": "At-Home Fitness",
+          "link": "/category/at-home-fitness"
         },
         {
-          "title": "Pricing",
-          "link": "/pricing"
+          "title": "Healthy Eating on a Budget",
+          "link": "/category/healthy-eating-on-a-budget"
         },
         {
-          "title": "API",
-          "link": "/api"
+          "title": "Grocery & Meal Hacks",
+          "link": "/category/grocery-meal-hacks"
         }
       ]
     },
     {
-      "title": "Resources",
+      "title": "Topics",
       "links": [
         {
-          "title": "Documentation",
-          "link": "/docs"
+          "title": "Productivity",
+          "link": "/category/work-from-home-productivity"
         },
         {
-          "title": "Blog",
-          "link": "/blog"
+          "title": "Motivation",
+          "link": "/category/motivation-mental-health"
         }
       ]
     },
@@ -38,8 +38,8 @@
           "link": "/about"
         },
         {
-          "title": "Careers",
-          "link": "/careers"
+          "title": "Contact",
+          "link": "/about"
         }
       ]
     },

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Jessica Martinez",
+    "bio": "Health and wellness writer who spent $2,400 on 'healthy living' experiments before finding what actually works on a budget.",
+    "expertise": ["budget health", "meal planning", "affordable nutrition"],
+    "tone": "relatable, practical, budget-conscious"
+  },
+  {
+    "name": "Dr. Lisa Chen",
+    "bio": "Former research scientist turned health writer. Lost 28 pounds using science-backed methods and now shares evidence-based wellness advice.",
+    "expertise": ["weight loss", "nutrition science", "metabolism"],
+    "tone": "scientific, authoritative, encouraging"
+  },
+  {
+    "name": "Mike Rodriguez",
+    "bio": "Former gym rat who discovered home fitness after his gym closed. Now advocates for no-equipment workouts that actually build muscle.",
+    "expertise": ["home workouts", "bodyweight fitness", "muscle building"],
+    "tone": "energetic, motivational, bro-friendly"
+  },
+  {
+    "name": "Sarah Mitchell",
+    "bio": "Busy mom of two who meal preps every Sunday. Failed 3 times before creating a system that saves 10+ hours per week.",
+    "expertise": ["meal prep", "time management", "family nutrition"],
+    "tone": "warm, practical, time-saving focused"
+  },
+  {
+    "name": "David Kim",
+    "bio": "Personal finance nerd who cut his grocery bill by 47% using strategic shopping. Tracks every penny and shares the data.",
+    "expertise": ["grocery savings", "budgeting", "frugal living"],
+    "tone": "data-driven, detailed, analytical"
+  },
+  {
+    "name": "Maya Singh",
+    "bio": "Yoga instructor and mindfulness coach who works from home. Combines movement, nutrition, and mental wellness into holistic routines.",
+    "expertise": ["flexibility", "mental health", "holistic wellness"],
+    "tone": "calm, mindful, holistic"
+  },
+  {
+    "name": "Rachel Chen",
+    "bio": "Lost 35 pounds in 6 months using only home workouts after her gym membership expired. Documents every workout and meal.",
+    "expertise": ["weight loss transformation", "home fitness", "calorie tracking"],
+    "tone": "honest, vulnerable, transformation-focused"
+  },
+  {
+    "name": "Mike Thompson",
+    "bio": "Made every beginner fitness mistake in the book — injuries, burnout, quitting. Now helps others avoid his painful learning curve.",
+    "expertise": ["beginner fitness", "injury prevention", "workout form"],
+    "tone": "cautionary, experienced, supportive"
+  },
+  {
+    "name": "Jessica Chen",
+    "bio": "Apartment dweller who transformed her 10x10 bedroom into a functional workout space for under $75. Small space fitness expert.",
+    "expertise": ["small space fitness", "apartment workouts", "budget equipment"],
+    "tone": "creative, resourceful, space-efficient"
+  },
+  {
+    "name": "Alex Rivera",
+    "bio": "Remote worker who went from 2 productive hours to 8 productive hours per day. Tested 50+ productivity tools and methods.",
+    "expertise": ["productivity", "remote work", "focus techniques"],
+    "tone": "systematic, tech-savvy, results-oriented"
+  }
+]

@@ -8,20 +8,24 @@
       "title": "Categories",
       "subItems": [
         {
-          "title": "Programming",
-          "link": "/category/programming"
+          "title": "At-Home Fitness",
+          "link": "/category/at-home-fitness"
         },
         {
-          "title": "Design",
-          "link": "/category/design"
+          "title": "Healthy Eating on a Budget",
+          "link": "/category/healthy-eating-on-a-budget"
         },
         {
-          "title": "Marketing",
-          "link": "/category/marketing"
+          "title": "Work-from-Home Productivity",
+          "link": "/category/work-from-home-productivity"
         },
         {
-          "title": "Business",
-          "link": "/category/business"
+          "title": "Grocery & Meal Hacks",
+          "link": "/category/grocery-meal-hacks"
+        },
+        {
+          "title": "Motivation & Mental Health",
+          "link": "/category/motivation-mental-health"
         }
       ]
     },

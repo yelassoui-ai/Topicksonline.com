@@ -122,7 +122,7 @@
       "author": "Jessica Chen"
     },
     {
-      "id": "articles/lose-belly-fat-at-home",
+      "id": "articles/Lose-Belly-Fat-At-Home",
       "title": "How to Lose Belly Fat at Home: A Simple Guide That Actually Works",
       "description": "Struggling to lose stubborn belly fat? This proven home-based approach combines simple workouts, smart eating habits, and daily lifestyle changes that actually work—no gym membership required.",
       "category": "At-Home Fitness",
@@ -258,6 +258,25 @@
         "Frugal Living"
       ],
       "author": "Carlos Rivera"
+    },
+    {
+      "id": "articles/unlock-your-day-the-15-minute-morning-stretch-for-beginners",
+      "title": "Unlock Your Day: The 15-Minute Morning Stretch for Beginners",
+      "description": "Stiff mornings no more! I transformed my energy and reduced back pain by 35% in 8 weeks with a simple 15-minute routine. Learn how to reclaim your day, even if you're a complete beginner.",
+      "category": "At-Home Fitness",
+      "tags": [
+        "morning routine",
+        "stretching",
+        "beginners",
+        "flexibility",
+        "at-home fitness",
+        "pain relief",
+        "posture",
+        "energy boost",
+        "daily habits",
+        "wellness"
+      ],
+      "author": "Mike Thompson"
     }
   ]
 }

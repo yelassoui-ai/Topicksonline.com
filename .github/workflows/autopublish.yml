@@ -1,0 +1,105 @@
+name: Auto-Publish Article
+
+on:
+  # Run Monday to Friday at 8:00 AM UTC
+  schedule:
+    - cron: '0 8 * * 1-5'
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Specific article topic (leave empty for auto-discovery)'
+        required: false
+        type: string
+      dry_run:
+        description: 'Dry run (generate but do not deploy)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish-article:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r automation/requirements.txt
+
+      - name: Create config from secrets
+        run: |
+          cat > automation/config.py << 'PYEOF'
+          GEMINI_API_KEY = "${{ secrets.GEMINI_API_KEY }}"
+          UNSPLASH_ACCESS_KEY = "${{ secrets.UNSPLASH_ACCESS_KEY }}"
+          PINTEREST_ACCESS_TOKEN = "${{ secrets.PINTEREST_ACCESS_TOKEN }}"
+          FACEBOOK_ACCESS_TOKEN = "${{ secrets.FACEBOOK_ACCESS_TOKEN }}"
+          INSTAGRAM_ACCESS_TOKEN = "${{ secrets.INSTAGRAM_ACCESS_TOKEN }}"
+          TWITTER_API_KEY = "${{ secrets.TWITTER_API_KEY }}"
+          TWITTER_API_SECRET = "${{ secrets.TWITTER_API_SECRET }}"
+          TWITTER_ACCESS_TOKEN = "${{ secrets.TWITTER_ACCESS_TOKEN }}"
+          TWITTER_ACCESS_SECRET = "${{ secrets.TWITTER_ACCESS_SECRET }}"
+          LINKEDIN_ACCESS_TOKEN = "${{ secrets.LINKEDIN_ACCESS_TOKEN }}"
+          TIKTOK_ACCESS_TOKEN = "${{ secrets.TIKTOK_ACCESS_TOKEN }}"
+          REDDIT_CLIENT_ID = "${{ secrets.REDDIT_CLIENT_ID }}"
+          REDDIT_CLIENT_SECRET = "${{ secrets.REDDIT_CLIENT_SECRET }}"
+          REDDIT_USERNAME = "${{ secrets.REDDIT_USERNAME }}"
+          REDDIT_PASSWORD = "${{ secrets.REDDIT_PASSWORD }}"
+          SITE_URL = "https://topicksonline.com"
+          SITE_NAME = "TopPicksOnline"
+          SITE_DESCRIPTION = "Practical at-home solutions and budget-smart strategies"
+          ARTICLES_PER_RUN = 1
+          MIN_WORD_COUNT = 2500
+          MAX_RETRIES = 3
+          CATEGORIES = ["At-Home Fitness","Healthy Eating on a Budget","Work-from-Home Productivity","Grocery & Meal Hacks","Motivation & Mental Health"]
+          GEMINI_MODEL = "gemini-2.5-flash"
+          GEMINI_FALLBACK_MODEL = "gemini-2.0-flash"
+          GENERATION_TEMPERATURE = 0.7
+          IMAGE_WIDTH = 1200
+          IMAGE_HEIGHT = 630
+          SOCIAL_PLATFORMS = {"pinterest": bool(PINTEREST_ACCESS_TOKEN),"facebook": bool(FACEBOOK_ACCESS_TOKEN),"instagram": bool(INSTAGRAM_ACCESS_TOKEN),"twitter": bool(TWITTER_API_KEY),"linkedin": bool(LINKEDIN_ACCESS_TOKEN),"tiktok": bool(TIKTOK_ACCESS_TOKEN),"reddit": bool(REDDIT_CLIENT_ID)}
+          ARTICLES_DIR = "assets/data/pages/articles"
+          IMAGES_DIR = "assets/images"
+          CATEGORIES_DIR = "assets/data/pages/categories"
+          HOME_JSON = "assets/data/pages/home.json"
+          SEARCH_INDEX = "assets/data/search-index.json"
+          TOPIC_HISTORY = "automation/data/topic_history.json"
+          SOCIAL_LOG = "automation/data/social_log.json"
+          PYEOF
+
+      - name: Configure Git
+        run: |
+          git config user.name "TopPicksOnline Bot"
+          git config user.email "bot@topicksonline.com"
+
+      - name: Run Pipeline
+        run: |
+          cd ${{ github.workspace }}
+          if [ -n "${{ github.event.inputs.topic }}" ]; then
+            python automation/pipeline.py --topic "${{ github.event.inputs.topic }}" --root .
+          elif [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python automation/pipeline.py --dry-run --root .
+          else
+            python automation/pipeline.py --root .
+          fi
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-log-${{ github.run_number }}
+          path: automation/data/run_log.json
+          retention-days: 30

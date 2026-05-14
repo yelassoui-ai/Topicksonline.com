@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly",
+      "title": "Spring Meal Prep: Fresh, Light & Smart Savings – Cut $100+ Monthly!",
+      "description": "I slashed my grocery bill by 38% and lost 15 pounds in 10 weeks with strategic spring meal prep. Discover my data-backed system to save over $100/month on groceries while enjoying fresh, light, and delicious meals.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "David Kim",
+      "date": "2026-05-14",
+      "readTime": "12 min",
+      "image": "assets/images/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly.jpg",
+      "tags": [
+        "spring meal prep",
+        "budget meals",
+        "healthy eating",
+        "grocery savings",
+        "fresh recipes",
+        "meal planning",
+        "seasonal produce",
+        "time saving",
+        "food budgeting",
+        "nutrition hacks"
+      ]
+    },
+    {
       "id": "articles/unlock-your-day-the-15-minute-morning-stretch-for-beginners",
       "title": "Unlock Your Day: The 15-Minute Morning Stretch for Beginners",
       "description": "Stiff mornings no more! I transformed my energy and reduced back pain by 35% in 8 weeks with a simple 15-minute routine. Learn how to reclaim your day, even if you're a complete beginner.",
@@ -128,59 +151,22 @@
       ]
     },
     {
-      "id": "articles/beginner-home-fitness-mistakes",
-      "title": "Beginner Home Fitness Mistakes That Sabotage Progress: 7 Costly Errors I Made (So You Don't Have To)",
-      "description": "Don't burn out, get injured, or quit early like I did. After 3 failed fitness attempts and one minor injury, here are the 7 mistakes that sabotage home workout progress—and exactly how to fix them.",
-      "category": "At-Home Fitness",
+      "id": "articles/stay-motivated-working-out-alone-at-home",
+      "title": "How to Stay Motivated Working Out Alone at Home: 7 Systems That Kept Me Going for 2 Years",
+      "description": "No gym = no trainer or workout buddies = easy to quit. After failing 6 times to stick with home workouts, here are the 7 motivation systems that finally made it stick for 2+ years.",
+      "category": "Motivation & Mental Health",
       "difficulty": "Beginner",
-      "author": "Mike Thompson",
+      "author": "Alex Rodriguez",
       "date": "2025-07-08",
-      "readTime": "14 min",
-      "image": "assets/images/beginner-home-fitness-mistakes.jpg",
+      "readTime": "13 min",
+      "image": "assets/images/stay-motivated-working-out-alone-at-home.jpg",
       "tags": [
-        "fitness mistakes",
-        "home workout",
-        "beginner fitness",
-        "workout form",
-        "fitness motivation",
-        "exercise tips"
-      ]
-    },
-    {
-      "id": "articles/beginners-nogym-workout-plan",
-      "title": "Beginner's No-Gym Workout Plan: 4 Weeks to Get Fit at Home",
-      "description": "Stop drowning in expensive gym memberships you never use. After 6 months of testing home workout routines and spending $0 on equipment, here's the 4-week plan that actually got me fit at home.",
-      "category": "At-Home Fitness",
-      "difficulty": "Beginner",
-      "author": "Sarah Martinez",
-      "date": "2025-07-08",
-      "readTime": "12 min",
-      "image": "assets/images/beginners-nogym-workout-plan.jpg",
-      "tags": [
-        "beginner fitness",
-        "home workout",
-        "bodyweight exercises",
-        "no equipment",
-        "4-week plan"
-      ]
-    },
-    {
-      "id": "articles/grocery-store-hacks",
-      "title": "Grocery Store Hacks: 15 Ways to Save Big on Your Weekly Shopping Trip (I Cut My Bill by 47%)",
-      "description": "Your habits matter more than coupons. After spending $180/week on groceries for two people, I used these 15 smart tricks to cut my bill to $95/week without sacrificing quality or variety.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Beginner",
-      "author": "David Kim",
-      "date": "2025-07-08",
-      "readTime": "14 min",
-      "image": "assets/images/grocery-store-hacks.jpg",
-      "tags": [
-        "grocery savings",
-        "budget tips",
-        "money saving",
-        "shopping hacks",
-        "frugal living",
-        "food budget"
+        "workout motivation",
+        "home fitness",
+        "fitness habits",
+        "exercise consistency",
+        "solo workouts",
+        "fitness accountability"
       ]
     },
     {
@@ -200,6 +186,24 @@
         "home fitness",
         "budget fitness",
         "apartment workout"
+      ]
+    },
+    {
+      "id": "articles/beginners-nogym-workout-plan",
+      "title": "Beginner's No-Gym Workout Plan: 4 Weeks to Get Fit at Home",
+      "description": "Stop drowning in expensive gym memberships you never use. After 6 months of testing home workout routines and spending $0 on equipment, here's the 4-week plan that actually got me fit at home.",
+      "category": "At-Home Fitness",
+      "difficulty": "Beginner",
+      "author": "Sarah Martinez",
+      "date": "2025-07-08",
+      "readTime": "12 min",
+      "image": "assets/images/beginners-nogym-workout-plan.jpg",
+      "tags": [
+        "beginner fitness",
+        "home workout",
+        "bodyweight exercises",
+        "no equipment",
+        "4-week plan"
       ]
     }
   ]

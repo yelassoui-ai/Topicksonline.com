@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 2,
+  "articleCount": 3,
   "articles": [
+    {
+      "id": "articles/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly",
+      "image": "assets/images/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly.jpg",
+      "title": "Spring Meal Prep: Fresh, Light & Smart Savings – Cut $100+ Monthly!",
+      "author": "David Kim",
+      "date": "2026-05-14",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "spring meal prep",
+        "budget meals",
+        "healthy eating",
+        "grocery savings",
+        "fresh recipes",
+        "meal planning",
+        "seasonal produce",
+        "time saving",
+        "food budgeting",
+        "nutrition hacks"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "12 min",
+      "description": "I slashed my grocery bill by 38% and lost 15 pounds in 10 weeks with strategic spring meal prep. Discover my data-backed system to save over $100/month on groceries while enjoying fresh, light, and delicious meals."
+    },
     {
       "id": "articles/grocery-store-hacks",
       "image": "assets/images/grocery-store-hacks.jpg",

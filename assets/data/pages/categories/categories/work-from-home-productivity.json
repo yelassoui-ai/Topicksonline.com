@@ -5,23 +5,23 @@
   "articleCount": 3,
   "articles": [
     {
-      "id": "articles/best-productivity-tools-for-remote-workers",
-      "image": "assets/images/best-productivity-tools-for-remote-workers.jpg",
-      "title": "Best Productivity Tools for Remote Workers: Apps That Actually Work (I Tested 73 Tools Over 2 Years)",
-      "author": "Jennifer Rodriguez",
+      "id": "articles/the-ultimate-work-from-home-desk-setup-guide",
+      "image": "assets/images/the-ultimate-work-from-home-desk-setup-guide.jpg",
+      "title": "The Ultimate Work From Home Desk Setup Guide (2025 Edition) - I Spent $3,200 Testing 47 Products",
+      "author": "Marcus Chen",
       "date": "2025-07-06",
       "category": "Work-from-Home Productivity",
       "tags": [
-        "Productivity Tools",
+        "Work From Home",
+        "Desk Setup",
+        "Productivity",
+        "Home Office",
         "Remote Work",
-        "Task Management",
-        "Time Tracking",
-        "Collaboration Apps",
-        "Focus Apps"
+        "Ergonomics"
       ],
       "difficulty": "Beginner",
-      "readTime": "16 min",
-      "description": "Stop drowning in productivity apps that don't work. After testing 73 different tools over 2 years and spending $1,847 on subscriptions, here are the ones that actually improved my remote work productivity."
+      "readTime": "19 min",
+      "description": "After 3 years of remote work and testing 47 different products, here's my complete guide to creating the perfect work from home desk setup. Includes budget options and premium picks that actually work."
     },
     {
       "id": "articles/stay-focused-working-from-home",
@@ -43,23 +43,23 @@
       "description": "Struggling to stay focused while working from home? I tested 12 different focus strategies for 6 months and tracked the results. Here's what actually works (and what's just productivity theater)."
     },
     {
-      "id": "articles/the-ultimate-work-from-home-desk-setup-guide",
-      "image": "assets/images/the-ultimate-work-from-home-desk-setup-guide.jpg",
-      "title": "The Ultimate Work From Home Desk Setup Guide (2025 Edition) - I Spent $3,200 Testing 47 Products",
-      "author": "Marcus Chen",
+      "id": "articles/best-productivity-tools-for-remote-workers",
+      "image": "assets/images/best-productivity-tools-for-remote-workers.jpg",
+      "title": "Best Productivity Tools for Remote Workers: Apps That Actually Work (I Tested 73 Tools Over 2 Years)",
+      "author": "Jennifer Rodriguez",
       "date": "2025-07-06",
       "category": "Work-from-Home Productivity",
       "tags": [
-        "Work From Home",
-        "Desk Setup",
-        "Productivity",
-        "Home Office",
+        "Productivity Tools",
         "Remote Work",
-        "Ergonomics"
+        "Task Management",
+        "Time Tracking",
+        "Collaboration Apps",
+        "Focus Apps"
       ],
       "difficulty": "Beginner",
-      "readTime": "19 min",
-      "description": "After 3 years of remote work and testing 47 different products, here's my complete guide to creating the perfect work from home desk setup. Includes budget options and premium picks that actually work."
+      "readTime": "16 min",
+      "description": "Stop drowning in productivity apps that don't work. After testing 73 different tools over 2 years and spending $1,847 on subscriptions, here are the ones that actually improved my remote work productivity."
     }
   ]
 }

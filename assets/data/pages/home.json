@@ -108,6 +108,29 @@
       ]
     },
     {
+      "id": "articles/breathe-easy-bro-conquer-allergy-season-with-indoor-workouts",
+      "title": "Breathe Easy, Bro: Conquer Allergy Season with Indoor Workouts!",
+      "description": "Don't let allergies sideline your gains! I'll show you how I maintained peak fitness, boosted my energy by 30%, and slashed my pollen exposure by 85% by masterfully transitioning my workouts indoors.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Rodriguez",
+      "date": "2026-05-14",
+      "readTime": "15 min",
+      "image": "assets/images/breathe-easy-bro-conquer-allergy-season-with-indoor-workouts.jpg",
+      "tags": [
+        "allergy season",
+        "indoor workouts",
+        "at-home fitness",
+        "home gym setup",
+        "workout transition",
+        "allergy relief",
+        "fitness motivation",
+        "seasonal allergies",
+        "exercise tips",
+        "health and wellness"
+      ]
+    },
+    {
       "id": "articles/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly",
       "title": "Spring Meal Prep: Fresh, Light & Smart Savings – Cut $100+ Monthly!",
       "description": "I slashed my grocery bill by 38% and lost 15 pounds in 10 weeks with strategic spring meal prep. Discover my data-backed system to save over $100/month on groceries while enjoying fresh, light, and delicious meals.",
@@ -190,25 +213,6 @@
         "exercise consistency",
         "solo workouts",
         "fitness accountability"
-      ]
-    },
-    {
-      "id": "articles/home-workout-space-in-a-small-room",
-      "title": "How to Create a Home Workout Space in a Small Room: Transform Any Corner Into Your Personal Gym",
-      "description": "No extra room needed—just smart setup. After transforming my 10x10 bedroom into a functional workout space for under $75, here's exactly how to create an inviting home gym anywhere.",
-      "category": "At-Home Fitness",
-      "difficulty": "Beginner",
-      "author": "Jessica Chen",
-      "date": "2025-07-08",
-      "readTime": "11 min",
-      "image": "assets/images/home-workout-space-in-a-small-room.jpg",
-      "tags": [
-        "home gym",
-        "small space",
-        "workout space",
-        "home fitness",
-        "budget fitness",
-        "apartment workout"
       ]
     }
   ]

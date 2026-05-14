@@ -6,6 +6,7 @@ Scans multiple sources for trending and evergreen topics in the health/fitness/p
 import json
 import os
 import sys
+import time
 import random
 from datetime import datetime
 
@@ -130,36 +131,60 @@ Return ONLY valid JSON (no markdown, no code fences):
   "estimated_monthly_searches": "Rough estimate like '10K-50K' or '1K-10K'"
 }}"""
 
+    models_to_try = [
+        cfg["model"],           # gemini-2.5-flash
+        "gemini-1.5-flash",     # fallback
+        cfg["model"],           # retry primary
+    ]
+
     try:
         from google import genai
+        import re
         client = genai.Client(api_key=cfg["gemini_key"])
 
-        response = client.models.generate_content(
-            model=cfg["model"],
-            contents=prompt,
-            config={"temperature": 0.9, "max_output_tokens": 2048},
-        )
+        for attempt, model in enumerate(models_to_try, 1):
+            try:
+                if attempt > 1:
+                    wait_time = 20 * attempt
+                    print(f"   ⏳ Waiting {wait_time}s before retry...")
+                    time.sleep(wait_time)
 
-        raw_text = response.text.strip()
+                print(f"   🔍 Topic discovery attempt {attempt}/{len(models_to_try)} using {model}...")
 
-        # Remove markdown code fences if present
-        import re
-        if raw_text.startswith("```"):
-            raw_text = re.sub(r'^```(?:json)?\s*\n?', '', raw_text)
-            raw_text = re.sub(r'\n?```\s*$', '', raw_text)
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config={"temperature": 0.9, "max_output_tokens": 2048},
+                )
 
-        topic_data = json.loads(raw_text)
+                raw_text = response.text.strip()
 
-        # Save to history
-        history["published_topics"].append(topic_data["topic"])
-        _save_topic_history(project_root, history)
+                # Remove markdown code fences if present
+                if raw_text.startswith("```"):
+                    raw_text = re.sub(r'^```(?:json)?\s*\n?', '', raw_text)
+                    raw_text = re.sub(r'\n?```\s*$', '', raw_text)
 
-        print(f"🔍 Discovered topic: {topic_data['topic']}")
-        print(f"   Category: {topic_data['category']}")
-        print(f"   Keyword: {topic_data['primary_keyword']}")
-        print(f"   Reasoning: {topic_data['reasoning']}")
+                topic_data = json.loads(raw_text)
 
-        return topic_data
+                # Save to history
+                history["published_topics"].append(topic_data["topic"])
+                _save_topic_history(project_root, history)
+
+                print(f"🔍 Discovered topic: {topic_data['topic']}")
+                print(f"   Category: {topic_data['category']}")
+                print(f"   Keyword: {topic_data['primary_keyword']}")
+                print(f"   Reasoning: {topic_data['reasoning']}")
+
+                return topic_data
+
+            except Exception as e:
+                print(f"   ❌ Attempt {attempt} failed: {e}")
+                if attempt < len(models_to_try):
+                    print(f"   🔄 Retrying with different model...")
+
+        # All attempts failed
+        print("❌ All topic discovery attempts failed, using fallback pool")
+        return _fallback_topic(existing_titles, season)
 
     except Exception as e:
         print(f"❌ Topic discovery failed: {e}")

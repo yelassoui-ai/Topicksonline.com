@@ -8,6 +8,7 @@ import json
 import os
 import re
 import sys
+import time
 import random
 from datetime import datetime
 
@@ -36,9 +37,9 @@ def _get_config():
         return {
             "gemini_key": os.environ.get("GEMINI_API_KEY", ""),
             "model": os.environ.get("GEMINI_MODEL", "gemini-2.5-flash"),
-            "fallback_model": "gemini-2.0-flash",
+            "fallback_model": "gemini-1.5-flash",
             "temperature": 0.7,
-            "max_retries": 3,
+            "max_retries": 5,
             "categories": [
                 "At-Home Fitness",
                 "Healthy Eating on a Budget",
@@ -259,15 +260,30 @@ def generate_article(topic: str, category: str = None, project_root: str = ".") 
     # Initialize Gemini client
     client = genai.Client(api_key=cfg["gemini_key"])
 
+    # Model rotation: try primary, then fallback models
+    model_rotation = [
+        cfg["model"],           # Attempt 1: gemini-2.5-flash
+        cfg["model"],           # Attempt 2: gemini-2.5-flash (retry)
+        cfg["fallback_model"],  # Attempt 3: gemini-1.5-flash
+        cfg["model"],           # Attempt 4: gemini-2.5-flash (retry)
+        cfg["fallback_model"],  # Attempt 5: gemini-1.5-flash (retry)
+    ]
+
     # Try generation with retries
     for attempt in range(1, cfg["max_retries"] + 1):
         print(f"\n   Attempt {attempt}/{cfg['max_retries']}...")
+
+        # Wait between retries (20-40 seconds) to let rate limits reset
+        if attempt > 1:
+            wait_time = 20 * attempt
+            print(f"   ⏳ Waiting {wait_time}s before retry...")
+            time.sleep(wait_time)
 
         try:
             # Generate article
             prompt = _build_article_prompt(topic, category, author)
 
-            model = cfg["model"] if attempt <= 2 else cfg["fallback_model"]
+            model = model_rotation[attempt - 1] if attempt <= len(model_rotation) else cfg["fallback_model"]
             print(f"   Using model: {model}")
 
             response = client.models.generate_content(

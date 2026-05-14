@@ -1137,7 +1137,9 @@ function renderArticle(articleData) {
              'budgetBreakdown', 'varietyStrategies', 'weeklySchedule', 'principles',
              'strategies', 'habits', 'workoutTypes', 'ingredients', 'furniture',
              'technology', 'environment', 'comfort', 'systems', 'concepts',
-             'challenges', 'nutritionStrategies', 'mistakes', 'tools', 'rules'].forEach(type => {
+             'challenges', 'nutritionStrategies', 'mistakes', 'tools', 'rules',
+             'tips', 'steps', 'methods', 'exercises', 'recipes', 'items', 'points',
+             'techniques', 'benefits', 'solutions', 'recommendations', 'practices'].forEach(type => {
                 if (section[type]) {
                     contentHTML += renderSectionType(section[type], type);
                 }

@@ -15,7 +15,7 @@ from datetime import datetime
 # Add parent dir to path for imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from google import genai
+from automation.ai_providers import generate_with_failover, parse_json_response
 from automation.quality_checker import validate_article, check_duplicate_topic
 
 
@@ -257,53 +257,23 @@ def generate_article(topic: str, category: str = None, project_root: str = ".") 
     print(f"   Category: {category}")
     print(f"   Author: {author['name']}")
 
-    # Initialize Gemini client
-    client = genai.Client(api_key=cfg["gemini_key"])
-
-    # Model rotation: try primary, then fallback models
-    model_rotation = [
-        cfg["model"],           # Attempt 1: gemini-2.5-flash
-        cfg["model"],           # Attempt 2: gemini-2.5-flash (retry)
-        cfg["fallback_model"],  # Attempt 3: gemini-1.5-flash
-        cfg["model"],           # Attempt 4: gemini-2.5-flash (retry)
-        cfg["fallback_model"],  # Attempt 5: gemini-1.5-flash (retry)
-    ]
-
-    # Try generation with retries
+    # Try generation with multi-provider failover
     for attempt in range(1, cfg["max_retries"] + 1):
         print(f"\n   Attempt {attempt}/{cfg['max_retries']}...")
 
-        # Wait between retries (20-40 seconds) to let rate limits reset
-        if attempt > 1:
-            wait_time = 20 * attempt
-            print(f"   ⏳ Waiting {wait_time}s before retry...")
-            time.sleep(wait_time)
-
         try:
-            # Generate article
+            # Generate article using Gemini → Groq → NVIDIA failover
             prompt = _build_article_prompt(topic, category, author)
 
-            model = model_rotation[attempt - 1] if attempt <= len(model_rotation) else cfg["fallback_model"]
-            print(f"   Using model: {model}")
-
-            response = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config={
-                    "temperature": cfg["temperature"],
-                    "max_output_tokens": 65536,
-                },
+            raw_text = generate_with_failover(
+                prompt=prompt,
+                temperature=cfg["temperature"],
+                max_tokens=65536,
+                max_retries=3,  # each attempt tries up to 3 providers
+                task_name="article",
             )
 
-            # Parse JSON from response
-            raw_text = response.text.strip()
-
-            # Remove markdown code fences if present
-            if raw_text.startswith("```"):
-                raw_text = re.sub(r'^```(?:json)?\s*\n?', '', raw_text)
-                raw_text = re.sub(r'\n?```\s*$', '', raw_text)
-
-            article_data = json.loads(raw_text)
+            article_data = parse_json_response(raw_text)
 
             # Validate quality
             validation = validate_article(article_data)

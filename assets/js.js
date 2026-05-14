@@ -11,6 +11,12 @@ const cache = {
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => document.querySelectorAll(selector);
 
+// Strip emojis from text for professional appearance
+const stripEmojis = (text) => {
+    if (!text) return '';
+    return text.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F1E0}-\u{1F1FF}\u{2600}-\u{27BF}\u{2B50}\u{2B55}\u{231A}-\u{23F3}\u{23F8}-\u{23FA}\u{25AA}-\u{25FE}\u{2702}-\u{27B0}\u{2934}-\u{2935}\u{FE0F}\u{200D}\u{20E3}\u{E0020}-\u{E007F}]/gu, '').trim();
+};
+
 const createElement = (tag, props = {}, children = []) => {
     const el = document.createElement(tag);
     Object.assign(el, props);
@@ -1083,17 +1089,17 @@ function resolveArticleImage(articleData) {
 }
 function formatMetaChips(articleData) {
     const chips = [
-        articleData.author ? `👤 ${articleData.author}` : null,
-        articleData.date ? `📅 ${articleData.date}` : null,
-        articleData.readTime ? `⏱️ ${articleData.readTime}` : null,
-        articleData.category ? `🏷️ ${articleData.category}` : null
-    ].filter(Boolean).map(t=>`<span class="meta-chip">${t}</span>`).join('');
+        articleData.author ? `${articleData.author}` : null,
+        articleData.date ? `${articleData.date}` : null,
+        articleData.readTime ? `${articleData.readTime} read` : null,
+        articleData.category ? `${articleData.category}` : null
+    ].filter(Boolean).map(t=>`<span class="meta-chip">${t}</span>`).join('<span class="meta-dot">·</span>');
     return `<div class="meta-chips">${chips}</div>`;
 }
 function renderTOC(sections) {
     if (!sections || sections.length < 3) return '';
-    const items = sections.map((s, i)=>`<li><a class="toc-link" data-target="sec-${i}" href="#sec-${i}">${s.theme || s.title || ('Section '+(i+1))}</a></li>`).join('');
-    return `<nav class="toc" aria-label="Table of contents"><div class="toc-title">On this page</div><ul>${items}</ul></nav>`;
+    const items = sections.map((s, i)=>`<li><a class="toc-link" data-target="sec-${i}" href="#sec-${i}">${stripEmojis(s.theme || s.title || ('Section '+(i+1)))}</a></li>`).join('');
+    return `<nav class="toc" aria-label="Table of contents"><div class="toc-title">In this article</div><ul>${items}</ul></nav>`;
 }
 function renderArticle(articleData) {
     if (!articleData) return renderNotFound();
@@ -1120,7 +1126,7 @@ function renderArticle(articleData) {
     if (articleData.sections) {
         articleData.sections.forEach((section, idx) => {
             contentHTML += `<section class="article-section" id="sec-${idx}">`;
-            contentHTML += `<h2 class="section-heading">${section.theme || section.title || ''} ${section.emoji ? `<span>${section.emoji}</span>`:''}</h2>`;
+            contentHTML += `<h2 class="section-heading">${stripEmojis(section.theme || section.title || '')}</h2>`;
             if (section.description) {
                 contentHTML += `<p class="section-description">${section.description}</p>`;
             }
@@ -1336,16 +1342,16 @@ function renderSectionType(items, type) {
                 }
                 if (item && typeof item === 'object') {
                     // Try common fields first
-                    const heading = item.title || item.problemTitle || item.strategyTitle || item.name || '';
+                    const heading = stripEmojis(item.title || item.tipTitle || item.problemTitle || item.strategyTitle || item.name || '');
                     const sub = item.subtitle || item.subTitle || '';
                     const desc = item.description || item.personalExperience || item.discoveryInsight || item.keyInsight || item.result || '';
-                    const listCandidates = item.items || item.points || item.bullets || item.rules || item.steps || item.brutalData || item.transformationResults || item.actions;
+                    const listCandidates = item.items || item.points || item.bullets || item.rules || item.steps || item.brutalData || item.transformationResults || item.actions || item.whyItWorks;
                     const stats = item.stats ? keyValTable(item.stats) : '';
                     const kv = (!heading && !desc && !listCandidates) ? keyValTable(item) : '';
-                    const listHTML = Array.isArray(listCandidates) ? listify(listCandidates, (x)=>`<li>${typeof x==='string'?x:(x.title?`<strong>${x.title}</strong>${x.description?` - ${x.description}`:''}`:JSON.stringify(x))}</li>`) : '';
+                    const listHTML = Array.isArray(listCandidates) ? listify(listCandidates, (x)=>`<li>${typeof x==='string'?x:(x.title?`<strong>${stripEmojis(x.title)}</strong>${x.description?` — ${x.description}`:''}`:JSON.stringify(x))}</li>`) : '';
                     return `
                         <div class="content-block">
-                            ${heading ? `<h3 class="subsection-heading">${heading}${item.problemNumber?` #${item.problemNumber}`:''}${item.strategyNumber?` #${item.strategyNumber}`:''}</h3>` : ''}
+                            ${heading ? `<h3 class="subsection-heading">${heading}${item.tipNumber?` #${item.tipNumber}`:''}${item.problemNumber?` #${item.problemNumber}`:''}${item.strategyNumber?` #${item.strategyNumber}`:''}</h3>` : ''}
                             ${sub ? `<p class="subheading">${sub}</p>` : ''}
                             ${desc ? `<p>${desc}</p>` : ''}
                             ${listHTML}

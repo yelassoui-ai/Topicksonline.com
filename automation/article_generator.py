@@ -120,8 +120,7 @@ OUTPUT FORMAT: Return ONLY valid JSON matching this exact schema (no markdown, n
   }},
   "sections": [
     {{
-      "theme": "Emoji + Section Theme Title",
-      "emoji": "Single relevant emoji",
+      "theme": "Clear Section Theme Title (no emojis)",
       "description": "What this section covers (1-2 sentences)",
       "tips": [
         {{

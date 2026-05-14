@@ -1449,14 +1449,23 @@ function renderChecklist(visualAid) {
 }
 
 function renderComparisonTable(visualAid) {
+    if (!visualAid.columns || !visualAid.rows) return '';
+
     // Create table header
     const headerRow = visualAid.columns.map(col => `<th>${col}</th>`).join('');
-    const headerHTML = `<thead><tr><th></th>${headerRow}</tr></thead>`;
+    const headerHTML = `<thead><tr>${headerRow}</tr></thead>`;
     
-    // Create table rows
+    // Create table rows — handle both array-of-arrays and array-of-objects
     const rowsHTML = visualAid.rows.map(row => {
-        const cellsHTML = row.data.map(cell => `<td>${cell}</td>`).join('');
-        return `<tr><td><strong>${row.label}</strong></td>${cellsHTML}</tr>`;
+        if (Array.isArray(row)) {
+            // AI format: each row is a plain array like ["Label", "Before", "After"]
+            return `<tr>${row.map(cell => `<td>${cell}</td>`).join('')}</tr>`;
+        } else if (row && typeof row === 'object') {
+            // Original format: {label: "...", data: [...]}
+            const cells = (row.data || []).map(cell => `<td>${cell}</td>`).join('');
+            return `<tr><td><strong>${row.label || ''}</strong></td>${cells}</tr>`;
+        }
+        return '';
     }).join('');
     const bodyHTML = `<tbody>${rowsHTML}</tbody>`;
     

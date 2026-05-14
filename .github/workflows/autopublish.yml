@@ -63,10 +63,10 @@ jobs:
           SITE_DESCRIPTION = "Practical at-home solutions and budget-smart strategies"
           ARTICLES_PER_RUN = 1
           MIN_WORD_COUNT = 2500
-          MAX_RETRIES = 3
+          MAX_RETRIES = 5
           CATEGORIES = ["At-Home Fitness","Healthy Eating on a Budget","Work-from-Home Productivity","Grocery & Meal Hacks","Motivation & Mental Health"]
           GEMINI_MODEL = "gemini-2.5-flash"
-          GEMINI_FALLBACK_MODEL = "gemini-2.0-flash"
+          GEMINI_FALLBACK_MODEL = "gemini-1.5-flash"
           GENERATION_TEMPERATURE = 0.7
           IMAGE_WIDTH = 1200
           IMAGE_HEIGHT = 630

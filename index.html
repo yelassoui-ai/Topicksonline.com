@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <base href="/" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      TopPicksOnline - Take control of your health, fitness, and productivity
+      TopPicksOnline — Health, Fitness & Smart Living
     </title>
     <link rel="icon" type="image/x-icon" href="/favicon.PNG" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css.css" />
     <script src="/assets/js.js" defer></script>
-    <script src="/assets/bg.js" defer></script>
     <meta name="p:domain_verify" content="fff1a403be73db42c3f92af98923510e" />
     <!-- Google Tag Manager -->
     <script>
@@ -35,7 +37,7 @@
     <!-- Ahref Tag  -->
     <meta
       name="description"
-      content="Helping busy people take control of their health, fitness, and productivity with at-home routines and budget-smart meal planning."
+      content="Practical tips on health, fitness, productivity, and budget-smart living. Real advice for busy people who want results."
     />
     <meta property="og:site_name" content="TopPicksOnline" />
     <meta property="og:type" content="website" />
@@ -80,23 +82,15 @@
     <!-- Navigation -->
     <nav id="navbar">
       <div class="nav-container">
-        <div class="logo">TopPicksOnline</div>
+        <a href="/" class="logo" onclick="navigateTo('/'); return false;">
+          <span class="logo-icon">TP</span>
+          <span class="logo-text">TopPicksOnline</span>
+        </a>
         <ul class="nav-menu" id="nav-menu"></ul>
-        <div class="nav-menu">
-          <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
-          <button
-            id="sound-toggle"
-            class="theme-toggle"
-            onclick="toggleSound()"
-          >
-            🔊
-          </button>
-          <button
-            id="animation-toggle"
-            class="theme-toggle"
-            onclick="toggleCanvas()"
-          >
-            🔥
+        <div class="nav-actions">
+          <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+            <svg class="theme-icon-light" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+            <svg class="theme-icon-dark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
           </button>
         </div>
       </div>
@@ -106,44 +100,28 @@
     <main id="main-content">
       <!-- Content will be dynamically loaded here -->
     </main>
-    <!-- Enhanced newsletter form with better UX -->
+
+    <!-- Newsletter -->
     <section class="newsletter-section">
       <div class="newsletter-content">
-        <span class="newsletter-icon">📧</span>
-        <h3 class="newsletter-title">Join 2,500+ Readers</h3>
+        <h3 class="newsletter-title">Stay in the loop</h3>
         <p class="newsletter-description">
-          Get weekly tips on fitness, productivity, and saving money. No spam,
-          unsubscribe anytime.
+          Get weekly tips on fitness, productivity, and saving money. No spam, unsubscribe anytime.
         </p>
 
         <form class="newsletter-form">
           <input
             type="email"
             class="newsletter-input"
-            placeholder="Enter your email address"
+            placeholder="Your email address"
             required
             autocomplete="email"
           />
-          <button type="submit" class="newsletter-button">Join Free</button>
+          <button type="submit" class="newsletter-button">Subscribe</button>
         </form>
 
         <div class="newsletter-success"></div>
         <div class="newsletter-error"></div>
-
-        <div class="newsletter-benefits">
-          <div class="newsletter-benefit">
-            <span class="newsletter-benefit-icon">📚</span>
-            <span>Weekly insights</span>
-          </div>
-          <div class="newsletter-benefit">
-            <span class="newsletter-benefit-icon">🚫</span>
-            <span>No spam ever</span>
-          </div>
-          <div class="newsletter-benefit">
-            <span class="newsletter-benefit-icon">✋</span>
-            <span>Unsubscribe anytime</span>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -151,6 +129,5 @@
     <footer id="footer">
       <div class="footer-content" id="footer-content"></div>
     </footer>
-    <canvas id="canvas"></canvas>
   </body>
 </html>

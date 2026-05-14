@@ -64,9 +64,8 @@ async function fetchCommonData() {
 // Theme Management
 const theme = {
     init() {
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('theme') || 'light';
         document.documentElement.setAttribute('data-theme', savedTheme);
-        this.updateIcon(savedTheme);
     },
     
     toggle() {
@@ -74,12 +73,6 @@ const theme = {
         const newTheme = current === 'light' ? 'dark' : 'light';
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
-        this.updateIcon(newTheme);
-    },
-    
-    updateIcon(theme) {
-        const toggle = $('.theme-toggle');
-        if (toggle) toggle.textContent = theme === 'light' ? '🌙' : '☀️';
     }
 };
 window.toggleTheme = theme.toggle.bind(theme);

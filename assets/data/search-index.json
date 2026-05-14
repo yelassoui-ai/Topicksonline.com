@@ -1,6 +1,25 @@
 {
   "articles": [
     {
+      "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings",
+      "title": "Spring Cleaning Your Diet: A 30-Day Reset for Peak Health & Budget Savings",
+      "description": "I once felt sluggish and overspent on food, but after my own 30-day diet reset, I lost 18 pounds, boosted my energy by 60%, and cut my grocery bill by 35%. This article shares my proven plan for better health and bigger savings.",
+      "category": "Healthy Eating on a Budget",
+      "tags": [
+        "diet reset",
+        "healthy eating",
+        "budget meals",
+        "30-day challenge",
+        "clean eating",
+        "meal prep",
+        "weight loss",
+        "improved energy",
+        "gut health",
+        "mindful eating"
+      ],
+      "author": "Mike Thompson"
+    },
+    {
       "id": "articles/the-ultimate-work-from-home-desk-setup-guide",
       "title": "The Ultimate Work From Home Desk Setup Guide (2025 Edition) - I Spent $3,200 Testing 47 Products",
       "description": "After 3 years of remote work and testing 47 different products, here's my complete guide to creating the perfect work from home desk setup. Includes budget options and premium picks that actually work.",

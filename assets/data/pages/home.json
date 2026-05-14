@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings",
+      "title": "Spring Cleaning Your Diet: A 30-Day Reset for Peak Health & Budget Savings",
+      "description": "I once felt sluggish and overspent on food, but after my own 30-day diet reset, I lost 18 pounds, boosted my energy by 60%, and cut my grocery bill by 35%. This article shares my proven plan for better health and bigger savings.",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Intermediate",
+      "author": "Mike Thompson",
+      "date": "2026-05-14",
+      "readTime": "25 min",
+      "image": "assets/images/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings.jpg",
+      "tags": [
+        "diet reset",
+        "healthy eating",
+        "budget meals",
+        "30-day challenge",
+        "clean eating",
+        "meal prep",
+        "weight loss",
+        "improved energy",
+        "gut health",
+        "mindful eating"
+      ]
+    },
+    {
       "id": "articles/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly",
       "title": "Spring Meal Prep: Fresh, Light & Smart Savings – Cut $100+ Monthly!",
       "description": "I slashed my grocery bill by 38% and lost 15 pounds in 10 weeks with strategic spring meal prep. Discover my data-backed system to save over $100/month on groceries while enjoying fresh, light, and delicious meals.",
@@ -186,24 +209,6 @@
         "home fitness",
         "budget fitness",
         "apartment workout"
-      ]
-    },
-    {
-      "id": "articles/beginners-nogym-workout-plan",
-      "title": "Beginner's No-Gym Workout Plan: 4 Weeks to Get Fit at Home",
-      "description": "Stop drowning in expensive gym memberships you never use. After 6 months of testing home workout routines and spending $0 on equipment, here's the 4-week plan that actually got me fit at home.",
-      "category": "At-Home Fitness",
-      "difficulty": "Beginner",
-      "author": "Sarah Martinez",
-      "date": "2025-07-08",
-      "readTime": "12 min",
-      "image": "assets/images/beginners-nogym-workout-plan.jpg",
-      "tags": [
-        "beginner fitness",
-        "home workout",
-        "bodyweight exercises",
-        "no equipment",
-        "4-week plan"
       ]
     }
   ]

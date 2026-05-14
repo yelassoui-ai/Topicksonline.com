@@ -2,7 +2,7 @@
   "title": "Healthy Eating on a Budget Articles",
   "category": "Healthy Eating on a Budget",
   "description": "All articles about Healthy Eating on a Budget",
-  "articleCount": 5,
+  "articleCount": 6,
   "articles": [
     {
       "id": "articles/budget-planner-healthier-lifestyle-balance-fitness-food-finances",
@@ -63,6 +63,29 @@
       "difficulty": "Beginner",
       "readTime": "12 min read",
       "description": "I failed at meal prep 3 times before figuring it out. Here's how to avoid my expensive mistakes and actually make meal prep work for busy people who want healthy meals without the stress."
+    },
+    {
+      "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings",
+      "image": "assets/images/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings.jpg",
+      "title": "Spring Cleaning Your Diet: A 30-Day Reset for Peak Health & Budget Savings",
+      "author": "Mike Thompson",
+      "date": "2026-05-14",
+      "category": "Healthy Eating on a Budget",
+      "tags": [
+        "diet reset",
+        "healthy eating",
+        "budget meals",
+        "30-day challenge",
+        "clean eating",
+        "meal prep",
+        "weight loss",
+        "improved energy",
+        "gut health",
+        "mindful eating"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "25 min",
+      "description": "I once felt sluggish and overspent on food, but after my own 30-day diet reset, I lost 18 pounds, boosted my energy by 60%, and cut my grocery bill by 35%. This article shares my proven plan for better health and bigger savings."
     },
     {
       "id": "articles/no-cook-budget-meals",

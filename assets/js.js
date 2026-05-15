@@ -1319,12 +1319,12 @@ function renderArticle(articleData) {
 
     // Breadcrumbs
     const breadcrumbHTML = `
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <div class="breadcrumbs" aria-label="Breadcrumb">
         <a href="/" onclick="navigateTo('/'); return false;">Home</a>
         <span class="breadcrumb-sep">›</span>
         ${articleData.category ? `<a href="/category/${articleData.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}" onclick="navigateTo('/category/${articleData.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}'); return false;">${articleData.category}</a><span class="breadcrumb-sep">›</span>` : ''}
         <span class="breadcrumb-current">${stripEmojis(articleData.title)}</span>
-    </nav>`;
+    </div>`;
 
     // Key Takeaways box
     let takeawaysHTML = '';

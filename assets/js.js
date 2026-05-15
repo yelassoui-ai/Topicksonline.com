@@ -1988,8 +1988,30 @@ async function renderFooter(footerData) {
 
 // Routing
 async function handleRoute() {
-    showLoading();
     const path = window.location.pathname;
+
+    // Skip initial render if page was pre-rendered (has real article content already)
+    if (!window.__spaNavigation && path.startsWith('/articles/')) {
+        const existingArticle = document.querySelector('.article-container .article-title');
+        if (existingArticle && existingArticle.textContent.trim().length > 0) {
+            // Pre-rendered page detected — don't re-render, just hydrate
+            window.__spaNavigation = true;
+            // Still load the article cache for Read Next
+            const articleSlug = path.substring('/articles/'.length);
+            fetchJSON(`/assets/data/pages/articles/${articleSlug}.json`).then(data => {
+                if (data) setMetaTags(data);
+            });
+            fetchJSON('/assets/data/pages/home.json').then(homeData => {
+                if (homeData && homeData.featured) {
+                    cache.currentArticles = homeData.featured;
+                }
+            });
+            return;
+        }
+    }
+    window.__spaNavigation = true;
+
+    showLoading();
 
     if (path === '/' || path === '') {
         const pageData = await fetchJSON('/assets/data/pages/home.json');

@@ -2215,7 +2215,7 @@ footer {
 .article-container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 120px 32px 60px;
+    padding: 24px 32px 60px;
 }
 
 .article-header {
@@ -3138,10 +3138,11 @@ footer {
 /* Breadcrumbs */
 .breadcrumbs {
     max-width: 800px;
-    margin: 16px auto 8px;
-    padding: 0 20px;
+    margin: 0 auto 0;
+    padding: 24px 20px 0;
     font-size: 13px;
     color: var(--text-muted);
+    line-height: 1.4;
 }
 .breadcrumbs a {
     color: var(--accent);

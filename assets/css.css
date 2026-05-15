@@ -176,9 +176,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--bg-overlay);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
+    background: var(--bg-primary);
     border-bottom: 1px solid var(--border);
     transition: var(--transition);
 }

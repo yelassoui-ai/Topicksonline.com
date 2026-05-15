@@ -1,12 +1,13 @@
-# Netlify Build Configuration
+# Netlify Configuration
+# Pre-rendered HTML files are committed directly to the repo
+# No build step needed — just serve the static files
+
 [build]
-  command = "python prerender.py"
   publish = "."
 
 # Redirect rules — order matters!
-# Pre-rendered article pages are served as static files automatically by Netlify
-# (because /articles/slug/index.html exists as a real file)
-# Everything else falls back to the SPA
+# Netlify serves real files first (e.g., /articles/slug/index.html)
+# Only unmatched routes fall back to the SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"

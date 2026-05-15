@@ -1372,8 +1372,8 @@ function renderArticle(articleData) {
     const readNextHTML = renderReadNext(articleData);
 
     mainContent.innerHTML = `
-        ${breadcrumbHTML}
         <article class="article-container animate-in">
+            ${breadcrumbHTML}
             <header class="article-header">
                 <h1 class="article-title">${stripEmojis(articleData.title)}</h1>
                 ${formatMetaChips(articleData)}

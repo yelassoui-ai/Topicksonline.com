@@ -824,32 +824,74 @@ function renderHomepage(pageData) {
 
     cache.currentArticles = pageData.featured || [];
     
-    const sliderArticles = cache.currentArticles.slice(0, 5);
-    const gridArticles = cache.currentArticles.slice(5);
+    // Hero: first 2 articles featured, rest in grid
+    const heroArticles = cache.currentArticles.slice(0, 2);
+    const gridArticles = cache.currentArticles.slice(2);
     
     const newsletterHTML = pageData.newsletter ? renderNewsletterBlock(pageData.newsletter) : '';
-    const sliderHTML = sliderArticles.length > 0 ? `
-        <div class="hero-slider animate-in" id="heroSlider">
-            <!-- Slider will be rendered here -->
-        </div>
-    ` : '';
-    
-    const titleText = sliderArticles.length > 0 ? 'More Articles' : (pageData.hero?.title || 'Featured Tutorials');
+
+    // Build hero section
+    let heroHTML = '';
+    if (heroArticles.length > 0) {
+        const hero1 = heroArticles[0];
+        const hero2 = heroArticles[1];
+        const slug1 = extractSlug(hero1);
+        const slug2 = hero2 ? extractSlug(hero2) : '';
+        const img1 = hero1.image || hero1.thumbnail || `/assets/images/${slug1}.jpg`;
+        const img2 = hero2 ? (hero2.image || hero2.thumbnail || `/assets/images/${slug2}.jpg`) : '';
+        
+        heroHTML = `
+        <section class="hero-section">
+            <div class="hero-grid">
+                <div class="hero-card hero-card-primary" onclick="navigateTo('/articles/${slug1}')">
+                    <img src="${img1}" alt="${hero1.title}" onerror="this.style.display='none'" />
+                    <div class="hero-card-overlay">
+                        <span class="hero-card-category">${hero1.category || ''}</span>
+                        <h2 class="hero-card-title">${stripEmojis(hero1.title)}</h2>
+                        <p class="hero-card-excerpt">${hero1.description || ''}</p>
+                        <div class="hero-card-meta">${hero1.author || ''} · ${hero1.readTime || hero1.date || ''}</div>
+                    </div>
+                </div>
+                ${hero2 ? `
+                <div class="hero-card hero-card-secondary" onclick="navigateTo('/articles/${slug2}')">
+                    <img src="${img2}" alt="${hero2.title}" onerror="this.style.display='none'" />
+                    <div class="hero-card-overlay">
+                        <span class="hero-card-category">${hero2.category || ''}</span>
+                        <h2 class="hero-card-title">${stripEmojis(hero2.title)}</h2>
+                        <div class="hero-card-meta">${hero2.author || ''} · ${hero2.readTime || hero2.date || ''}</div>
+                    </div>
+                </div>` : ''}
+            </div>
+        </section>`;
+    }
+
+    // Build grid HTML
     const gridHTML = gridArticles.length > 0 ? 
         gridArticles.map(templates.tutorialCard).join('') : 
         cache.currentArticles.map(templates.tutorialCard).join('');
+
+    // Mid-page newsletter CTA
+    const midCTA = `
+    <section class="mid-cta-section">
+        <div class="mid-cta-inner">
+            <div class="mid-cta-text">
+                <h3>Get our free weekly tips</h3>
+                <p>Health, fitness, and smart living advice — straight to your inbox every Monday.</p>
+            </div>
+            <form class="mid-cta-form newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email" required autocomplete="email" />
+                <button type="submit" class="newsletter-button" data-original-text="Join Free">Join Free</button>
+            </form>
+        </div>
+    </section>`;
     
     mainContent.innerHTML = `
-        <div class="search-container animate-in">
-            <div class="search-box">
-                <input type="text" class="search-input" placeholder="Search articles..." 
-                    oninput="handleSearchInput(this.value)">
-                <span class="search-icon">🔍</span>
-                <div class="search-results-dropdown" id="search-dropdown"></div>
-            </div>
-        </div>
-        
-        ${sliderHTML}
+        <section class="homepage-tagline animate-in">
+            <h1 class="tagline-title">Practical tips for health, fitness, and smart living.</h1>
+            <p class="tagline-sub">Real advice for real budgets — all from home.</p>
+        </section>
+
+        ${heroHTML}
         
         <div class="filter-container animate-in">
             <div class="filter-chips">
@@ -858,27 +900,15 @@ function renderHomepage(pageData) {
         </div>
         
         <div class="container">
-            <h2 style="text-align: center; margin-bottom: 40px; font-size: 32px;">
-                ${titleText}
-            </h2>
-            <div class="tutorial-grid">
-                ${gridHTML || '<p>No tutorials found</p>'}
+            <div class="tutorial-grid tutorial-grid-3col">
+                ${gridHTML || '<p>No articles found</p>'}
             </div>
             
+            ${midCTA}
+
             ${newsletterHTML}
         </div>
     `;
-    
-    // Initialize slider if we have featured articles
-    if (sliderArticles.length > 0) {
-        const sliderContainer = $('#heroSlider');
-        if (sliderContainer) {
-            if (heroSlider) {
-                heroSlider.destroy();
-            }
-            heroSlider = new HeroSlider(sliderContainer, sliderArticles);
-        }
-    }
     
     // Generate filter chips from categories
     const filterContainer = $('.filter-chips');
@@ -892,6 +922,21 @@ function renderHomepage(pageData) {
             setTimeout(() => filters.apply(category), 100);
         }
     }
+
+    // Init mid-page newsletter form
+    setTimeout(() => newsletter.init(), 200);
+}
+
+// Helper to extract slug from article object
+function extractSlug(article) {
+    if (article.id && typeof article.id === 'string' && article.id.startsWith('articles/')) {
+        return article.id.replace(/^articles\//, '');
+    }
+    if (article.slug) return article.slug;
+    if (article.title) {
+        return article.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '').substring(0, 50);
+    }
+    return '';
 }
 
 // Store category data globally for pagination
@@ -1106,6 +1151,15 @@ function renderArticle(articleData) {
 
     setMetaTags(articleData);
 
+    // Update canonical for SPA
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.rel = 'canonical';
+        document.head.appendChild(canonical);
+    }
+    canonical.href = window.location.href;
+
     const mainContent = $('#main-content');
     let contentHTML = '';
     
@@ -1204,26 +1258,85 @@ function renderArticle(articleData) {
     // Handle sources
     if (articleData.sources && Array.isArray(articleData.sources)) {
         const sourcesHTML = articleData.sources.map(source => renderSource(source)).join('');
-        contentHTML += `<section class="article-section sources-section"><h2>Sources & References</h2>${sourcesHTML}</section>`;
+        contentHTML += `<section class="article-section sources-section"><h2 class="section-heading">Sources & References</h2>${sourcesHTML}</section>`;
     }
 
     const tagsHTML = articleData.tags?.length ? `<div class="tag-chips">${articleData.tags.map(t=>`<span class="tag-chip">${t}</span>`).join('')}</div>` : '';
 
+    // Breadcrumbs
+    const breadcrumbHTML = `
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="/" onclick="navigateTo('/'); return false;">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        ${articleData.category ? `<a href="/category/${articleData.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}" onclick="navigateTo('/category/${articleData.category.toLowerCase().replace(/[^a-z0-9]+/g, '-')}'); return false;">${articleData.category}</a><span class="breadcrumb-sep">›</span>` : ''}
+        <span class="breadcrumb-current">${stripEmojis(articleData.title)}</span>
+    </nav>`;
+
+    // Key Takeaways box
+    let takeawaysHTML = '';
+    if (articleData.keyTakeaways && Array.isArray(articleData.keyTakeaways)) {
+        takeawaysHTML = `
+        <div class="key-takeaways">
+            <div class="key-takeaways-header">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                <span>Key Takeaways</span>
+            </div>
+            <ul>${articleData.keyTakeaways.map(t => `<li>${t}</li>`).join('')}</ul>
+        </div>`;
+    } else if (articleData.introduction?.promise) {
+        // Auto-generate from introduction
+        takeawaysHTML = `
+        <div class="key-takeaways">
+            <div class="key-takeaways-header">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                <span>What You'll Learn</span>
+            </div>
+            <p>${articleData.introduction.promise}</p>
+        </div>`;
+    }
+
+    // Fact-check badge
+    const factCheckHTML = `
+    <div class="fact-check-badge">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <span>Fact Checked by Editorial Team</span>
+    </div>`;
+
+    // Author bio box
+    const authorName = articleData.author || 'TopPicksOnline Editorial Team';
+    const authorInitial = authorName.charAt(0).toUpperCase();
+    const authorBioHTML = `
+    <div class="author-bio-box">
+        <div class="author-bio-avatar">${authorInitial}</div>
+        <div class="author-bio-info">
+            <div class="author-bio-name">Written by ${authorName}</div>
+            <p class="author-bio-desc">Our editorial team researches and fact-checks every article to ensure you get accurate, actionable advice for a healthier lifestyle on a budget.</p>
+        </div>
+    </div>`;
+
+    // Read Next section
+    const readNextHTML = renderReadNext(articleData);
+
     mainContent.innerHTML = `
+        ${breadcrumbHTML}
         <article class="article-container animate-in">
             <header class="article-header">
-                <h1 class="article-title">${articleData.title}</h1>
+                <h1 class="article-title">${stripEmojis(articleData.title)}</h1>
                 ${formatMetaChips(articleData)}
+                ${factCheckHTML}
                 <div class="article-cover">
                     <img src="${coverImage}" alt="${articleData.title}" onerror="this.style.display='none'">
                 </div>
+                ${takeawaysHTML}
                 ${tagsHTML}
                 ${tocHTML}
             </header>
             <div class="article-content">
                 ${contentHTML}
             </div>
+            ${authorBioHTML}
         </article>
+        ${readNextHTML}
     `;
     
     const shareButtonHTML = shareUtils.createShareButton();
@@ -1235,6 +1348,48 @@ function renderArticle(articleData) {
     }
     
     setTimeout(initAffiliateCards, 100);
+}
+
+// Render "Read Next" section with 3 related articles
+function renderReadNext(currentArticle) {
+    const allArticles = cache.currentArticles || [];
+    if (allArticles.length < 2) return '';
+    
+    // Find related articles: same category first, then others
+    const currentSlug = extractSlug(currentArticle);
+    const sameCategory = allArticles.filter(a => 
+        a.category === currentArticle.category && extractSlug(a) !== currentSlug
+    );
+    const otherArticles = allArticles.filter(a => 
+        a.category !== currentArticle.category && extractSlug(a) !== currentSlug
+    );
+    
+    const related = [...sameCategory, ...otherArticles].slice(0, 3);
+    if (related.length === 0) return '';
+    
+    const cardsHTML = related.map(article => {
+        const slug = extractSlug(article);
+        const img = article.image || article.thumbnail || `/assets/images/${slug}.jpg`;
+        return `
+        <div class="read-next-card" onclick="navigateTo('/articles/${slug}')">
+            <div class="read-next-img">
+                <img src="${img}" alt="${article.title}" onerror="this.style.display='none'" loading="lazy" />
+            </div>
+            <div class="read-next-info">
+                <span class="read-next-category">${article.category || ''}</span>
+                <h4>${stripEmojis(article.title)}</h4>
+                <span class="read-next-meta">${article.readTime || ''}</span>
+            </div>
+        </div>`;
+    }).join('');
+    
+    return `
+    <section class="read-next-section">
+        <h3 class="read-next-title">Read Next</h3>
+        <div class="read-next-grid">
+            ${cardsHTML}
+        </div>
+    </section>`;
 }
 
 // Helper functions for rendering different section types

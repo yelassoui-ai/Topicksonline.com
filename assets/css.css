@@ -3346,6 +3346,31 @@ footer {
     color: var(--text-muted);
 }
 
+/* FAQ Section */
+.faq-section {
+    max-width: 720px;
+    margin: 32px auto;
+}
+.faq-item {
+    padding: 18px 0;
+    border-bottom: 1px solid var(--border);
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-question {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+.faq-answer {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
 /* ===== RESPONSIVE OVERRIDES ===== */
 @media (max-width: 900px) {
     .hero-grid {

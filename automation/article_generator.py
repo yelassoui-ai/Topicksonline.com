@@ -111,6 +111,9 @@ OUTPUT FORMAT: Return ONLY valid JSON matching this exact schema (no markdown, n
   "difficulty": "Beginner|Intermediate|Advanced",
   "readTime": "X min",
   "tags": ["6-10 SEO-optimized tags as lowercase strings"],
+  "keyTakeaways": [
+    "3-5 bullet points summarizing the most important things the reader will learn — each one specific and actionable"
+  ],
   "description": "Compelling meta description (150-200 chars) with personal hook and specific numbers",
   "introduction": {{
     "hook": "Opening line that grabs attention — state the problem viscerally (2-3 sentences)",
@@ -196,6 +199,12 @@ OUTPUT FORMAT: Return ONLY valid JSON matching this exact schema (no markdown, n
     "actionPlan": "Simple 3-step action plan readers can start TODAY (2-3 sentences)",
     "callToAction": "Engaging question or challenge to the reader (1-2 sentences)"
   }},
+  "faq": [
+    {{
+      "question": "Common question readers ask about this topic — phrased naturally",
+      "answer": "Clear, concise answer in 2-4 sentences with actionable advice"
+    }}
+  ],
   "sources": [
     {{
       "citation": "Source name or study title",
@@ -212,10 +221,14 @@ CONTENT GUIDELINES:
 - Include 2-3 actionableBoxes
 - Include 3-4 expertData entries with real, credible sources
 - Include 2-3 realStories
+- Include exactly 3-5 keyTakeaways — each one specific and actionable (e.g., "You can lose 1-2 lbs/week with a 500-calorie daily deficit")
+- Include 3-5 faq entries with common questions readers would Google about this topic
 - All statistics should be realistic and from plausible sources
 - Write as if talking to a friend — warm, honest, slightly informal
 - Include both successes AND failures in personal stories
 - Every tip must have concrete steps, not vague advice
+- NEVER use emojis in titles, section headings, or any text content
+- All section theme titles should be clear, professional, and descriptive
 
 Remember: Return ONLY the JSON object. No markdown formatting, no explanations, no code fences."""
 

@@ -1151,6 +1151,24 @@ function renderArticle(articleData) {
 
     setMetaTags(articleData);
 
+    // Ensure article cache is populated for Read Next
+    if (!cache.currentArticles || cache.currentArticles.length === 0) {
+        fetchJSON('/assets/data/pages/home.json').then(homeData => {
+            if (homeData && homeData.featured) {
+                cache.currentArticles = homeData.featured;
+                // Re-render Read Next now that cache is loaded
+                const readNextContainer = document.querySelector('.read-next-section');
+                if (!readNextContainer) {
+                    const readNextHTML = renderReadNext(articleData);
+                    if (readNextHTML) {
+                        const article = document.querySelector('.article-container');
+                        if (article) article.insertAdjacentHTML('afterend', readNextHTML);
+                    }
+                }
+            }
+        });
+    }
+
     // Update canonical for SPA
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -1253,6 +1271,42 @@ function renderArticle(articleData) {
     // Handle personal voice
     if (articleData.personalVoice) {
         contentHTML += `<section class="article-section personal-voice-section">${renderPersonalVoice(articleData.personalVoice)}</section>`;
+    }
+
+    // Handle FAQ section
+    if (articleData.faq && Array.isArray(articleData.faq) && articleData.faq.length > 0) {
+        const faqItemsHTML = articleData.faq.map(item => `
+            <div class="faq-item">
+                <h3 class="faq-question">${item.question}</h3>
+                <p class="faq-answer">${item.answer}</p>
+            </div>
+        `).join('');
+        contentHTML += `<section class="article-section faq-section">
+            <h2 class="section-heading">Frequently Asked Questions</h2>
+            ${faqItemsHTML}
+        </section>`;
+
+        // Inject FAQPage schema
+        const faqSchema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": articleData.faq.map(item => ({
+                "@type": "Question",
+                "name": item.question,
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": item.answer
+                }
+            }))
+        };
+        let faqSchemaTag = document.querySelector('script[data-schema="faq"]');
+        if (!faqSchemaTag) {
+            faqSchemaTag = document.createElement('script');
+            faqSchemaTag.type = 'application/ld+json';
+            faqSchemaTag.setAttribute('data-schema', 'faq');
+            document.head.appendChild(faqSchemaTag);
+        }
+        faqSchemaTag.textContent = JSON.stringify(faqSchema);
     }
     
     // Handle sources

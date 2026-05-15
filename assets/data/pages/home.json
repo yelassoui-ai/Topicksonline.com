@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/allergy-season-workout-master-your-indoor-transition-stay-ripped",
+      "title": "Allergy Season Workout: Master Your Indoor Transition & Stay Ripped",
+      "description": "Don't let allergies sideline your gains! I lost 15 lbs in 8 weeks by mastering indoor workouts during peak pollen. Learn my battle-tested strategies to transition your fitness seamlessly, save time, and keep crushing your goals, even when the outdoors are fighting back.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Rodriguez",
+      "date": "2026-05-15",
+      "readTime": "18 min",
+      "image": "assets/images/allergy-season-workout-master-your-indoor-transition-stay-ripped.jpg",
+      "tags": [
+        "allergy season workout",
+        "indoor fitness",
+        "home gym",
+        "at-home workouts",
+        "seasonal allergies",
+        "workout transition",
+        "fitness tips",
+        "budget fitness",
+        "productivity hacks",
+        "mike rodriguez fitness"
+      ]
+    },
+    {
       "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings",
       "title": "Spring Cleaning Your Diet: A 30-Day Reset for Peak Health & Budget Savings",
       "description": "I once felt sluggish and overspent on food, but after my own 30-day diet reset, I lost 18 pounds, boosted my energy by 60%, and cut my grocery bill by 35%. This article shares my proven plan for better health and bigger savings.",
@@ -194,25 +217,6 @@
         "Core Exercises",
         "Healthy Eating",
         "No Gym"
-      ]
-    },
-    {
-      "id": "articles/stay-motivated-working-out-alone-at-home",
-      "title": "How to Stay Motivated Working Out Alone at Home: 7 Systems That Kept Me Going for 2 Years",
-      "description": "No gym = no trainer or workout buddies = easy to quit. After failing 6 times to stick with home workouts, here are the 7 motivation systems that finally made it stick for 2+ years.",
-      "category": "Motivation & Mental Health",
-      "difficulty": "Beginner",
-      "author": "Alex Rodriguez",
-      "date": "2025-07-08",
-      "readTime": "13 min",
-      "image": "assets/images/stay-motivated-working-out-alone-at-home.jpg",
-      "tags": [
-        "workout motivation",
-        "home fitness",
-        "fitness habits",
-        "exercise consistency",
-        "solo workouts",
-        "fitness accountability"
       ]
     }
   ]

@@ -1,4 +1,21 @@
+# Netlify Build Configuration
+[build]
+  command = "python prerender.py"
+  publish = "."
+
+# Redirect rules — order matters!
+# Pre-rendered article pages are served as static files automatically by Netlify
+# (because /articles/slug/index.html exists as a real file)
+# Everything else falls back to the SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

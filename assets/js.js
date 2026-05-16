@@ -2345,6 +2345,16 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
                 return;
             }
+            // Handle any hash-only link (like Subscribe -> #newsletter-footer)
+            if (href.startsWith('#')) {
+                e.preventDefault();
+                const targetId = href.substring(1);
+                const el = document.getElementById(targetId);
+                if (el) {
+                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+                return;
+            }
             e.preventDefault();
             navigateTo(href);
         }

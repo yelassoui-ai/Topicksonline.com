@@ -262,7 +262,7 @@ def render_article_html(article_data, slug):
     <meta property="twitter:title" content="{escape(title)}" />
     <meta property="twitter:description" content="{escape(description)}" />
     <meta property="twitter:site" content="@TopPicksOnline" />
-    <meta name="p:domain_verify" content="fff1a403be73db42c3f92af98923510e" />
+    <meta name="p:domain_verify" content="49bcbb34926943ef505e930bb1bb353b" />
     <meta name="impact-site-verification" value="6ba5891a-f9c9-4761-ab6a-d18c8d0ba17f" />
     <!-- Google Tag Manager -->
     <script>

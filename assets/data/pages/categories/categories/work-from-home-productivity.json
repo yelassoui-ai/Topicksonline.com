@@ -5,25 +5,6 @@
   "articleCount": 3,
   "articles": [
     {
-      "id": "articles/the-ultimate-work-from-home-desk-setup-guide",
-      "image": "assets/images/the-ultimate-work-from-home-desk-setup-guide.jpg",
-      "title": "The Ultimate Work From Home Desk Setup Guide (2025 Edition) - I Spent $3,200 Testing 47 Products",
-      "author": "Marcus Chen",
-      "date": "2025-07-06",
-      "category": "Work-from-Home Productivity",
-      "tags": [
-        "Work From Home",
-        "Desk Setup",
-        "Productivity",
-        "Home Office",
-        "Remote Work",
-        "Ergonomics"
-      ],
-      "difficulty": "Beginner",
-      "readTime": "19 min",
-      "description": "After 3 years of remote work and testing 47 different products, here's my complete guide to creating the perfect work from home desk setup. Includes budget options and premium picks that actually work."
-    },
-    {
       "id": "articles/stay-focused-working-from-home",
       "image": "assets/images/stay-focused-working-from-home.jpg",
       "title": "How to Stay Focused Working from Home: 12 Battle-Tested Strategies (I Tracked My Focus for 6 Months)",
@@ -60,6 +41,25 @@
       "difficulty": "Beginner",
       "readTime": "16 min",
       "description": "Stop drowning in productivity apps that don't work. After testing 73 different tools over 2 years and spending $1,847 on subscriptions, here are the ones that actually improved my remote work productivity."
+    },
+    {
+      "id": "articles/the-ultimate-work-from-home-desk-setup-guide",
+      "image": "assets/images/the-ultimate-work-from-home-desk-setup-guide.jpg",
+      "title": "The Ultimate Work From Home Desk Setup Guide (2025 Edition) - I Spent $3,200 Testing 47 Products",
+      "author": "Marcus Chen",
+      "date": "2025-07-06",
+      "category": "Work-from-Home Productivity",
+      "tags": [
+        "Work From Home",
+        "Desk Setup",
+        "Productivity",
+        "Home Office",
+        "Remote Work",
+        "Ergonomics"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "19 min",
+      "description": "After 3 years of remote work and testing 47 different products, here's my complete guide to creating the perfect work from home desk setup. Includes budget options and premium picks that actually work."
     }
   ]
 }

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/outdoor-to-indoor-conquer-allergy-season-maintain-fitness-and-thrive-indoors",
+      "title": "Outdoor to Indoor: Conquer Allergy Season, Maintain Fitness, and Thrive Indoors",
+      "description": "As someone who battled seasonal allergies and almost lost my fitness progress, I discovered how to seamlessly shift my outdoor workouts indoors, maintaining my 28-pound weight loss and energy levels. Learn my proven strategies today for an effective, budget-friendly indoor routine.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Rachel Chen",
+      "date": "2026-05-16",
+      "readTime": "18 min",
+      "image": "assets/images/outdoor-to-indoor-conquer-allergy-season-maintain-fitness-and-thrive-indoors.jpg",
+      "tags": [
+        "at-home fitness",
+        "allergy season workouts",
+        "indoor exercise",
+        "home gym setup",
+        "workout motivation",
+        "budget fitness",
+        "bodyweight workouts",
+        "seasonal allergies",
+        "fitness transformation",
+        "health and wellness"
+      ]
+    },
+    {
       "id": "articles/allergy-season-workout-master-your-indoor-transition-stay-ripped",
       "title": "Allergy Season Workout: Master Your Indoor Transition & Stay Ripped",
       "description": "Don't let allergies sideline your gains! I lost 15 lbs in 8 weeks by mastering indoor workouts during peak pollen. Learn my battle-tested strategies to transition your fitness seamlessly, save time, and keep crushing your goals, even when the outdoors are fighting back.",
@@ -197,26 +220,6 @@
         "energy boost",
         "daily habits",
         "wellness"
-      ]
-    },
-    {
-      "id": "articles/Lose-Belly-Fat-At-Home",
-      "title": "How to Lose Belly Fat at Home: A Simple Guide That Actually Works",
-      "description": "Struggling to lose stubborn belly fat? This proven home-based approach combines simple workouts, smart eating habits, and daily lifestyle changes that actually work—no gym membership required.",
-      "category": "At-Home Fitness",
-      "difficulty": "Beginner",
-      "author": "Maya Singh",
-      "date": "2025-07-22",
-      "readTime": "12 min",
-      "image": "assets/images/Lose-Belly-Fat-At-Home.jpg",
-      "tags": [
-        "Belly Fat",
-        "Weight Loss",
-        "Home Workouts",
-        "Fat Burning",
-        "Core Exercises",
-        "Healthy Eating",
-        "No Gym"
       ]
     }
   ]

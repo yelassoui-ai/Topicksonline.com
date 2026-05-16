@@ -83,6 +83,41 @@ const theme = {
 };
 window.toggleTheme = theme.toggle.bind(theme);
 
+// Mobile Menu Toggle
+function toggleMobileMenu() {
+    const menu = document.getElementById('nav-menu');
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const isOpen = menu.classList.toggle('mobile-open');
+    
+    // Toggle icon
+    const openIcon = toggleBtn.querySelector('.menu-icon-open');
+    const closeIcon = toggleBtn.querySelector('.menu-icon-close');
+    if (openIcon) openIcon.style.display = isOpen ? 'none' : 'block';
+    if (closeIcon) closeIcon.style.display = isOpen ? 'block' : 'none';
+    
+    // Prevent body scroll when menu is open
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+}
+window.toggleMobileMenu = toggleMobileMenu;
+
+// Close mobile menu when clicking a link
+document.addEventListener('click', (e) => {
+    if (e.target.closest('.nav-menu.mobile-open .nav-link')) {
+        const menu = document.getElementById('nav-menu');
+        if (menu) {
+            menu.classList.remove('mobile-open');
+            document.body.style.overflow = '';
+            const toggleBtn = document.getElementById('mobile-menu-toggle');
+            if (toggleBtn) {
+                const openIcon = toggleBtn.querySelector('.menu-icon-open');
+                const closeIcon = toggleBtn.querySelector('.menu-icon-close');
+                if (openIcon) openIcon.style.display = 'block';
+                if (closeIcon) closeIcon.style.display = 'none';
+            }
+        }
+    }
+});
+
 // Loading State
 const showLoading = () => {
     $('#main-content').innerHTML = '<div class="loading">Loading...</div>';
@@ -534,11 +569,16 @@ const newsletter = {
         const button = form.querySelector('.newsletter-button');
         const formId = form.getAttribute('data-form-id');
         
-        const successMsg = document.getElementById(`success-${formId}`);
-        const errorMsg = document.getElementById(`error-${formId}`);
+        // Find success/error elements by ID, or by sibling
+        let successMsg = document.getElementById(`success-${formId}`);
+        let errorMsg = document.getElementById(`error-${formId}`);
+        
+        // Fallback: find siblings in same parent
+        if (!successMsg) successMsg = form.parentElement?.querySelector('.newsletter-success');
+        if (!errorMsg) errorMsg = form.parentElement?.querySelector('.newsletter-error');
 
         if (!email || !this.isValidEmail(email)) {
-            this.showMessage(errorMsg, '⚠️ Please enter a valid email address.', 'error');
+            this.showMessage(errorMsg, 'Please enter a valid email address.', 'error');
             return;
         }
 
@@ -546,39 +586,48 @@ const newsletter = {
         this.hideMessages(successMsg, errorMsg);
 
         try {
-            const controller = new AbortController();
-            const timeoutId = setTimeout(() => controller.abort(), 8000);
+            // Method 1: Netlify Forms
+            const formData = new URLSearchParams();
+            formData.append('form-name', 'newsletter');
+            formData.append('email', email);
+            formData.append('bot-field', '');
 
-            const response = await fetch('/.netlify/functions/subscribe', {
+            const response = await fetch('/', {
                 method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    email: email,
-                    firstName: '',
-                    source: window.location.pathname
-                }),
-                signal: controller.signal
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: formData.toString()
             });
 
-            clearTimeout(timeoutId);
-            
             if (response.ok) {
-                const data = await response.json();
-                this.showMessage(successMsg, '🎉 ' + (data.message || 'Welcome to our newsletter!'), 'success');
+                this.showMessage(successMsg, 'Welcome! You\'ve been subscribed to our newsletter.', 'success');
                 form.reset();
+                this.saveEmailLocally(email);
                 this.trackSubscription(email);
             } else {
-                const errorData = await response.json();
-                throw new Error(errorData.error || `Server error: ${response.status}`);
+                throw new Error('Submission failed');
             }
             
         } catch (error) {
-            if (error.name === 'AbortError') {
-                await this.handleFallback(email, successMsg, errorMsg);
-            } else if (error.message.includes('fetch')) {
-                await this.handleFallback(email, successMsg, errorMsg);
-            } else {
-                this.showMessage(errorMsg, '⚠️ ' + error.message, 'error');
+            // Fallback: save locally + FormSubmit
+            try {
+                this.saveEmailLocally(email);
+
+                const fallbackData = new FormData();
+                fallbackData.append('email', 'yarraelliz@topicksonline.com');
+                fallbackData.append('_subject', 'New Subscriber - TopPicksOnline');
+                fallbackData.append('subscriber_email', email);
+                fallbackData.append('source', window.location.pathname);
+                fallbackData.append('_captcha', 'false');
+
+                await fetch('https://formsubmit.co/ajax/yarraelliz@topicksonline.com', {
+                    method: 'POST',
+                    body: fallbackData
+                });
+
+                this.showMessage(successMsg, 'Thank you! You\'ve been subscribed.', 'success');
+                form.reset();
+            } catch (fallbackError) {
+                this.showMessage(errorMsg, 'Something went wrong. Please try again later.', 'error');
             }
         } finally {
             this.setLoading(button, false);

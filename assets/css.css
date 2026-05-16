@@ -3454,3 +3454,218 @@ footer {
         transition: none;
     }
 }
+
+/* ============================================
+   MOBILE HAMBURGER MENU
+   ============================================ */
+.mobile-menu-toggle {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xs);
+    background: transparent;
+    color: var(--text-secondary);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: var(--transition);
+}
+
+.mobile-menu-toggle:hover {
+    background: var(--bg-card-hover);
+    color: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+    .nav-cta-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: var(--bg-primary);
+        border-bottom: 1px solid var(--border);
+        box-shadow: var(--shadow-lg);
+        padding: 12px 20px 20px;
+        flex-direction: column;
+        gap: 4px;
+        z-index: 999;
+    }
+
+    .nav-menu.mobile-open {
+        display: flex;
+    }
+
+    .nav-menu .nav-item {
+        width: 100%;
+    }
+
+    .nav-menu .nav-link {
+        display: block;
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+        border-radius: var(--radius-xs);
+    }
+
+    .nav-menu .nav-link:hover {
+        background: var(--bg-secondary);
+    }
+
+    .nav-menu .dropdown {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        border: none;
+        background: var(--bg-secondary);
+        border-radius: var(--radius-xs);
+        margin-top: 4px;
+        padding: 8px;
+    }
+
+    .nav-menu .dropdown .dropdown-item .nav-link {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    /* Hero grid stack on mobile */
+    .hero-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .hero-card.featured {
+        grid-row: auto;
+        min-height: 280px;
+    }
+
+    .hero-card.secondary {
+        min-height: 200px;
+    }
+
+    .hero-card .hero-card-title {
+        font-size: 22px;
+    }
+
+    .hero-card.featured .hero-card-title {
+        font-size: 28px;
+    }
+}
+
+/* ============================================
+   FOOTER LEGAL LINKS
+   ============================================ */
+.footer-legal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 24px 0;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.footer-legal a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-legal a:hover {
+    color: var(--accent);
+}
+
+.footer-legal-sep {
+    color: var(--border-strong);
+}
+
+@media (max-width: 768px) {
+    .footer-legal {
+        flex-direction: column;
+        gap: 8px;
+        padding: 20px 20px 0;
+        font-size: 13px;
+    }
+
+    .footer-legal-sep {
+        display: none;
+    }
+}
+
+/* ============================================
+   ADDITIONAL RESPONSIVE FIXES
+   ============================================ */
+@media (max-width: 480px) {
+    .article-title {
+        font-size: 28px !important;
+    }
+
+    .article-header {
+        margin-bottom: 32px;
+    }
+
+    .meta-chips {
+        font-size: 13px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs {
+        font-size: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .key-takeaways-box {
+        padding: 16px;
+        margin: 16px 0;
+    }
+
+    .key-takeaways-box h3 {
+        font-size: 16px;
+    }
+
+    .article-content {
+        font-size: 16px;
+    }
+
+    .article-content h2 {
+        font-size: 24px;
+    }
+
+    .article-content h3 {
+        font-size: 20px;
+    }
+
+    .faq-section {
+        padding: 16px;
+    }
+
+    .author-bio-box {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+    }
+
+    .read-next-grid {
+        grid-template-columns: 1fr;
+    }
+}

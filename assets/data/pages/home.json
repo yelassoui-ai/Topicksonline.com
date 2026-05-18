@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/allergy-proof-your-gains-crushing-indoor-workouts-when-pollen-attacks",
+      "title": "Allergy-Proof Your Gains: Crushing Indoor Workouts When Pollen Attacks",
+      "description": "Don't let allergies sideline your fitness! I used to lose 30% of my workouts to pollen, but after implementing these strategies for 6 months, I maintained my 180-pound physique and even boosted my bench press by 15 pounds. Learn how to transition your outdoor gains indoors, stay motivated, and crush your fitness goals, no matter the season.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Rodriguez",
+      "date": "2026-05-18",
+      "readTime": "15 min",
+      "image": "assets/images/allergy-proof-your-gains-crushing-indoor-workouts-when-pollen-attacks.jpg",
+      "tags": [
+        "indoor workout",
+        "allergy season",
+        "home gym",
+        "fitness transition",
+        "at-home exercises",
+        "pollen",
+        "air quality",
+        "workout plan",
+        "motivation",
+        "budget fitness"
+      ]
+    },
+    {
       "id": "articles/outdoor-to-indoor-conquer-allergy-season-maintain-fitness-and-thrive-indoors",
       "title": "Outdoor to Indoor: Conquer Allergy Season, Maintain Fitness, and Thrive Indoors",
       "description": "As someone who battled seasonal allergies and almost lost my fitness progress, I discovered how to seamlessly shift my outdoor workouts indoors, maintaining my 28-pound weight loss and energy levels. Learn my proven strategies today for an effective, budget-friendly indoor routine.",
@@ -197,29 +220,6 @@
         "time saving",
         "food budgeting",
         "nutrition hacks"
-      ]
-    },
-    {
-      "id": "articles/unlock-your-day-the-15-minute-morning-stretch-for-beginners",
-      "title": "Unlock Your Day: The 15-Minute Morning Stretch for Beginners",
-      "description": "Stiff mornings no more! I transformed my energy and reduced back pain by 35% in 8 weeks with a simple 15-minute routine. Learn how to reclaim your day, even if you're a complete beginner.",
-      "category": "At-Home Fitness",
-      "difficulty": "Beginner",
-      "author": "Mike Thompson",
-      "date": "2026-05-13",
-      "readTime": "14 min",
-      "image": "assets/images/unlock-your-day-the-15-minute-morning-stretch-for-beginners.jpg",
-      "tags": [
-        "morning routine",
-        "stretching",
-        "beginners",
-        "flexibility",
-        "at-home fitness",
-        "pain relief",
-        "posture",
-        "energy boost",
-        "daily habits",
-        "wellness"
       ]
     }
   ]

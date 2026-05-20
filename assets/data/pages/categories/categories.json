@@ -16,18 +16,18 @@
       "link": "/category/healthy-eating-on-a-budget"
     },
     {
+      "name": "Grocery & Meal Hacks",
+      "slug": "grocery-meal-hacks",
+      "articleCount": 4,
+      "description": "Browse all Grocery & Meal Hacks articles",
+      "link": "/category/grocery-meal-hacks"
+    },
+    {
       "name": "Work-from-Home Productivity",
       "slug": "work-from-home-productivity",
       "articleCount": 3,
       "description": "Browse all Work-from-Home Productivity articles",
       "link": "/category/work-from-home-productivity"
-    },
-    {
-      "name": "Grocery & Meal Hacks",
-      "slug": "grocery-meal-hacks",
-      "articleCount": 3,
-      "description": "Browse all Grocery & Meal Hacks articles",
-      "link": "/category/grocery-meal-hacks"
     },
     {
       "name": "Motivation & Mental Health",

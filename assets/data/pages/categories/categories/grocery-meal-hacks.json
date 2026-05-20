@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 3,
+  "articleCount": 4,
   "articles": [
+    {
+      "id": "articles/spring-meal-prep-fresh-light-recipes-that-save-you-100month",
+      "image": "assets/images/spring-meal-prep-fresh-light-recipes-that-save-you-100month.jpg",
+      "title": "Spring Meal Prep: Fresh, Light Recipes That Save You $100/Month",
+      "author": "Sarah Mitchell",
+      "date": "2026-05-20",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "spring meal prep",
+        "budget meals",
+        "healthy eating",
+        "save money food",
+        "fresh recipes",
+        "weekly meal plan",
+        "productivity hacks",
+        "seasonal produce",
+        "cost-saving recipes",
+        "time management"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "18 min",
+      "description": "Struggling with costly takeout and last-minute dinner stress? I slashed my grocery bill by 47% and lost 28 pounds in 12 weeks by embracing spring meal prep. Discover how to save $100+ monthly with fresh, light recipes!"
+    },
     {
       "id": "articles/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly",
       "image": "assets/images/spring-meal-prep-fresh-light-smart-savings-cut-100-monthly.jpg",

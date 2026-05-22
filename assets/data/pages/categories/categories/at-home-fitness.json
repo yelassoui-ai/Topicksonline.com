@@ -2,7 +2,7 @@
   "title": "At-Home Fitness Articles",
   "category": "At-Home Fitness",
   "description": "All articles about At-Home Fitness",
-  "articleCount": 11,
+  "articleCount": 12,
   "articles": [
     {
       "id": "articles/lose-weight-fast-healthy-way-7-science-backed-tips",
@@ -23,6 +23,29 @@
       "difficulty": "Beginner",
       "readTime": "13 min read",
       "description": "Tired of crash diets that backfire? I lost 28 pounds in 12 weeks using these science-backed methods to lose weight fast without destroying my metabolism or sanity."
+    },
+    {
+      "id": "articles/outdoor-to-indoor-seamless-workout-transition-for-allergy-season",
+      "image": "assets/images/outdoor-to-indoor-seamless-workout-transition-for-allergy-season.jpg",
+      "title": "Outdoor to Indoor: Seamless Workout Transition for Allergy Season",
+      "author": "Rachel Chen",
+      "date": "2026-05-22",
+      "category": "At-Home Fitness",
+      "tags": [
+        "at-home fitness",
+        "allergy season workouts",
+        "indoor exercise",
+        "home gym setup",
+        "fitness motivation",
+        "budget fitness",
+        "workout transition",
+        "seasonal allergies",
+        "cardio at home",
+        "strength training"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "16 min",
+      "description": "Don't let allergies derail your fitness! I gained 15 pounds one allergy season, but then discovered how to seamlessly transition my workouts indoors, reducing my symptoms by 60% and saving $75/month. Learn my transformation-focused strategies today."
     },
     {
       "id": "articles/allergy-proof-your-gains-crushing-indoor-workouts-when-pollen-attacks",

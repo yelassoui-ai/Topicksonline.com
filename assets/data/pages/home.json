@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/allergy-proof-your-fitness-seamless-outdoor-to-indoor-workout-transition",
+      "title": "Allergy-Proof Your Fitness: Seamless Outdoor to Indoor Workout Transition",
+      "description": "Don't let allergies derail your fitness! I transformed my routine, maintained my 18-pound weight loss, and saved $85/month by shifting indoors. Learn my space-efficient, budget-friendly strategies to keep moving.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Jessica Chen",
+      "date": "2026-05-25",
+      "readTime": "15 min",
+      "image": "assets/images/allergy-proof-your-fitness-seamless-outdoor-to-indoor-workout-transition.jpg",
+      "tags": [
+        "at-home fitness",
+        "allergy season workouts",
+        "indoor exercise",
+        "small space workouts",
+        "home gym ideas",
+        "bodyweight training",
+        "fitness motivation",
+        "budget fitness",
+        "workout routine",
+        "health hacks"
+      ]
+    },
+    {
       "id": "articles/outdoor-to-indoor-seamless-workout-transition-for-allergy-season",
       "title": "Outdoor to Indoor: Seamless Workout Transition for Allergy Season",
       "description": "Don't let allergies derail your fitness! I gained 15 pounds one allergy season, but then discovered how to seamlessly transition my workouts indoors, reducing my symptoms by 60% and saving $75/month. Learn my transformation-focused strategies today.",
@@ -197,29 +220,6 @@
         "budget fitness",
         "productivity hacks",
         "mike rodriguez fitness"
-      ]
-    },
-    {
-      "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings",
-      "title": "Spring Cleaning Your Diet: A 30-Day Reset for Peak Health & Budget Savings",
-      "description": "I once felt sluggish and overspent on food, but after my own 30-day diet reset, I lost 18 pounds, boosted my energy by 60%, and cut my grocery bill by 35%. This article shares my proven plan for better health and bigger savings.",
-      "category": "Healthy Eating on a Budget",
-      "difficulty": "Intermediate",
-      "author": "Mike Thompson",
-      "date": "2026-05-14",
-      "readTime": "25 min",
-      "image": "assets/images/spring-cleaning-your-diet-a-30-day-reset-for-peak-health-budget-savings.jpg",
-      "tags": [
-        "diet reset",
-        "healthy eating",
-        "budget meals",
-        "30-day challenge",
-        "clean eating",
-        "meal prep",
-        "weight loss",
-        "improved energy",
-        "gut health",
-        "mindful eating"
       ]
     }
   ]

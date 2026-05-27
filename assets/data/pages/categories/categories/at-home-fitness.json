@@ -206,24 +206,6 @@
       "description": "Struggling to lose stubborn belly fat? This proven home-based approach combines simple workouts, smart eating habits, and daily lifestyle changes that actually work—no gym membership required."
     },
     {
-      "id": "articles/beginners-nogym-workout-plan",
-      "image": "assets/images/beginners-nogym-workout-plan.jpg",
-      "title": "Beginner's No-Gym Workout Plan: 4 Weeks to Get Fit at Home",
-      "author": "Sarah Martinez",
-      "date": "2025-07-08",
-      "category": "At-Home Fitness",
-      "tags": [
-        "beginner fitness",
-        "home workout",
-        "bodyweight exercises",
-        "no equipment",
-        "4-week plan"
-      ],
-      "difficulty": "Beginner",
-      "readTime": "12 min",
-      "description": "Stop drowning in expensive gym memberships you never use. After 6 months of testing home workout routines and spending $0 on equipment, here's the 4-week plan that actually got me fit at home."
-    },
-    {
       "id": "articles/beginner-home-fitness-mistakes",
       "image": "assets/images/beginner-home-fitness-mistakes.jpg",
       "title": "Beginner Home Fitness Mistakes That Sabotage Progress: 7 Costly Errors I Made (So You Don't Have To)",
@@ -243,25 +225,6 @@
       "description": "Don't burn out, get injured, or quit early like I did. After 3 failed fitness attempts and one minor injury, here are the 7 mistakes that sabotage home workout progress—and exactly how to fix them."
     },
     {
-      "id": "articles/home-workout-space-in-a-small-room",
-      "image": "assets/images/home-workout-space-in-a-small-room.jpg",
-      "title": "How to Create a Home Workout Space in a Small Room: Transform Any Corner Into Your Personal Gym",
-      "author": "Jessica Chen",
-      "date": "2025-07-08",
-      "category": "At-Home Fitness",
-      "tags": [
-        "home gym",
-        "small space",
-        "workout space",
-        "home fitness",
-        "budget fitness",
-        "apartment workout"
-      ],
-      "difficulty": "Beginner",
-      "readTime": "11 min",
-      "description": "No extra room needed—just smart setup. After transforming my 10x10 bedroom into a functional workout space for under $75, here's exactly how to create an inviting home gym anywhere."
-    },
-    {
       "id": "articles/lose-weight-at-home-without-a-gym",
       "image": "assets/images/lose-weight-at-home-without-a-gym.jpg",
       "title": "Lose Weight at Home Without a Gym: Beginner's Guide to Fat Loss (I Lost 35 Pounds in 6 Months)",
@@ -279,6 +242,43 @@
       "difficulty": "Beginner",
       "readTime": "15 min",
       "description": "Don't waste money on gym memberships you won't use. After losing 35 pounds in 6 months using only home workouts and simple nutrition changes, here's exactly what works for sustainable fat loss."
+    },
+    {
+      "id": "articles/beginners-nogym-workout-plan",
+      "image": "assets/images/beginners-nogym-workout-plan.jpg",
+      "title": "Beginner's No-Gym Workout Plan: 4 Weeks to Get Fit at Home",
+      "author": "Sarah Martinez",
+      "date": "2025-07-08",
+      "category": "At-Home Fitness",
+      "tags": [
+        "beginner fitness",
+        "home workout",
+        "bodyweight exercises",
+        "no equipment",
+        "4-week plan"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "12 min",
+      "description": "Stop drowning in expensive gym memberships you never use. After 6 months of testing home workout routines and spending $0 on equipment, here's the 4-week plan that actually got me fit at home."
+    },
+    {
+      "id": "articles/home-workout-space-in-a-small-room",
+      "image": "assets/images/home-workout-space-in-a-small-room.jpg",
+      "title": "How to Create a Home Workout Space in a Small Room: Transform Any Corner Into Your Personal Gym",
+      "author": "Jessica Chen",
+      "date": "2025-07-08",
+      "category": "At-Home Fitness",
+      "tags": [
+        "home gym",
+        "small space",
+        "workout space",
+        "home fitness",
+        "budget fitness",
+        "apartment workout"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "11 min",
+      "description": "No extra room needed—just smart setup. After transforming my 10x10 bedroom into a functional workout space for under $75, here's exactly how to create an inviting home gym anywhere."
     }
   ]
 }

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/spring-clean-your-diet-30-day-reset-for-rapid-health-gains-budget-wins",
+      "title": "Spring Clean Your Diet: 30-Day Reset for Rapid Health Gains & Budget Wins",
+      "description": "Ready to transform your health and budget this spring? I lost 18 pounds and cut my grocery bill by 35% in just 30 days. Discover my actionable 30-day diet reset for rapid results and lasting wellness.",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Intermediate",
+      "author": "Mike Thompson",
+      "date": "2026-05-27",
+      "readTime": "22 min",
+      "image": "assets/images/spring-clean-your-diet-30-day-reset-for-rapid-health-gains-budget-wins.jpg",
+      "tags": [
+        "spring cleaning diet",
+        "30 day reset",
+        "healthy eating budget",
+        "quick weight loss",
+        "meal prep",
+        "nutrition tips",
+        "food budgeting",
+        "metabolism boost",
+        "gut health",
+        "sustainable habits"
+      ]
+    },
+    {
       "id": "articles/allergy-proof-your-fitness-seamless-outdoor-to-indoor-workout-transition",
       "title": "Allergy-Proof Your Fitness: Seamless Outdoor to Indoor Workout Transition",
       "description": "Don't let allergies derail your fitness! I transformed my routine, maintained my 18-pound weight loss, and saved $85/month by shifting indoors. Learn my space-efficient, budget-friendly strategies to keep moving.",
@@ -197,29 +220,6 @@
         "seasonal allergies",
         "fitness transformation",
         "health and wellness"
-      ]
-    },
-    {
-      "id": "articles/allergy-season-workout-master-your-indoor-transition-stay-ripped",
-      "title": "Allergy Season Workout: Master Your Indoor Transition & Stay Ripped",
-      "description": "Don't let allergies sideline your gains! I lost 15 lbs in 8 weeks by mastering indoor workouts during peak pollen. Learn my battle-tested strategies to transition your fitness seamlessly, save time, and keep crushing your goals, even when the outdoors are fighting back.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Mike Rodriguez",
-      "date": "2026-05-15",
-      "readTime": "18 min",
-      "image": "assets/images/allergy-season-workout-master-your-indoor-transition-stay-ripped.jpg",
-      "tags": [
-        "allergy season workout",
-        "indoor fitness",
-        "home gym",
-        "at-home workouts",
-        "seasonal allergies",
-        "workout transition",
-        "fitness tips",
-        "budget fitness",
-        "productivity hacks",
-        "mike rodriguez fitness"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "title": "Healthy Eating on a Budget Articles",
   "category": "Healthy Eating on a Budget",
   "description": "All articles about Healthy Eating on a Budget",
-  "articleCount": 7,
+  "articleCount": 8,
   "articles": [
     {
       "id": "articles/budget-planner-healthier-lifestyle-balance-fitness-food-finances",
@@ -63,6 +63,29 @@
       "difficulty": "Beginner",
       "readTime": "12 min read",
       "description": "I failed at meal prep 3 times before figuring it out. Here's how to avoid my expensive mistakes and actually make meal prep work for busy people who want healthy meals without the stress."
+    },
+    {
+      "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-lasting-health",
+      "image": "assets/images/spring-cleaning-your-diet-a-30-day-reset-for-lasting-health.jpg",
+      "title": "Spring Cleaning Your Diet: A 30-Day Reset for Lasting Health",
+      "author": "Rachel Chen",
+      "date": "2026-05-29",
+      "category": "Healthy Eating on a Budget",
+      "tags": [
+        "diet reset",
+        "healthy eating",
+        "budget meals",
+        "30-day challenge",
+        "spring cleaning diet",
+        "weight loss",
+        "gut health",
+        "meal prep",
+        "mindful eating",
+        "sustainable habits"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "18 min",
+      "description": "I hit rock bottom with my diet, feeling sluggish and spending a fortune. After a radical 30-day reset, I lost 15 pounds, cut my grocery bill by 47%, and reclaimed my energy. Discover my vulnerable, step-by-step plan for your own transformation."
     },
     {
       "id": "articles/spring-clean-your-diet-30-day-reset-for-rapid-health-gains-budget-wins",

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/beat-the-heat-boost-your-output-12-summer-wfh-productivity-hacks",
+      "title": "Beat the Heat, Boost Your Output: 12 Summer WFH Productivity Hacks",
+      "description": "Struggling with summer WFH productivity? I cut my AC bill by 20% and boosted my focus by 25% with these tech-savvy, data-backed strategies. Learn how to stay cool and crush your goals.",
+      "category": "Work-from-Home Productivity",
+      "difficulty": "Intermediate",
+      "author": "Alex Rivera",
+      "date": "2026-06-03",
+      "readTime": "25 min",
+      "image": "assets/images/beat-the-heat-boost-your-output-12-summer-wfh-productivity-hacks.jpg",
+      "tags": [
+        "work from home",
+        "summer productivity",
+        "heat management",
+        "remote work tips",
+        "energy efficiency",
+        "wellness hacks",
+        "tech productivity",
+        "focus strategies",
+        "home office setup",
+        "budget living"
+      ]
+    },
+    {
       "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-lasting-health",
       "title": "Spring Cleaning Your Diet: A 30-Day Reset for Lasting Health",
       "description": "I hit rock bottom with my diet, feeling sluggish and spending a fortune. After a radical 30-day reset, I lost 15 pounds, cut my grocery bill by 47%, and reclaimed my energy. Discover my vulnerable, step-by-step plan for your own transformation.",
@@ -197,29 +220,6 @@
         "seasonal produce",
         "cost-saving recipes",
         "time management"
-      ]
-    },
-    {
-      "id": "articles/allergy-proof-your-gains-crushing-indoor-workouts-when-pollen-attacks",
-      "title": "Allergy-Proof Your Gains: Crushing Indoor Workouts When Pollen Attacks",
-      "description": "Don't let allergies sideline your fitness! I used to lose 30% of my workouts to pollen, but after implementing these strategies for 6 months, I maintained my 180-pound physique and even boosted my bench press by 15 pounds. Learn how to transition your outdoor gains indoors, stay motivated, and crush your fitness goals, no matter the season.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Mike Rodriguez",
-      "date": "2026-05-18",
-      "readTime": "15 min",
-      "image": "assets/images/allergy-proof-your-gains-crushing-indoor-workouts-when-pollen-attacks.jpg",
-      "tags": [
-        "indoor workout",
-        "allergy season",
-        "home gym",
-        "fitness transition",
-        "at-home exercises",
-        "pollen",
-        "air quality",
-        "workout plan",
-        "motivation",
-        "budget fitness"
       ]
     }
   ]

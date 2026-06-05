@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 4,
+  "articleCount": 5,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health",
+      "image": "assets/images/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health.jpg",
+      "title": "Summer Grocery Guide: Seasonal Produce That Saves You Money & Boosts Health",
+      "author": "Jessica Martinez",
+      "date": "2026-06-05",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "summer produce",
+        "grocery savings",
+        "budget eating",
+        "seasonal eating",
+        "meal planning",
+        "healthy eating",
+        "food budget",
+        "frugal living",
+        "nutrition tips",
+        "farmers market"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "16-20 min",
+      "description": "Tired of sky-high grocery bills? I've been there! After cutting my own food costs by 37% and consistently saving $60-$85 weekly, I'm sharing my proven summer grocery guide. Discover how seasonal produce slashes your expenses and boosts your health, starting today."
+    },
     {
       "id": "articles/spring-meal-prep-fresh-light-recipes-that-save-you-100month",
       "image": "assets/images/spring-meal-prep-fresh-light-recipes-that-save-you-100month.jpg",

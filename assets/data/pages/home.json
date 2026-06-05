@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health",
+      "title": "Summer Grocery Guide: Seasonal Produce That Saves You Money & Boosts Health",
+      "description": "Tired of sky-high grocery bills? I've been there! After cutting my own food costs by 37% and consistently saving $60-$85 weekly, I'm sharing my proven summer grocery guide. Discover how seasonal produce slashes your expenses and boosts your health, starting today.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Jessica Martinez",
+      "date": "2026-06-05",
+      "readTime": "16-20 min",
+      "image": "assets/images/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health.jpg",
+      "tags": [
+        "summer produce",
+        "grocery savings",
+        "budget eating",
+        "seasonal eating",
+        "meal planning",
+        "healthy eating",
+        "food budget",
+        "frugal living",
+        "nutrition tips",
+        "farmers market"
+      ]
+    },
+    {
       "id": "articles/beat-the-heat-boost-your-output-12-summer-wfh-productivity-hacks",
       "title": "Beat the Heat, Boost Your Output: 12 Summer WFH Productivity Hacks",
       "description": "Struggling with summer WFH productivity? I cut my AC bill by 20% and boosted my focus by 25% with these tech-savvy, data-backed strategies. Learn how to stay cool and crush your goals.",
@@ -197,29 +220,6 @@
         "seasonal allergies",
         "cardio at home",
         "strength training"
-      ]
-    },
-    {
-      "id": "articles/spring-meal-prep-fresh-light-recipes-that-save-you-100month",
-      "title": "Spring Meal Prep: Fresh, Light Recipes That Save You $100/Month",
-      "description": "Struggling with costly takeout and last-minute dinner stress? I slashed my grocery bill by 47% and lost 28 pounds in 12 weeks by embracing spring meal prep. Discover how to save $100+ monthly with fresh, light recipes!",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "Sarah Mitchell",
-      "date": "2026-05-20",
-      "readTime": "18 min",
-      "image": "assets/images/spring-meal-prep-fresh-light-recipes-that-save-you-100month.jpg",
-      "tags": [
-        "spring meal prep",
-        "budget meals",
-        "healthy eating",
-        "save money food",
-        "fresh recipes",
-        "weekly meal plan",
-        "productivity hacks",
-        "seasonal produce",
-        "cost-saving recipes",
-        "time management"
       ]
     }
   ]

@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 5,
+  "articleCount": 6,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-unlock-30-savings-with-seasonal-produce",
+      "image": "assets/images/summer-grocery-guide-unlock-30-savings-with-seasonal-produce.jpg",
+      "title": "Summer Grocery Guide: Unlock 30%+ Savings with Seasonal Produce",
+      "author": "David Kim",
+      "date": "2026-06-10",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "seasonal produce",
+        "grocery savings",
+        "budget eating",
+        "summer recipes",
+        "meal planning",
+        "food budgeting",
+        "healthy eating",
+        "produce storage",
+        "cost-cutting",
+        "sustainable eating"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "15 min",
+      "description": "Struggling with high grocery bills? I slashed my food budget by 47% in 6 months by strategically buying seasonal produce. Discover my data-backed guide to saving money this summer, packed with actionable tips and specific numbers you can implement today."
+    },
     {
       "id": "articles/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health",
       "image": "assets/images/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health.jpg",

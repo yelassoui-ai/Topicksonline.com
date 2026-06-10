@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-unlock-30-savings-with-seasonal-produce",
+      "title": "Summer Grocery Guide: Unlock 30%+ Savings with Seasonal Produce",
+      "description": "Struggling with high grocery bills? I slashed my food budget by 47% in 6 months by strategically buying seasonal produce. Discover my data-backed guide to saving money this summer, packed with actionable tips and specific numbers you can implement today.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "David Kim",
+      "date": "2026-06-10",
+      "readTime": "15 min",
+      "image": "assets/images/summer-grocery-guide-unlock-30-savings-with-seasonal-produce.jpg",
+      "tags": [
+        "seasonal produce",
+        "grocery savings",
+        "budget eating",
+        "summer recipes",
+        "meal planning",
+        "food budgeting",
+        "healthy eating",
+        "produce storage",
+        "cost-cutting",
+        "sustainable eating"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-seasonal-produce-that-saves-you-money-boosts-health",
       "title": "Summer Grocery Guide: Seasonal Produce That Saves You Money & Boosts Health",
       "description": "Tired of sky-high grocery bills? I've been there! After cutting my own food costs by 37% and consistently saving $60-$85 weekly, I'm sharing my proven summer grocery guide. Discover how seasonal produce slashes your expenses and boosts your health, starting today.",
@@ -197,29 +220,6 @@
         "budget fitness",
         "workout routine",
         "health hacks"
-      ]
-    },
-    {
-      "id": "articles/outdoor-to-indoor-seamless-workout-transition-for-allergy-season",
-      "title": "Outdoor to Indoor: Seamless Workout Transition for Allergy Season",
-      "description": "Don't let allergies derail your fitness! I gained 15 pounds one allergy season, but then discovered how to seamlessly transition my workouts indoors, reducing my symptoms by 60% and saving $75/month. Learn my transformation-focused strategies today.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Rachel Chen",
-      "date": "2026-05-22",
-      "readTime": "16 min",
-      "image": "assets/images/outdoor-to-indoor-seamless-workout-transition-for-allergy-season.jpg",
-      "tags": [
-        "at-home fitness",
-        "allergy season workouts",
-        "indoor exercise",
-        "home gym setup",
-        "fitness motivation",
-        "budget fitness",
-        "workout transition",
-        "seasonal allergies",
-        "cardio at home",
-        "strength training"
       ]
     }
   ]

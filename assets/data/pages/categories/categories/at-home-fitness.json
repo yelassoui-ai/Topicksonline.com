@@ -2,7 +2,7 @@
   "title": "At-Home Fitness Articles",
   "category": "At-Home Fitness",
   "description": "All articles about At-Home Fitness",
-  "articleCount": 13,
+  "articleCount": 14,
   "articles": [
     {
       "id": "articles/lose-weight-fast-healthy-way-7-science-backed-tips",
@@ -23,6 +23,29 @@
       "difficulty": "Beginner",
       "readTime": "13 min read",
       "description": "Tired of crash diets that backfire? I lost 28 pounds in 12 weeks using these science-backed methods to lose weight fast without destroying my metabolism or sanity."
+    },
+    {
+      "id": "articles/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan",
+      "image": "assets/images/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan.jpg",
+      "title": "Beat the Heat, Boost Your Fitness: The Ultimate Summer Home Workout & Hydration Plan",
+      "author": "Mike Thompson",
+      "date": "2026-06-12",
+      "category": "At-Home Fitness",
+      "tags": [
+        "summer fitness",
+        "home workouts",
+        "hydration tips",
+        "heat safety",
+        "workout plans",
+        "electrolyte balance",
+        "fat loss",
+        "muscle gain",
+        "at-home exercise",
+        "budget fitness"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "18 min",
+      "description": "Struggling to stay fit and hydrated this summer? I lost 18 pounds in 10 weeks by mastering home workouts and hydration. Learn my proven strategies to beat the heat, boost your energy, and transform your body without a gym."
     },
     {
       "id": "articles/allergy-proof-your-fitness-seamless-outdoor-to-indoor-workout-transition",
@@ -206,25 +229,6 @@
       "description": "Struggling to lose stubborn belly fat? This proven home-based approach combines simple workouts, smart eating habits, and daily lifestyle changes that actually work—no gym membership required."
     },
     {
-      "id": "articles/beginner-home-fitness-mistakes",
-      "image": "assets/images/beginner-home-fitness-mistakes.jpg",
-      "title": "Beginner Home Fitness Mistakes That Sabotage Progress: 7 Costly Errors I Made (So You Don't Have To)",
-      "author": "Mike Thompson",
-      "date": "2025-07-08",
-      "category": "At-Home Fitness",
-      "tags": [
-        "fitness mistakes",
-        "home workout",
-        "beginner fitness",
-        "workout form",
-        "fitness motivation",
-        "exercise tips"
-      ],
-      "difficulty": "Beginner",
-      "readTime": "14 min",
-      "description": "Don't burn out, get injured, or quit early like I did. After 3 failed fitness attempts and one minor injury, here are the 7 mistakes that sabotage home workout progress—and exactly how to fix them."
-    },
-    {
       "id": "articles/lose-weight-at-home-without-a-gym",
       "image": "assets/images/lose-weight-at-home-without-a-gym.jpg",
       "title": "Lose Weight at Home Without a Gym: Beginner's Guide to Fat Loss (I Lost 35 Pounds in 6 Months)",
@@ -260,6 +264,25 @@
       "difficulty": "Beginner",
       "readTime": "12 min",
       "description": "Stop drowning in expensive gym memberships you never use. After 6 months of testing home workout routines and spending $0 on equipment, here's the 4-week plan that actually got me fit at home."
+    },
+    {
+      "id": "articles/beginner-home-fitness-mistakes",
+      "image": "assets/images/beginner-home-fitness-mistakes.jpg",
+      "title": "Beginner Home Fitness Mistakes That Sabotage Progress: 7 Costly Errors I Made (So You Don't Have To)",
+      "author": "Mike Thompson",
+      "date": "2025-07-08",
+      "category": "At-Home Fitness",
+      "tags": [
+        "fitness mistakes",
+        "home workout",
+        "beginner fitness",
+        "workout form",
+        "fitness motivation",
+        "exercise tips"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "14 min",
+      "description": "Don't burn out, get injured, or quit early like I did. After 3 failed fitness attempts and one minor injury, here are the 7 mistakes that sabotage home workout progress—and exactly how to fix them."
     },
     {
       "id": "articles/home-workout-space-in-a-small-room",

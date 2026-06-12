@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan",
+      "title": "Beat the Heat, Boost Your Fitness: The Ultimate Summer Home Workout & Hydration Plan",
+      "description": "Struggling to stay fit and hydrated this summer? I lost 18 pounds in 10 weeks by mastering home workouts and hydration. Learn my proven strategies to beat the heat, boost your energy, and transform your body without a gym.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Thompson",
+      "date": "2026-06-12",
+      "readTime": "18 min",
+      "image": "assets/images/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan.jpg",
+      "tags": [
+        "summer fitness",
+        "home workouts",
+        "hydration tips",
+        "heat safety",
+        "workout plans",
+        "electrolyte balance",
+        "fat loss",
+        "muscle gain",
+        "at-home exercise",
+        "budget fitness"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-unlock-30-savings-with-seasonal-produce",
       "title": "Summer Grocery Guide: Unlock 30%+ Savings with Seasonal Produce",
       "description": "Struggling with high grocery bills? I slashed my food budget by 47% in 6 months by strategically buying seasonal produce. Discover my data-backed guide to saving money this summer, packed with actionable tips and specific numbers you can implement today.",
@@ -197,29 +220,6 @@
         "metabolism boost",
         "gut health",
         "sustainable habits"
-      ]
-    },
-    {
-      "id": "articles/allergy-proof-your-fitness-seamless-outdoor-to-indoor-workout-transition",
-      "title": "Allergy-Proof Your Fitness: Seamless Outdoor to Indoor Workout Transition",
-      "description": "Don't let allergies derail your fitness! I transformed my routine, maintained my 18-pound weight loss, and saved $85/month by shifting indoors. Learn my space-efficient, budget-friendly strategies to keep moving.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Jessica Chen",
-      "date": "2026-05-25",
-      "readTime": "15 min",
-      "image": "assets/images/allergy-proof-your-fitness-seamless-outdoor-to-indoor-workout-transition.jpg",
-      "tags": [
-        "at-home fitness",
-        "allergy season workouts",
-        "indoor exercise",
-        "small space workouts",
-        "home gym ideas",
-        "bodyweight training",
-        "fitness motivation",
-        "budget fitness",
-        "workout routine",
-        "health hacks"
       ]
     }
   ]

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40",
+      "title": "Summer Grocery Guide: Slash Your Bill with Seasonal Produce (Save 40%+!)",
+      "description": "Tired of high grocery bills? I was too! After cutting my food budget by 47% in 6 months, I learned seasonal produce is a game-changer. This guide reveals my secrets to saving big on summer groceries, leveraging fresh, delicious fruits and veggies to keep your wallet happy and your plate healthy.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Jessica Martinez",
+      "date": "2026-06-15",
+      "readTime": "25 min",
+      "image": "assets/images/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40.jpg",
+      "tags": [
+        "summer produce",
+        "budget grocery",
+        "seasonal eating",
+        "meal planning",
+        "food savings",
+        "healthy eating",
+        "grocery hacks",
+        "food preservation",
+        "farmers market",
+        "budget cooking"
+      ]
+    },
+    {
       "id": "articles/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan",
       "title": "Beat the Heat, Boost Your Fitness: The Ultimate Summer Home Workout & Hydration Plan",
       "description": "Struggling to stay fit and hydrated this summer? I lost 18 pounds in 10 weeks by mastering home workouts and hydration. Learn my proven strategies to beat the heat, boost your energy, and transform your body without a gym.",
@@ -196,29 +219,6 @@
         "gut health",
         "meal prep",
         "mindful eating",
-        "sustainable habits"
-      ]
-    },
-    {
-      "id": "articles/spring-clean-your-diet-30-day-reset-for-rapid-health-gains-budget-wins",
-      "title": "Spring Clean Your Diet: 30-Day Reset for Rapid Health Gains & Budget Wins",
-      "description": "Ready to transform your health and budget this spring? I lost 18 pounds and cut my grocery bill by 35% in just 30 days. Discover my actionable 30-day diet reset for rapid results and lasting wellness.",
-      "category": "Healthy Eating on a Budget",
-      "difficulty": "Intermediate",
-      "author": "Mike Thompson",
-      "date": "2026-05-27",
-      "readTime": "22 min",
-      "image": "assets/images/spring-clean-your-diet-30-day-reset-for-rapid-health-gains-budget-wins.jpg",
-      "tags": [
-        "spring cleaning diet",
-        "30 day reset",
-        "healthy eating budget",
-        "quick weight loss",
-        "meal prep",
-        "nutrition tips",
-        "food budgeting",
-        "metabolism boost",
-        "gut health",
         "sustainable habits"
       ]
     }

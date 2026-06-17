@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-home-fitness-hydration-my-28-pound-transformation-guide",
+      "title": "Summer Home Fitness & Hydration: My 28-Pound Transformation Guide",
+      "description": "Struggling to stay fit and hydrated in the summer heat? I lost 28 pounds in 12 weeks and slashed my gym budget by 60% with this home workout and hydration plan. Discover my actionable strategies today!",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Jessica Chen",
+      "date": "2026-06-17",
+      "readTime": "18 min",
+      "image": "assets/images/summer-home-fitness-hydration-my-28-pound-transformation-guide.jpg",
+      "tags": [
+        "home workout",
+        "summer fitness",
+        "hydration tips",
+        "bodyweight exercises",
+        "at-home cardio",
+        "budget fitness",
+        "personal transformation",
+        "workout routine",
+        "healthy habits",
+        "hydration strategy"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40",
       "title": "Summer Grocery Guide: Slash Your Bill with Seasonal Produce (Save 40%+!)",
       "description": "Tired of high grocery bills? I was too! After cutting my food budget by 47% in 6 months, I learned seasonal produce is a game-changer. This guide reveals my secrets to saving big on summer groceries, leveraging fresh, delicious fruits and veggies to keep your wallet happy and your plate healthy.",
@@ -197,29 +220,6 @@
         "focus strategies",
         "home office setup",
         "budget living"
-      ]
-    },
-    {
-      "id": "articles/spring-cleaning-your-diet-a-30-day-reset-for-lasting-health",
-      "title": "Spring Cleaning Your Diet: A 30-Day Reset for Lasting Health",
-      "description": "I hit rock bottom with my diet, feeling sluggish and spending a fortune. After a radical 30-day reset, I lost 15 pounds, cut my grocery bill by 47%, and reclaimed my energy. Discover my vulnerable, step-by-step plan for your own transformation.",
-      "category": "Healthy Eating on a Budget",
-      "difficulty": "Intermediate",
-      "author": "Rachel Chen",
-      "date": "2026-05-29",
-      "readTime": "18 min",
-      "image": "assets/images/spring-cleaning-your-diet-a-30-day-reset-for-lasting-health.jpg",
-      "tags": [
-        "diet reset",
-        "healthy eating",
-        "budget meals",
-        "30-day challenge",
-        "spring cleaning diet",
-        "weight loss",
-        "gut health",
-        "meal prep",
-        "mindful eating",
-        "sustainable habits"
       ]
     }
   ]

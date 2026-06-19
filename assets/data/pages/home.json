@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/beat-the-heat-build-the-body-your-summer-home-workout-hydration-blueprint",
+      "title": "Beat the Heat, Build the Body: Your Summer Home Workout & Hydration Blueprint",
+      "description": "Don't let summer heat derail your fitness! I used this exact home workout and hydration plan to drop 15 pounds in just 8 weeks, slashing my gym costs by 100%. Learn my proven strategies for staying fit, hydrated, and energized right from your living room.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Rodriguez",
+      "date": "2026-06-19",
+      "readTime": "18 min",
+      "image": "assets/images/beat-the-heat-build-the-body-your-summer-home-workout-hydration-blueprint.jpg",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "hydration tips",
+        "bodyweight exercises",
+        "HIIT at home",
+        "nutrition for fitness",
+        "muscle building",
+        "weight loss",
+        "at-home training",
+        "stay hydrated"
+      ]
+    },
+    {
       "id": "articles/summer-home-fitness-hydration-my-28-pound-transformation-guide",
       "title": "Summer Home Fitness & Hydration: My 28-Pound Transformation Guide",
       "description": "Struggling to stay fit and hydrated in the summer heat? I lost 28 pounds in 12 weeks and slashed my gym budget by 60% with this home workout and hydration plan. Discover my actionable strategies today!",
@@ -197,29 +220,6 @@
         "frugal living",
         "nutrition tips",
         "farmers market"
-      ]
-    },
-    {
-      "id": "articles/beat-the-heat-boost-your-output-12-summer-wfh-productivity-hacks",
-      "title": "Beat the Heat, Boost Your Output: 12 Summer WFH Productivity Hacks",
-      "description": "Struggling with summer WFH productivity? I cut my AC bill by 20% and boosted my focus by 25% with these tech-savvy, data-backed strategies. Learn how to stay cool and crush your goals.",
-      "category": "Work-from-Home Productivity",
-      "difficulty": "Intermediate",
-      "author": "Alex Rivera",
-      "date": "2026-06-03",
-      "readTime": "25 min",
-      "image": "assets/images/beat-the-heat-boost-your-output-12-summer-wfh-productivity-hacks.jpg",
-      "tags": [
-        "work from home",
-        "summer productivity",
-        "heat management",
-        "remote work tips",
-        "energy efficiency",
-        "wellness hacks",
-        "tech productivity",
-        "focus strategies",
-        "home office setup",
-        "budget living"
       ]
     }
   ]

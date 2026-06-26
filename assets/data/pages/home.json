@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/stay-hydrated-and-fit-your-ultimate-summer-home-workout-guide",
+      "title": "Stay Hydrated and Fit: Your Ultimate Summer Home Workout Guide",
+      "description": "Struggling with summer fitness? I lost 28 pounds in 12 weeks and boosted my energy by 40% with these home workout and hydration strategies. Learn my proven, actionable guide.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Rachel Chen",
+      "date": "2026-06-26",
+      "readTime": "17 min",
+      "image": "assets/images/stay-hydrated-and-fit-your-ultimate-summer-home-workout-guide.jpg",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "hydration tips",
+        "at-home exercise",
+        "weight loss journey",
+        "bodyweight exercises",
+        "healthy habits",
+        "energy boost",
+        "productivity hacks",
+        "budget fitness"
+      ]
+    },
+    {
       "id": "articles/beat-the-heat-optimize-your-summer-wfh-productivity-for-peak-performance",
       "title": "Beat the Heat: Optimize Your Summer WFH Productivity for Peak Performance",
       "description": "Struggling with summer WFH slump? I boosted my productivity by 20% and cut AC costs by 35% last summer. Learn my data-backed strategies to stay cool, focused, and efficient, even when the mercury rises.",
@@ -197,29 +220,6 @@
         "muscle gain",
         "at-home exercise",
         "budget fitness"
-      ]
-    },
-    {
-      "id": "articles/summer-grocery-guide-unlock-30-savings-with-seasonal-produce",
-      "title": "Summer Grocery Guide: Unlock 30%+ Savings with Seasonal Produce",
-      "description": "Struggling with high grocery bills? I slashed my food budget by 47% in 6 months by strategically buying seasonal produce. Discover my data-backed guide to saving money this summer, packed with actionable tips and specific numbers you can implement today.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "David Kim",
-      "date": "2026-06-10",
-      "readTime": "15 min",
-      "image": "assets/images/summer-grocery-guide-unlock-30-savings-with-seasonal-produce.jpg",
-      "tags": [
-        "seasonal produce",
-        "grocery savings",
-        "budget eating",
-        "summer recipes",
-        "meal planning",
-        "food budgeting",
-        "healthy eating",
-        "produce storage",
-        "cost-cutting",
-        "sustainable eating"
       ]
     }
   ]

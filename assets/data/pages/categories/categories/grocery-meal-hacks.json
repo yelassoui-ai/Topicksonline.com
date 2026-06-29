@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 7,
+  "articleCount": 8,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30",
+      "image": "assets/images/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30.jpg",
+      "title": "Summer Grocery Guide: Seasonal Produce That Slashes Your Bill by 30%",
+      "author": "David Kim",
+      "date": "2026-06-29",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "money saving tips",
+        "meal planning",
+        "food waste reduction",
+        "healthy eating",
+        "grocery hacks",
+        "produce guide",
+        "cost savings"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "16 min",
+      "description": "I slashed my grocery bill by 38% and reduced food waste by 47% in 6 months by mastering seasonal produce. This guide reveals how you can achieve similar savings, starting this summer!"
+    },
     {
       "id": "articles/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40",
       "image": "assets/images/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40.jpg",

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30",
+      "title": "Summer Grocery Guide: Seasonal Produce That Slashes Your Bill by 30%",
+      "description": "I slashed my grocery bill by 38% and reduced food waste by 47% in 6 months by mastering seasonal produce. This guide reveals how you can achieve similar savings, starting this summer!",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "David Kim",
+      "date": "2026-06-29",
+      "readTime": "16 min",
+      "image": "assets/images/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30.jpg",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "money saving tips",
+        "meal planning",
+        "food waste reduction",
+        "healthy eating",
+        "grocery hacks",
+        "produce guide",
+        "cost savings"
+      ]
+    },
+    {
       "id": "articles/stay-hydrated-and-fit-your-ultimate-summer-home-workout-guide",
       "title": "Stay Hydrated and Fit: Your Ultimate Summer Home Workout Guide",
       "description": "Struggling with summer fitness? I lost 28 pounds in 12 weeks and boosted my energy by 40% with these home workout and hydration strategies. Learn my proven, actionable guide.",
@@ -197,29 +220,6 @@
         "food preservation",
         "farmers market",
         "budget cooking"
-      ]
-    },
-    {
-      "id": "articles/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan",
-      "title": "Beat the Heat, Boost Your Fitness: The Ultimate Summer Home Workout & Hydration Plan",
-      "description": "Struggling to stay fit and hydrated this summer? I lost 18 pounds in 10 weeks by mastering home workouts and hydration. Learn my proven strategies to beat the heat, boost your energy, and transform your body without a gym.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Mike Thompson",
-      "date": "2026-06-12",
-      "readTime": "18 min",
-      "image": "assets/images/beat-the-heat-boost-your-fitness-the-ultimate-summer-home-workout-hydration-plan.jpg",
-      "tags": [
-        "summer fitness",
-        "home workouts",
-        "hydration tips",
-        "heat safety",
-        "workout plans",
-        "electrolyte balance",
-        "fat loss",
-        "muscle gain",
-        "at-home exercise",
-        "budget fitness"
       ]
     }
   ]

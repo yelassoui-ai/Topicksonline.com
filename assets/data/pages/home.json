@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-shred-stay-hydrated-get-fit-with-home-workouts",
+      "title": "Summer Shred: Stay Hydrated, Get Fit with Home Workouts!",
+      "description": "Mike Rodriguez shares his proven summer home workout guide, revealing how he lost 28 pounds in 12 weeks, boosted energy by 30%, and saved $75 monthly on gym fees. Get actionable hydration and fitness tips you can implement today!",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Rodriguez",
+      "date": "2026-07-01",
+      "readTime": "18 min",
+      "image": "assets/images/summer-shred-stay-hydrated-get-fit-with-home-workouts.jpg",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "hydration tips",
+        "at-home exercises",
+        "bodyweight workout",
+        "kettlebell routine",
+        "hiit at home",
+        "nutrition for fitness",
+        "budget fitness",
+        "mike rodriguez workout"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30",
       "title": "Summer Grocery Guide: Seasonal Produce That Slashes Your Bill by 30%",
       "description": "I slashed my grocery bill by 38% and reduced food waste by 47% in 6 months by mastering seasonal produce. This guide reveals how you can achieve similar savings, starting this summer!",
@@ -197,29 +220,6 @@
         "workout routine",
         "healthy habits",
         "hydration strategy"
-      ]
-    },
-    {
-      "id": "articles/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40",
-      "title": "Summer Grocery Guide: Slash Your Bill with Seasonal Produce (Save 40%+!)",
-      "description": "Tired of high grocery bills? I was too! After cutting my food budget by 47% in 6 months, I learned seasonal produce is a game-changer. This guide reveals my secrets to saving big on summer groceries, leveraging fresh, delicious fruits and veggies to keep your wallet happy and your plate healthy.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Beginner",
-      "author": "Jessica Martinez",
-      "date": "2026-06-15",
-      "readTime": "25 min",
-      "image": "assets/images/summer-grocery-guide-slash-your-bill-with-seasonal-produce-save-40.jpg",
-      "tags": [
-        "summer produce",
-        "budget grocery",
-        "seasonal eating",
-        "meal planning",
-        "food savings",
-        "healthy eating",
-        "grocery hacks",
-        "food preservation",
-        "farmers market",
-        "budget cooking"
       ]
     }
   ]

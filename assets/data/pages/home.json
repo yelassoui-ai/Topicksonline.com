@@ -85,6 +85,31 @@
       ]
     },
     {
+      "id": "articles/hydrate-smarter-train-harder-advanced-summer-home-workouts-for-peak-performance",
+      "title": "Hydrate Smarter, Train Harder: Advanced Summer Home Workouts for Peak Performance",
+      "description": "I once struggled with summer energy dips and plateaued workouts. After a 6-month deep dive into advanced hydration and home training, I boosted my energy by 30% and saw a 15% increase in workout intensity, even losing 28 pounds in 12 weeks. Discover my data-backed strategies to transform your summer fitness.",
+      "category": "At-Home Fitness",
+      "difficulty": "Advanced",
+      "author": "Rachel Chen",
+      "date": "2026-07-03",
+      "readTime": "22 min",
+      "image": "assets/images/hydrate-smarter-train-harder-advanced-summer-home-workouts-for-peak-performance.jpg",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "advanced training",
+        "hydration strategies",
+        "bodyweight fitness",
+        "peak performance",
+        "metabolic conditioning",
+        "recovery techniques",
+        "sustainable fitness",
+        "rachel chen fitness",
+        "fitness tracking",
+        "data-driven fitness"
+      ]
+    },
+    {
       "id": "articles/summer-shred-stay-hydrated-get-fit-with-home-workouts",
       "title": "Summer Shred: Stay Hydrated, Get Fit with Home Workouts!",
       "description": "Mike Rodriguez shares his proven summer home workout guide, revealing how he lost 28 pounds in 12 weeks, boosted energy by 30%, and saved $75 monthly on gym fees. Get actionable hydration and fitness tips you can implement today!",
@@ -197,29 +222,6 @@
         "weight loss",
         "at-home training",
         "stay hydrated"
-      ]
-    },
-    {
-      "id": "articles/summer-home-fitness-hydration-my-28-pound-transformation-guide",
-      "title": "Summer Home Fitness & Hydration: My 28-Pound Transformation Guide",
-      "description": "Struggling to stay fit and hydrated in the summer heat? I lost 28 pounds in 12 weeks and slashed my gym budget by 60% with this home workout and hydration plan. Discover my actionable strategies today!",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Jessica Chen",
-      "date": "2026-06-17",
-      "readTime": "18 min",
-      "image": "assets/images/summer-home-fitness-hydration-my-28-pound-transformation-guide.jpg",
-      "tags": [
-        "home workout",
-        "summer fitness",
-        "hydration tips",
-        "bodyweight exercises",
-        "at-home cardio",
-        "budget fitness",
-        "personal transformation",
-        "workout routine",
-        "healthy habits",
-        "hydration strategy"
       ]
     }
   ]

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/stay-hydrated-fit-rachels-summer-home-workout-guide-for-real-results",
+      "title": "Stay Hydrated & Fit: Rachel's Summer Home Workout Guide for Real Results",
+      "description": "Rachel Chen shares her journey of losing 28 lbs in 12 weeks with home workouts and smart hydration. Discover actionable tips, proven strategies, and a complete guide to staying fit this summer, even on a budget.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Rachel Chen",
+      "date": "2026-07-06",
+      "readTime": "25 min",
+      "image": "assets/images/stay-hydrated-fit-rachels-summer-home-workout-guide-for-real-results.jpg",
+      "tags": [
+        "home workout",
+        "summer fitness",
+        "hydration tips",
+        "bodyweight exercises",
+        "budget fitness",
+        "workout routine",
+        "healthy habits",
+        "weight loss",
+        "fitness motivation",
+        "at home exercise"
+      ]
+    },
+    {
       "id": "articles/hydrate-smarter-train-harder-advanced-summer-home-workouts-for-peak-performance",
       "title": "Hydrate Smarter, Train Harder: Advanced Summer Home Workouts for Peak Performance",
       "description": "I once struggled with summer energy dips and plateaued workouts. After a 6-month deep dive into advanced hydration and home training, I boosted my energy by 30% and saw a 15% increase in workout intensity, even losing 28 pounds in 12 weeks. Discover my data-backed strategies to transform your summer fitness.",
@@ -199,29 +222,6 @@
         "summer routine",
         "digital tools",
         "work-life balance"
-      ]
-    },
-    {
-      "id": "articles/beat-the-heat-build-the-body-your-summer-home-workout-hydration-blueprint",
-      "title": "Beat the Heat, Build the Body: Your Summer Home Workout & Hydration Blueprint",
-      "description": "Don't let summer heat derail your fitness! I used this exact home workout and hydration plan to drop 15 pounds in just 8 weeks, slashing my gym costs by 100%. Learn my proven strategies for staying fit, hydrated, and energized right from your living room.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Mike Rodriguez",
-      "date": "2026-06-19",
-      "readTime": "18 min",
-      "image": "assets/images/beat-the-heat-build-the-body-your-summer-home-workout-hydration-blueprint.jpg",
-      "tags": [
-        "summer fitness",
-        "home workout",
-        "hydration tips",
-        "bodyweight exercises",
-        "HIIT at home",
-        "nutrition for fitness",
-        "muscle building",
-        "weight loss",
-        "at-home training",
-        "stay hydrated"
       ]
     }
   ]

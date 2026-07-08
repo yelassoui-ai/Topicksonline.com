@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/crush-summer-stay-hydrated-fit-with-your-ultimate-home-workout-guide",
+      "title": "Crush Summer: Stay Hydrated & Fit with Your Ultimate Home Workout Guide",
+      "description": "Mike Rodriguez reveals his battle-tested summer home workout and hydration strategy that helped him shed 15 pounds in 10 weeks, boosting energy by 30% without a gym. Get actionable advice today!",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Mike Rodriguez",
+      "date": "2026-07-08",
+      "readTime": "18 min",
+      "image": "assets/images/crush-summer-stay-hydrated-fit-with-your-ultimate-home-workout-guide.jpg",
+      "tags": [
+        "home workout",
+        "summer fitness",
+        "hydration tips",
+        "bodyweight exercises",
+        "hiit at home",
+        "fat loss",
+        "muscle gain",
+        "wellness",
+        "productivity hacks",
+        "budget fitness"
+      ]
+    },
+    {
       "id": "articles/stay-hydrated-fit-rachels-summer-home-workout-guide-for-real-results",
       "title": "Stay Hydrated & Fit: Rachel's Summer Home Workout Guide for Real Results",
       "description": "Rachel Chen shares her journey of losing 28 lbs in 12 weeks with home workouts and smart hydration. Discover actionable tips, proven strategies, and a complete guide to staying fit this summer, even on a budget.",
@@ -199,29 +222,6 @@
         "energy boost",
         "productivity hacks",
         "budget fitness"
-      ]
-    },
-    {
-      "id": "articles/beat-the-heat-optimize-your-summer-wfh-productivity-for-peak-performance",
-      "title": "Beat the Heat: Optimize Your Summer WFH Productivity for Peak Performance",
-      "description": "Struggling with summer WFH slump? I boosted my productivity by 20% and cut AC costs by 35% last summer. Learn my data-backed strategies to stay cool, focused, and efficient, even when the mercury rises.",
-      "category": "Work-from-Home Productivity",
-      "difficulty": "Intermediate",
-      "author": "Alex Rivera",
-      "date": "2026-06-22",
-      "readTime": "16 min",
-      "image": "assets/images/beat-the-heat-optimize-your-summer-wfh-productivity-for-peak-performance.jpg",
-      "tags": [
-        "summer productivity",
-        "WFH tips",
-        "remote work",
-        "heat management",
-        "home office",
-        "energy efficiency",
-        "focus hacks",
-        "summer routine",
-        "digital tools",
-        "work-life balance"
       ]
     }
   ]

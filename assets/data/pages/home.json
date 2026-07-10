@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-fit-hydrated-my-10-week-home-workout-transformation-guide",
+      "title": "Summer Fit & Hydrated: My 10-Week Home Workout Transformation Guide",
+      "description": "I shed 18 pounds and boosted my energy by 40% in just 10 weeks, all from home! Discover my space-efficient, budget-friendly summer fitness and hydration guide.",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Jessica Chen",
+      "date": "2026-07-10",
+      "readTime": "14 min",
+      "image": "assets/images/summer-fit-hydrated-my-10-week-home-workout-transformation-guide.jpg",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "hydration tips",
+        "budget fitness",
+        "space-efficient workouts",
+        "bodyweight exercises",
+        "healthy habits",
+        "weight loss",
+        "energy boost",
+        "Jessica Chen fitness"
+      ]
+    },
+    {
       "id": "articles/crush-summer-stay-hydrated-fit-with-your-ultimate-home-workout-guide",
       "title": "Crush Summer: Stay Hydrated & Fit with Your Ultimate Home Workout Guide",
       "description": "Mike Rodriguez reveals his battle-tested summer home workout and hydration strategy that helped him shed 15 pounds in 10 weeks, boosting energy by 30% without a gym. Get actionable advice today!",
@@ -199,29 +222,6 @@
         "grocery hacks",
         "produce guide",
         "cost savings"
-      ]
-    },
-    {
-      "id": "articles/stay-hydrated-and-fit-your-ultimate-summer-home-workout-guide",
-      "title": "Stay Hydrated and Fit: Your Ultimate Summer Home Workout Guide",
-      "description": "Struggling with summer fitness? I lost 28 pounds in 12 weeks and boosted my energy by 40% with these home workout and hydration strategies. Learn my proven, actionable guide.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Rachel Chen",
-      "date": "2026-06-26",
-      "readTime": "17 min",
-      "image": "assets/images/stay-hydrated-and-fit-your-ultimate-summer-home-workout-guide.jpg",
-      "tags": [
-        "summer fitness",
-        "home workout",
-        "hydration tips",
-        "at-home exercise",
-        "weight loss journey",
-        "bodyweight exercises",
-        "healthy habits",
-        "energy boost",
-        "productivity hacks",
-        "budget fitness"
       ]
     }
   ]

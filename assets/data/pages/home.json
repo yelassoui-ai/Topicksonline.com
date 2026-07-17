@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce",
+      "title": "Summer Grocery Guide: Slash Your Bill & Boost Energy FAST with Seasonal Produce",
+      "description": "Tired of high grocery bills and low energy? I personally slashed my weekly grocery spending by 35% and lost 10 pounds in 5 weeks by leveraging seasonal summer produce. Discover how to achieve quick, tangible results starting today!",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Sarah Mitchell",
+      "date": "2026-07-17",
+      "readTime": "25 min",
+      "image": "assets/images/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce.jpg",
+      "tags": [
+        "summer recipes",
+        "seasonal eating",
+        "grocery savings",
+        "budget meals",
+        "healthy eating",
+        "weight loss",
+        "meal prep",
+        "produce guide",
+        "quick results",
+        "frugal living"
+      ]
+    },
+    {
       "id": "articles/beat-the-heat-beginners-guide-to-summer-wfh-productivity-hacks",
       "title": "Beat the Heat: Beginner's Guide to Summer WFH Productivity Hacks",
       "description": "Struggling with summer WFH productivity? I lost 18% of my daily output during my first hot summer working remotely. This beginner's guide reveals my systematic approach to reclaiming 2.5 hours of focused work per week and cutting my AC bill by 32%—actionable tips you can implement today.",
@@ -196,31 +219,6 @@
         "weight loss",
         "fitness motivation",
         "at home exercise"
-      ]
-    },
-    {
-      "id": "articles/hydrate-smarter-train-harder-advanced-summer-home-workouts-for-peak-performance",
-      "title": "Hydrate Smarter, Train Harder: Advanced Summer Home Workouts for Peak Performance",
-      "description": "I once struggled with summer energy dips and plateaued workouts. After a 6-month deep dive into advanced hydration and home training, I boosted my energy by 30% and saw a 15% increase in workout intensity, even losing 28 pounds in 12 weeks. Discover my data-backed strategies to transform your summer fitness.",
-      "category": "At-Home Fitness",
-      "difficulty": "Advanced",
-      "author": "Rachel Chen",
-      "date": "2026-07-03",
-      "readTime": "22 min",
-      "image": "assets/images/hydrate-smarter-train-harder-advanced-summer-home-workouts-for-peak-performance.jpg",
-      "tags": [
-        "summer fitness",
-        "home workout",
-        "advanced training",
-        "hydration strategies",
-        "bodyweight fitness",
-        "peak performance",
-        "metabolic conditioning",
-        "recovery techniques",
-        "sustainable fitness",
-        "rachel chen fitness",
-        "fitness tracking",
-        "data-driven fitness"
       ]
     }
   ]

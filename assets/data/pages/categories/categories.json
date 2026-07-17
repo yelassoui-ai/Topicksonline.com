@@ -9,18 +9,18 @@
       "link": "/category/at-home-fitness"
     },
     {
+      "name": "Grocery & Meal Hacks",
+      "slug": "grocery-meal-hacks",
+      "articleCount": 9,
+      "description": "Browse all Grocery & Meal Hacks articles",
+      "link": "/category/grocery-meal-hacks"
+    },
+    {
       "name": "Healthy Eating on a Budget",
       "slug": "healthy-eating-on-a-budget",
       "articleCount": 8,
       "description": "Browse all Healthy Eating on a Budget articles",
       "link": "/category/healthy-eating-on-a-budget"
-    },
-    {
-      "name": "Grocery & Meal Hacks",
-      "slug": "grocery-meal-hacks",
-      "articleCount": 8,
-      "description": "Browse all Grocery & Meal Hacks articles",
-      "link": "/category/grocery-meal-hacks"
     },
     {
       "name": "Work-from-Home Productivity",

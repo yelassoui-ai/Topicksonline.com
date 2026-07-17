@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 8,
+  "articleCount": 9,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce",
+      "image": "assets/images/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce.jpg",
+      "title": "Summer Grocery Guide: Slash Your Bill & Boost Energy FAST with Seasonal Produce",
+      "author": "Sarah Mitchell",
+      "date": "2026-07-17",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "summer recipes",
+        "seasonal eating",
+        "grocery savings",
+        "budget meals",
+        "healthy eating",
+        "weight loss",
+        "meal prep",
+        "produce guide",
+        "quick results",
+        "frugal living"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "25 min",
+      "description": "Tired of high grocery bills and low energy? I personally slashed my weekly grocery spending by 35% and lost 10 pounds in 5 weeks by leveraging seasonal summer produce. Discover how to achieve quick, tangible results starting today!"
+    },
     {
       "id": "articles/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30",
       "image": "assets/images/summer-grocery-guide-seasonal-produce-that-slashes-your-bill-by-30.jpg",

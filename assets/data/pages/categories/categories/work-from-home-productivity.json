@@ -96,6 +96,25 @@
       "description": "Struggling with summer WFH productivity? I cut my AC bill by 20% and boosted my focus by 25% with these tech-savvy, data-backed strategies. Learn how to stay cool and crush your goals."
     },
     {
+      "id": "articles/stay-focused-working-from-home",
+      "image": "assets/images/stay-focused-working-from-home.jpg",
+      "title": "How to Stay Focused Working from Home: 12 Battle-Tested Strategies (I Tracked My Focus for 6 Months)",
+      "author": "David Kim",
+      "date": "2025-07-06",
+      "category": "Work-from-Home Productivity",
+      "tags": [
+        "Work From Home",
+        "Focus",
+        "Productivity",
+        "Remote Work",
+        "Concentration",
+        "Time Management"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "17 min",
+      "description": "Struggling to stay focused while working from home? I tested 12 different focus strategies for 6 months and tracked the results. Here's what actually works (and what's just productivity theater)."
+    },
+    {
       "id": "articles/the-ultimate-work-from-home-desk-setup-guide",
       "image": "assets/images/the-ultimate-work-from-home-desk-setup-guide.jpg",
       "title": "The Ultimate Work From Home Desk Setup Guide (2025 Edition) - I Spent $3,200 Testing 47 Products",
@@ -132,25 +151,6 @@
       "difficulty": "Beginner",
       "readTime": "16 min",
       "description": "Stop drowning in productivity apps that don't work. After testing 73 different tools over 2 years and spending $1,847 on subscriptions, here are the ones that actually improved my remote work productivity."
-    },
-    {
-      "id": "articles/stay-focused-working-from-home",
-      "image": "assets/images/stay-focused-working-from-home.jpg",
-      "title": "How to Stay Focused Working from Home: 12 Battle-Tested Strategies (I Tracked My Focus for 6 Months)",
-      "author": "David Kim",
-      "date": "2025-07-06",
-      "category": "Work-from-Home Productivity",
-      "tags": [
-        "Work From Home",
-        "Focus",
-        "Productivity",
-        "Remote Work",
-        "Concentration",
-        "Time Management"
-      ],
-      "difficulty": "Beginner",
-      "readTime": "17 min",
-      "description": "Struggling to stay focused while working from home? I tested 12 different focus strategies for 6 months and tracked the results. Here's what actually works (and what's just productivity theater)."
     }
   ]
 }

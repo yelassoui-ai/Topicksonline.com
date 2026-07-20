@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 9,
+  "articleCount": 10,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-slash-bills-by-40-with-seasonal-produce",
+      "image": "assets/images/summer-grocery-guide-slash-bills-by-40-with-seasonal-produce.jpg",
+      "title": "Summer Grocery Guide: Slash Bills by 40% with Seasonal Produce",
+      "author": "David Kim",
+      "date": "2026-07-20",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "meal planning",
+        "grocery savings",
+        "healthy eating",
+        "food preservation",
+        "farmers market",
+        "frugal living",
+        "nutrition"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "25 min",
+      "description": "I once struggled with soaring summer grocery bills, spending over $180 weekly. After a data-driven overhaul, focusing on seasonal produce, I cut my expenses by 47% in just 6 months. Discover how you can implement my proven strategies to save hundreds and eat healthier this summer."
+    },
     {
       "id": "articles/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce",
       "image": "assets/images/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce.jpg",

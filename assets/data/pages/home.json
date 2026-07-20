@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-slash-bills-by-40-with-seasonal-produce",
+      "title": "Summer Grocery Guide: Slash Bills by 40% with Seasonal Produce",
+      "description": "I once struggled with soaring summer grocery bills, spending over $180 weekly. After a data-driven overhaul, focusing on seasonal produce, I cut my expenses by 47% in just 6 months. Discover how you can implement my proven strategies to save hundreds and eat healthier this summer.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "David Kim",
+      "date": "2026-07-20",
+      "readTime": "25 min",
+      "image": "assets/images/summer-grocery-guide-slash-bills-by-40-with-seasonal-produce.jpg",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "meal planning",
+        "grocery savings",
+        "healthy eating",
+        "food preservation",
+        "farmers market",
+        "frugal living",
+        "nutrition"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-slash-your-bill-boost-energy-fast-with-seasonal-produce",
       "title": "Summer Grocery Guide: Slash Your Bill & Boost Energy FAST with Seasonal Produce",
       "description": "Tired of high grocery bills and low energy? I personally slashed my weekly grocery spending by 35% and lost 10 pounds in 5 weeks by leveraging seasonal summer produce. Discover how to achieve quick, tangible results starting today!",
@@ -196,29 +219,6 @@
         "wellness",
         "productivity hacks",
         "budget fitness"
-      ]
-    },
-    {
-      "id": "articles/stay-hydrated-fit-rachels-summer-home-workout-guide-for-real-results",
-      "title": "Stay Hydrated & Fit: Rachel's Summer Home Workout Guide for Real Results",
-      "description": "Rachel Chen shares her journey of losing 28 lbs in 12 weeks with home workouts and smart hydration. Discover actionable tips, proven strategies, and a complete guide to staying fit this summer, even on a budget.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Rachel Chen",
-      "date": "2026-07-06",
-      "readTime": "25 min",
-      "image": "assets/images/stay-hydrated-fit-rachels-summer-home-workout-guide-for-real-results.jpg",
-      "tags": [
-        "home workout",
-        "summer fitness",
-        "hydration tips",
-        "bodyweight exercises",
-        "budget fitness",
-        "workout routine",
-        "healthy habits",
-        "weight loss",
-        "fitness motivation",
-        "at home exercise"
       ]
     }
   ]

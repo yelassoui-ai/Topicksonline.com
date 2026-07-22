@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-savings-your-beginners-guide-to-budget-friendly-seasonal-produce",
+      "title": "Summer Savings: Your Beginner's Guide to Budget-Friendly Seasonal Produce",
+      "description": "Struggling with high grocery bills and food waste? I slashed my summer grocery bill by 35% and cut food waste by 60% in just 8 weeks by embracing seasonal produce. This beginner's guide will show you how to save hundreds.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Sarah Mitchell",
+      "date": "2026-07-22",
+      "readTime": "18 min",
+      "image": "assets/images/summer-savings-your-beginners-guide-to-budget-friendly-seasonal-produce.jpg",
+      "tags": [
+        "summer recipes",
+        "budget meals",
+        "seasonal eating",
+        "grocery hacks",
+        "meal planning",
+        "save money",
+        "healthy eating",
+        "produce guide",
+        "beginner tips",
+        "food waste"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-slash-bills-by-40-with-seasonal-produce",
       "title": "Summer Grocery Guide: Slash Bills by 40% with Seasonal Produce",
       "description": "I once struggled with soaring summer grocery bills, spending over $180 weekly. After a data-driven overhaul, focusing on seasonal produce, I cut my expenses by 47% in just 6 months. Discover how you can implement my proven strategies to save hundreds and eat healthier this summer.",
@@ -196,29 +219,6 @@
         "weight loss",
         "energy boost",
         "Jessica Chen fitness"
-      ]
-    },
-    {
-      "id": "articles/crush-summer-stay-hydrated-fit-with-your-ultimate-home-workout-guide",
-      "title": "Crush Summer: Stay Hydrated & Fit with Your Ultimate Home Workout Guide",
-      "description": "Mike Rodriguez reveals his battle-tested summer home workout and hydration strategy that helped him shed 15 pounds in 10 weeks, boosting energy by 30% without a gym. Get actionable advice today!",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Mike Rodriguez",
-      "date": "2026-07-08",
-      "readTime": "18 min",
-      "image": "assets/images/crush-summer-stay-hydrated-fit-with-your-ultimate-home-workout-guide.jpg",
-      "tags": [
-        "home workout",
-        "summer fitness",
-        "hydration tips",
-        "bodyweight exercises",
-        "hiit at home",
-        "fat loss",
-        "muscle gain",
-        "wellness",
-        "productivity hacks",
-        "budget fitness"
       ]
     }
   ]

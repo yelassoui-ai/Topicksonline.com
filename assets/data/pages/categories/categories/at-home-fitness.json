@@ -452,25 +452,6 @@
       "description": "No extra room needed—just smart setup. After transforming my 10x10 bedroom into a functional workout space for under $75, here's exactly how to create an inviting home gym anywhere."
     },
     {
-      "id": "articles/beginner-home-fitness-mistakes",
-      "image": "assets/images/beginner-home-fitness-mistakes.jpg",
-      "title": "Beginner Home Fitness Mistakes That Sabotage Progress: 7 Costly Errors I Made (So You Don't Have To)",
-      "author": "Mike Thompson",
-      "date": "2025-07-08",
-      "category": "At-Home Fitness",
-      "tags": [
-        "fitness mistakes",
-        "home workout",
-        "beginner fitness",
-        "workout form",
-        "fitness motivation",
-        "exercise tips"
-      ],
-      "difficulty": "Beginner",
-      "readTime": "14 min",
-      "description": "Don't burn out, get injured, or quit early like I did. After 3 failed fitness attempts and one minor injury, here are the 7 mistakes that sabotage home workout progress—and exactly how to fix them."
-    },
-    {
       "id": "articles/lose-weight-at-home-without-a-gym",
       "image": "assets/images/lose-weight-at-home-without-a-gym.jpg",
       "title": "Lose Weight at Home Without a Gym: Beginner's Guide to Fat Loss (I Lost 35 Pounds in 6 Months)",
@@ -488,6 +469,25 @@
       "difficulty": "Beginner",
       "readTime": "15 min",
       "description": "Don't waste money on gym memberships you won't use. After losing 35 pounds in 6 months using only home workouts and simple nutrition changes, here's exactly what works for sustainable fat loss."
+    },
+    {
+      "id": "articles/beginner-home-fitness-mistakes",
+      "image": "assets/images/beginner-home-fitness-mistakes.jpg",
+      "title": "Beginner Home Fitness Mistakes That Sabotage Progress: 7 Costly Errors I Made (So You Don't Have To)",
+      "author": "Mike Thompson",
+      "date": "2025-07-08",
+      "category": "At-Home Fitness",
+      "tags": [
+        "fitness mistakes",
+        "home workout",
+        "beginner fitness",
+        "workout form",
+        "fitness motivation",
+        "exercise tips"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "14 min",
+      "description": "Don't burn out, get injured, or quit early like I did. After 3 failed fitness attempts and one minor injury, here are the 7 mistakes that sabotage home workout progress—and exactly how to fix them."
     }
   ]
 }

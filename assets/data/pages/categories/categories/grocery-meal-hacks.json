@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 12,
+  "articleCount": 13,
   "articles": [
+    {
+      "id": "articles/summer-savings-surge-how-seasonal-produce-slashed-my-grocery-bill-by-47-in-4-weeks",
+      "image": "assets/images/summer-savings-surge-how-seasonal-produce-slashed-my-grocery-bill-by-47-in-4-weeks.jpg",
+      "title": "Summer Savings Surge: How Seasonal Produce Slashed My Grocery Bill by 47% in 4 Weeks",
+      "author": "Jessica Martinez",
+      "date": "2026-07-29",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "seasonal eating",
+        "grocery budget",
+        "summer produce",
+        "money saving tips",
+        "meal planning",
+        "healthy eating",
+        "quick results",
+        "food hacks",
+        "budget living",
+        "fresh produce"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "18 min",
+      "description": "Tired of high grocery bills? I was too! I slashed my weekly grocery spending by a whopping 47% – from $185 to $98 – in just four weeks by embracing seasonal summer produce. Discover my exact strategies for quick savings and healthier meals today!"
+    },
     {
       "id": "articles/unlock-summer-savings-your-beginners-guide-to-seasonal-produce-smarter-grocery-bills",
       "image": "assets/images/unlock-summer-savings-your-beginners-guide-to-seasonal-produce-smarter-grocery-bills.jpg",

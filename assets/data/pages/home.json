@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-savings-surge-how-seasonal-produce-slashed-my-grocery-bill-by-47-in-4-weeks",
+      "title": "Summer Savings Surge: How Seasonal Produce Slashed My Grocery Bill by 47% in 4 Weeks",
+      "description": "Tired of high grocery bills? I was too! I slashed my weekly grocery spending by a whopping 47% – from $185 to $98 – in just four weeks by embracing seasonal summer produce. Discover my exact strategies for quick savings and healthier meals today!",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Jessica Martinez",
+      "date": "2026-07-29",
+      "readTime": "18 min",
+      "image": "assets/images/summer-savings-surge-how-seasonal-produce-slashed-my-grocery-bill-by-47-in-4-weeks.jpg",
+      "tags": [
+        "seasonal eating",
+        "grocery budget",
+        "summer produce",
+        "money saving tips",
+        "meal planning",
+        "healthy eating",
+        "quick results",
+        "food hacks",
+        "budget living",
+        "fresh produce"
+      ]
+    },
+    {
       "id": "articles/unlock-summer-savings-your-beginners-guide-to-seasonal-produce-smarter-grocery-bills",
       "title": "Unlock Summer Savings: Your Beginner's Guide to Seasonal Produce & Smarter Grocery Bills",
       "description": "Tired of high grocery bills? I was too, until I discovered seasonal eating. I cut my food spending by an average of 35% ($75/week!) and boosted my family's health. This beginner's guide shows you how to save money and eat better this summer, starting today.",
@@ -197,28 +220,6 @@
         "produce guide",
         "quick results",
         "frugal living"
-      ]
-    },
-    {
-      "id": "articles/beat-the-heat-beginners-guide-to-summer-wfh-productivity-hacks",
-      "title": "Beat the Heat: Beginner's Guide to Summer WFH Productivity Hacks",
-      "description": "Struggling with summer WFH productivity? I lost 18% of my daily output during my first hot summer working remotely. This beginner's guide reveals my systematic approach to reclaiming 2.5 hours of focused work per week and cutting my AC bill by 32%—actionable tips you can implement today.",
-      "category": "Work-from-Home Productivity",
-      "difficulty": "Beginner",
-      "author": "Alex Rivera",
-      "date": "2026-07-15",
-      "readTime": "22 min",
-      "image": "assets/images/beat-the-heat-beginners-guide-to-summer-wfh-productivity-hacks.jpg",
-      "tags": [
-        "work from home",
-        "summer productivity",
-        "heat management",
-        "remote work tips",
-        "energy efficiency",
-        "focus techniques",
-        "beginner guide",
-        "alex rivera",
-        "top picks online"
       ]
     }
   ]

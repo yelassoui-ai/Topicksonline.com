@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-save-big-with-seasonal-produce-beginners-edition",
+      "title": "Summer Grocery Guide: Save Big with Seasonal Produce (Beginner's Edition!)",
+      "description": "Struggling with high grocery bills? I slashed my food budget by 47% in just 6 months by focusing on seasonal produce. This beginner's guide shows you how to save serious money and eat incredibly fresh this summer.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Jessica Martinez",
+      "date": "2026-08-05",
+      "readTime": "18 min",
+      "image": "assets/images/summer-grocery-guide-save-big-with-seasonal-produce-beginners-edition.jpg",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "meal planning",
+        "grocery savings",
+        "healthy eating",
+        "beginner budget",
+        "food waste",
+        "produce storage",
+        "farmers market"
+      ]
+    },
+    {
       "id": "articles/summer-savings-my-47-grocery-bill-cut-with-seasonal-produce",
       "title": "Summer Savings: My 47% Grocery Bill Cut with Seasonal Produce",
       "description": "Discover how I slashed my summer grocery bill by a staggering 47%, from $180 to $95 per week, in just three months by strategically focusing on seasonal produce. This guide offers data-backed strategies and actionable tips to help you save hundreds.",
@@ -197,29 +220,6 @@
         "tech productivity",
         "heat stress management",
         "circadian rhythm"
-      ]
-    },
-    {
-      "id": "articles/summer-savings-your-beginners-guide-to-budget-friendly-seasonal-produce",
-      "title": "Summer Savings: Your Beginner's Guide to Budget-Friendly Seasonal Produce",
-      "description": "Struggling with high grocery bills and food waste? I slashed my summer grocery bill by 35% and cut food waste by 60% in just 8 weeks by embracing seasonal produce. This beginner's guide will show you how to save hundreds.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Beginner",
-      "author": "Sarah Mitchell",
-      "date": "2026-07-22",
-      "readTime": "18 min",
-      "image": "assets/images/summer-savings-your-beginners-guide-to-budget-friendly-seasonal-produce.jpg",
-      "tags": [
-        "summer recipes",
-        "budget meals",
-        "seasonal eating",
-        "grocery hacks",
-        "meal planning",
-        "save money",
-        "healthy eating",
-        "produce guide",
-        "beginner tips",
-        "food waste"
       ]
     }
   ]

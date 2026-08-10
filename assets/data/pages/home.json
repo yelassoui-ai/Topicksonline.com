@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-body-ready-beginner-home-workouts-hydration-hacks",
+      "title": "Summer Body-Ready: Beginner Home Workouts & Hydration Hacks",
+      "description": "Tired of summer fitness goals feeling out of reach? I was too, until I lost 28 pounds in 12 weeks and boosted my energy by 60% with simple home workouts and smart hydration. Learn my beginner-friendly, space-efficient strategies to get fit and stay hydrated this summer, all from the comfort of your home.",
+      "category": "At-Home Fitness",
+      "difficulty": "Beginner",
+      "author": "Jessica Chen",
+      "date": "2026-08-10",
+      "readTime": "16 min",
+      "image": "assets/images/summer-body-ready-beginner-home-workouts-hydration-hacks.jpg",
+      "tags": [
+        "home workout",
+        "beginner fitness",
+        "hydration tips",
+        "summer fitness",
+        "bodyweight exercises",
+        "small space workout",
+        "budget fitness",
+        "motivation",
+        "wellness",
+        "healthy habits"
+      ]
+    },
+    {
       "id": "articles/advanced-heat-resilience-boosting-wfh-productivity-in-summer-by-30",
       "title": "Advanced Heat Resilience: Boosting WFH Productivity in Summer by 30%",
       "description": "I boosted my summer WFH productivity by 30% after refining my setup for 6 months. Discover my advanced, data-backed strategies to beat the heat, save 28% on energy, and maintain peak performance.",
@@ -197,29 +220,6 @@
         "food hacks",
         "budget living",
         "fresh produce"
-      ]
-    },
-    {
-      "id": "articles/unlock-summer-savings-your-beginners-guide-to-seasonal-produce-smarter-grocery-bills",
-      "title": "Unlock Summer Savings: Your Beginner's Guide to Seasonal Produce & Smarter Grocery Bills",
-      "description": "Tired of high grocery bills? I was too, until I discovered seasonal eating. I cut my food spending by an average of 35% ($75/week!) and boosted my family's health. This beginner's guide shows you how to save money and eat better this summer, starting today.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Beginner",
-      "author": "Sarah Mitchell",
-      "date": "2026-07-27",
-      "readTime": "18 min",
-      "image": "assets/images/unlock-summer-savings-your-beginners-guide-to-seasonal-produce-smarter-grocery-bills.jpg",
-      "tags": [
-        "seasonal eating",
-        "budget groceries",
-        "summer produce",
-        "meal planning",
-        "healthy eating",
-        "grocery hacks",
-        "beginner cooking",
-        "food savings",
-        "fresh ingredients",
-        "whole foods"
       ]
     }
   ]

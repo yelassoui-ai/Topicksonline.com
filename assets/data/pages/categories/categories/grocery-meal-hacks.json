@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 16,
+  "articleCount": 17,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce",
+      "image": "assets/images/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce.jpg",
+      "title": "Summer Grocery Guide: Harvest Savings & Flavor with Seasonal Produce",
+      "author": "Jessica Martinez",
+      "date": "2026-08-14",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "meal planning",
+        "food waste reduction",
+        "healthy living",
+        "grocery savings",
+        "produce storage",
+        "farmers market tips",
+        "affordable recipes"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "15 min",
+      "description": "Struggling with high grocery bills? I slashed my grocery spending by 37% over 6 months by focusing on seasonal produce. This guide reveals my proven strategies for saving money, reducing waste, and enjoying peak-flavor summer foods that you can implement starting this week."
+    },
     {
       "id": "articles/summer-grocery-guide-save-big-with-seasonal-produce-beginners-edition",
       "image": "assets/images/summer-grocery-guide-save-big-with-seasonal-produce-beginners-edition.jpg",

@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce",
+      "title": "Summer Grocery Guide: Harvest Savings & Flavor with Seasonal Produce",
+      "description": "Struggling with high grocery bills? I slashed my grocery spending by 37% over 6 months by focusing on seasonal produce. This guide reveals my proven strategies for saving money, reducing waste, and enjoying peak-flavor summer foods that you can implement starting this week.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "Jessica Martinez",
+      "date": "2026-08-14",
+      "readTime": "15 min",
+      "image": "assets/images/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce.jpg",
+      "tags": [
+        "seasonal eating",
+        "budget groceries",
+        "summer produce",
+        "meal planning",
+        "food waste reduction",
+        "healthy living",
+        "grocery savings",
+        "produce storage",
+        "farmers market tips",
+        "affordable recipes"
+      ]
+    },
+    {
       "id": "articles/advanced-heat-hacks-boost-summer-wfh-productivity-by-25-alex-riveras-guide",
       "title": "Advanced Heat Hacks: Boost Summer WFH Productivity by 25% (Alex Rivera's Guide)",
       "description": "Struggling with summer heat impacting your WFH productivity? I personally lost 3-4 hours of peak focus daily until I implemented these advanced strategies. Discover how I boosted my output by 28% and cut my AC bill by 35% using tech-savvy, data-backed methods.",
@@ -197,29 +220,6 @@
         "farmers market",
         "food budgeting",
         "cost saving"
-      ]
-    },
-    {
-      "id": "articles/summer-grocery-guide-advanced-seasonal-produce-hacks-for-40-savings",
-      "title": "Summer Grocery Guide: Advanced Seasonal Produce Hacks for 40% Savings",
-      "description": "Unlock advanced strategies for summer grocery savings! As David Kim, I'll show you how I slashed my produce bill by 47% and reduced food waste by 38% over 18 months, leveraging seasonal produce with sophisticated preservation and meal planning techniques. Get ready to save hundreds and eat better.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Advanced",
-      "author": "David Kim",
-      "date": "2026-07-31",
-      "readTime": "16 min",
-      "image": "assets/images/summer-grocery-guide-advanced-seasonal-produce-hacks-for-40-savings.jpg",
-      "tags": [
-        "seasonal produce",
-        "grocery savings",
-        "budget eating",
-        "meal planning",
-        "food preservation",
-        "summer recipes",
-        "advanced grocery tips",
-        "cost-effective cooking",
-        "produce hacks",
-        "food waste reduction"
       ]
     }
   ]

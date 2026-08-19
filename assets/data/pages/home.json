@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/beat-the-heat-productivity-hacks-for-wfh-in-summer-save-20-on-bills",
+      "title": "Beat the Heat: Productivity Hacks for WFH in Summer & Save 20% on Bills",
+      "description": "Struggling with summer heat impacting your WFH productivity? I personally lost 18% of my output and saw my energy bill jump by $85 monthly. Discover my data-backed strategies to stay cool, focused, and save money.",
+      "category": "Work-from-Home Productivity",
+      "difficulty": "Intermediate",
+      "author": "Alex Rivera",
+      "date": "2026-08-19",
+      "readTime": "15 min",
+      "image": "assets/images/beat-the-heat-productivity-hacks-for-wfh-in-summer-save-20-on-bills.jpg",
+      "tags": [
+        "work from home",
+        "summer productivity",
+        "heat management",
+        "energy efficiency",
+        "remote work tips",
+        "focus techniques",
+        "home office setup",
+        "budget living",
+        "tech productivity",
+        "wellness at work"
+      ]
+    },
+    {
       "id": "articles/summer-shred-hydration-advanced-home-workouts-for-peak-performance",
       "title": "Summer Shred & Hydration: Advanced Home Workouts for Peak Performance",
       "description": "Ready to crush your summer fitness goals from home? I transformed my own routine, adding 15% to my functional strength and cutting post-workout recovery time by 30% in just 8 weeks. Discover how to supercharge your home workouts with advanced hydration tactics, bodyweight progressions, and recovery protocols for peak summer performance.",
@@ -197,29 +220,6 @@
         "cognitive performance",
         "energy efficiency",
         "biohacking"
-      ]
-    },
-    {
-      "id": "articles/summer-grocery-guide-save-big-with-seasonal-produce-beginners-edition",
-      "title": "Summer Grocery Guide: Save Big with Seasonal Produce (Beginner's Edition!)",
-      "description": "Struggling with high grocery bills? I slashed my food budget by 47% in just 6 months by focusing on seasonal produce. This beginner's guide shows you how to save serious money and eat incredibly fresh this summer.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Beginner",
-      "author": "Jessica Martinez",
-      "date": "2026-08-05",
-      "readTime": "18 min",
-      "image": "assets/images/summer-grocery-guide-save-big-with-seasonal-produce-beginners-edition.jpg",
-      "tags": [
-        "seasonal eating",
-        "budget groceries",
-        "summer produce",
-        "meal planning",
-        "grocery savings",
-        "healthy eating",
-        "beginner budget",
-        "food waste",
-        "produce storage",
-        "farmers market"
       ]
     }
   ]

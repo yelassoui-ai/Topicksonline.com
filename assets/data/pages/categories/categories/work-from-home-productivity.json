@@ -2,8 +2,31 @@
   "title": "Work-from-Home Productivity Articles",
   "category": "Work-from-Home Productivity",
   "description": "All articles about Work-from-Home Productivity",
-  "articleCount": 12,
+  "articleCount": 13,
   "articles": [
+    {
+      "id": "articles/beat-the-heat-productivity-hacks-for-your-summer-work-from-home-setup",
+      "image": "assets/images/beat-the-heat-productivity-hacks-for-your-summer-work-from-home-setup.jpg",
+      "title": "Beat the Heat: Productivity Hacks for Your Summer Work-from-Home Setup",
+      "author": "Alex Rivera",
+      "date": "2026-08-26",
+      "category": "Work-from-Home Productivity",
+      "tags": [
+        "work from home",
+        "summer productivity",
+        "heat management",
+        "remote work tips",
+        "home office setup",
+        "energy efficiency",
+        "time management",
+        "hydration for productivity",
+        "tech hacks",
+        "alex rivera"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "15 min",
+      "description": "Struggling with summer WFH productivity? I personally lost 20% of my focus during hot months. This guide, based on 6 months of rigorous testing, reveals how I reclaimed 2 hours of daily productivity and cut my energy bill by 32% with actionable strategies."
+    },
     {
       "id": "articles/beat-the-summer-slump-optimize-your-wfh-productivity-slash-bills-by-30",
       "image": "assets/images/beat-the-summer-slump-optimize-your-wfh-productivity-slash-bills-by-30.jpg",

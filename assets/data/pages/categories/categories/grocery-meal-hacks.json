@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 17,
+  "articleCount": 18,
   "articles": [
+    {
+      "id": "articles/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce",
+      "image": "assets/images/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce.jpg",
+      "title": "Summer Grocery Guide: Slashed Bills & Fresh Flavors with Seasonal Produce",
+      "author": "Jessica Martinez",
+      "date": "2026-08-28",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "summer produce",
+        "budget groceries",
+        "seasonal eating",
+        "meal planning",
+        "grocery savings",
+        "healthy eating",
+        "food budgeting",
+        "fresh produce",
+        "cost-cutting",
+        "sustainable eating"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "18 min",
+      "description": "Tired of grocery bills that spiral out of control? I once spent $650 a month on groceries for my family of four. After implementing seasonal shopping, I cut my bill by 35% in 90 days! Discover how leveraging summer produce can save you hundreds, boost nutrition, and transform your kitchen."
+    },
     {
       "id": "articles/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce",
       "image": "assets/images/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce.jpg",

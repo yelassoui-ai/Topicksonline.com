@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce",
+      "title": "Summer Grocery Guide: Slashed Bills & Fresh Flavors with Seasonal Produce",
+      "description": "Tired of grocery bills that spiral out of control? I once spent $650 a month on groceries for my family of four. After implementing seasonal shopping, I cut my bill by 35% in 90 days! Discover how leveraging summer produce can save you hundreds, boost nutrition, and transform your kitchen.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Beginner",
+      "author": "Jessica Martinez",
+      "date": "2026-08-28",
+      "readTime": "18 min",
+      "image": "assets/images/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce.jpg",
+      "tags": [
+        "summer produce",
+        "budget groceries",
+        "seasonal eating",
+        "meal planning",
+        "grocery savings",
+        "healthy eating",
+        "food budgeting",
+        "fresh produce",
+        "cost-cutting",
+        "sustainable eating"
+      ]
+    },
+    {
       "id": "articles/beat-the-heat-productivity-hacks-for-your-summer-work-from-home-setup",
       "title": "Beat the Heat: Productivity Hacks for Your Summer Work-from-Home Setup",
       "description": "Struggling with summer WFH productivity? I personally lost 20% of my focus during hot months. This guide, based on 6 months of rigorous testing, reveals how I reclaimed 2 hours of daily productivity and cut my energy bill by 32% with actionable strategies.",
@@ -197,29 +220,6 @@
         "at-home training",
         "performance nutrition",
         "electrolyte balance"
-      ]
-    },
-    {
-      "id": "articles/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce",
-      "title": "Summer Grocery Guide: Harvest Savings & Flavor with Seasonal Produce",
-      "description": "Struggling with high grocery bills? I slashed my grocery spending by 37% over 6 months by focusing on seasonal produce. This guide reveals my proven strategies for saving money, reducing waste, and enjoying peak-flavor summer foods that you can implement starting this week.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "Jessica Martinez",
-      "date": "2026-08-14",
-      "readTime": "15 min",
-      "image": "assets/images/summer-grocery-guide-harvest-savings-flavor-with-seasonal-produce.jpg",
-      "tags": [
-        "seasonal eating",
-        "budget groceries",
-        "summer produce",
-        "meal planning",
-        "food waste reduction",
-        "healthy living",
-        "grocery savings",
-        "produce storage",
-        "farmers market tips",
-        "affordable recipes"
       ]
     }
   ]

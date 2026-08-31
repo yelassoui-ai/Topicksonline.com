@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/hydrate-thrive-summer-home-workouts-common-mistakes-to-avoid",
+      "title": "Hydrate & Thrive: Summer Home Workouts & Common Mistakes to Avoid",
+      "description": "I transformed my summer fitness, losing 28 pounds in 12 weeks with home workouts. Discover how to stay hydrated, avoid common mistakes, and get fit on a budget, just like I did!",
+      "category": "At-Home Fitness",
+      "difficulty": "Intermediate",
+      "author": "Jessica Chen",
+      "date": "2026-08-31",
+      "readTime": "14 min",
+      "image": "assets/images/hydrate-thrive-summer-home-workouts-common-mistakes-to-avoid.jpg",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "hydration tips",
+        "common workout mistakes",
+        "bodyweight exercises",
+        "at-home fitness",
+        "workout tips",
+        "healthy habits",
+        "space-efficient workouts",
+        "budget fitness"
+      ]
+    },
+    {
       "id": "articles/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce",
       "title": "Summer Grocery Guide: Slashed Bills & Fresh Flavors with Seasonal Produce",
       "description": "Tired of grocery bills that spiral out of control? I once spent $650 a month on groceries for my family of four. After implementing seasonal shopping, I cut my bill by 35% in 90 days! Discover how leveraging summer produce can save you hundreds, boost nutrition, and transform your kitchen.",
@@ -197,29 +220,6 @@
         "budget living",
         "tech productivity",
         "wellness at work"
-      ]
-    },
-    {
-      "id": "articles/summer-shred-hydration-advanced-home-workouts-for-peak-performance",
-      "title": "Summer Shred & Hydration: Advanced Home Workouts for Peak Performance",
-      "description": "Ready to crush your summer fitness goals from home? I transformed my own routine, adding 15% to my functional strength and cutting post-workout recovery time by 30% in just 8 weeks. Discover how to supercharge your home workouts with advanced hydration tactics, bodyweight progressions, and recovery protocols for peak summer performance.",
-      "category": "At-Home Fitness",
-      "difficulty": "Advanced",
-      "author": "Mike Rodriguez",
-      "date": "2026-08-17",
-      "readTime": "12 min",
-      "image": "assets/images/summer-shred-hydration-advanced-home-workouts-for-peak-performance.jpg",
-      "tags": [
-        "advanced home workout",
-        "summer fitness",
-        "hydration strategies",
-        "bodyweight progression",
-        "functional strength",
-        "heat adaptation",
-        "recovery protocols",
-        "at-home training",
-        "performance nutrition",
-        "electrolyte balance"
       ]
     }
   ]

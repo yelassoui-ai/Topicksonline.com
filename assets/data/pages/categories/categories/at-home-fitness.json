@@ -2,7 +2,7 @@
   "title": "At-Home Fitness Articles",
   "category": "At-Home Fitness",
   "description": "All articles about At-Home Fitness",
-  "articleCount": 25,
+  "articleCount": 26,
   "articles": [
     {
       "id": "articles/lose-weight-fast-healthy-way-7-science-backed-tips",
@@ -23,6 +23,29 @@
       "difficulty": "Beginner",
       "readTime": "13 min read",
       "description": "Tired of crash diets that backfire? I lost 28 pounds in 12 weeks using these science-backed methods to lose weight fast without destroying my metabolism or sanity."
+    },
+    {
+      "id": "articles/hydrate-thrive-summer-home-workouts-common-mistakes-to-avoid",
+      "image": "assets/images/hydrate-thrive-summer-home-workouts-common-mistakes-to-avoid.jpg",
+      "title": "Hydrate & Thrive: Summer Home Workouts & Common Mistakes to Avoid",
+      "author": "Jessica Chen",
+      "date": "2026-08-31",
+      "category": "At-Home Fitness",
+      "tags": [
+        "summer fitness",
+        "home workout",
+        "hydration tips",
+        "common workout mistakes",
+        "bodyweight exercises",
+        "at-home fitness",
+        "workout tips",
+        "healthy habits",
+        "space-efficient workouts",
+        "budget fitness"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "14 min",
+      "description": "I transformed my summer fitness, losing 28 pounds in 12 weeks with home workouts. Discover how to stay hydrated, avoid common mistakes, and get fit on a budget, just like I did!"
     },
     {
       "id": "articles/budget-friendly-summer-fitness-hydrate-conquer-home-workouts",

@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 18,
+  "articleCount": 19,
   "articles": [
+    {
+      "id": "articles/holiday-grocery-savings-cut-costs-by-37-before-december-arrives",
+      "image": "assets/images/holiday-grocery-savings-cut-costs-by-37-before-december-arrives.jpg",
+      "title": "Holiday Grocery Savings: Cut Costs by 37% Before December Arrives",
+      "author": "David Kim",
+      "date": "2026-09-02",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "holiday budgeting",
+        "grocery savings",
+        "meal planning",
+        "frugal living",
+        "food waste reduction",
+        "bulk buying",
+        "couponing strategies",
+        "seasonal shopping",
+        "financial wellness",
+        "holiday prep"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "15 min",
+      "description": "Dreading holiday grocery bills? I used to, watching my spending jump 40-50%. Last year, I cut my holiday grocery spending by a staggering 37% (over $300) in 6 weeks using these data-driven strategies. Learn how to save big before December hits."
+    },
     {
       "id": "articles/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce",
       "image": "assets/images/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce.jpg",

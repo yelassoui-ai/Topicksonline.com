@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-for-your-busiest-weeks",
+      "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals for Your Busiest Weeks",
+      "description": "I once wasted 30% of my groceries, but with these fall meal prep strategies, I slashed my food bill by 47% in 6 months. Learn my cozy, budget-friendly secrets for busy weeks!",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Intermediate",
+      "author": "Jessica Chen",
+      "date": "2026-09-04",
+      "readTime": "18 min",
+      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-meals-for-your-busiest-weeks.jpg",
+      "tags": [
+        "fall meal prep",
+        "budget meals",
+        "healthy eating",
+        "cozy recipes",
+        "busy weeknights",
+        "seasonal produce",
+        "food waste reduction",
+        "batch cooking",
+        "money saving tips",
+        "meal planning"
+      ]
+    },
+    {
       "id": "articles/holiday-grocery-savings-cut-costs-by-37-before-december-arrives",
       "title": "Holiday Grocery Savings: Cut Costs by 37% Before December Arrives",
       "description": "Dreading holiday grocery bills? I used to, watching my spending jump 40-50%. Last year, I cut my holiday grocery spending by a staggering 37% (over $300) in 6 weeks using these data-driven strategies. Learn how to save big before December hits.",
@@ -197,29 +220,6 @@
         "mental well-being",
         "remote work",
         "cost savings"
-      ]
-    },
-    {
-      "id": "articles/budget-friendly-summer-fitness-hydrate-conquer-home-workouts",
-      "title": "Budget-Friendly Summer Fitness: Hydrate & Conquer Home Workouts",
-      "description": "As Mike Thompson, I transformed my fitness, losing 28 pounds in 12 weeks, all from home on a strict budget. This guide shares my exact strategies to stay hydrated and fit this summer, cutting costs by 47% while boosting energy. Get actionable tips you can start today.",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Mike Thompson",
-      "date": "2026-08-21",
-      "readTime": "18 min",
-      "image": "assets/images/budget-friendly-summer-fitness-hydrate-conquer-home-workouts.jpg",
-      "tags": [
-        "at-home workouts",
-        "summer fitness",
-        "budget fitness",
-        "hydration tips",
-        "home exercise",
-        "wellness on a budget",
-        "diy fitness",
-        "mike thompson",
-        "healthy lifestyle",
-        "workout routines"
       ]
     }
   ]

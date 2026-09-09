@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-common-mistakes-to-avoid",
+      "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals & Common Mistakes to Avoid",
+      "description": "Struggling with healthy, budget-friendly fall meals for busy weeks? I used to spend $150+ weekly on groceries and felt constantly stressed. After overhauling my meal prep strategy for 6 months, I cut my food bill by 47% and reclaimed 10 hours a week. Discover my secrets, common mistakes to avoid, and cozy, actionable recipes.",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Intermediate",
+      "author": "Jessica Chen",
+      "date": "2026-09-09",
+      "readTime": "25 min",
+      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-meals-common-mistakes-to-avoid.jpg",
+      "tags": [
+        "fall meal prep",
+        "budget meals",
+        "healthy eating",
+        "meal planning",
+        "cozy recipes",
+        "batch cooking",
+        "money saving tips",
+        "time management",
+        "fall recipes",
+        "kitchen efficiency"
+      ]
+    },
+    {
       "id": "articles/holiday-grocery-hacks-slash-your-bill-by-30-before-december-hits",
       "title": "Holiday Grocery Hacks: Slash Your Bill by 30% Before December Hits",
       "description": "Don't let holiday groceries break your bank! I personally cut my holiday food spending by 27% last year, saving over $180. Discover my proven strategies to save money on groceries before December, with actionable tips, specific numbers, and a clear path to stress-free holiday feasting.",
@@ -197,29 +220,6 @@
         "fresh produce",
         "cost-cutting",
         "sustainable eating"
-      ]
-    },
-    {
-      "id": "articles/beat-the-heat-productivity-hacks-for-your-summer-work-from-home-setup",
-      "title": "Beat the Heat: Productivity Hacks for Your Summer Work-from-Home Setup",
-      "description": "Struggling with summer WFH productivity? I personally lost 20% of my focus during hot months. This guide, based on 6 months of rigorous testing, reveals how I reclaimed 2 hours of daily productivity and cut my energy bill by 32% with actionable strategies.",
-      "category": "Work-from-Home Productivity",
-      "difficulty": "Intermediate",
-      "author": "Alex Rivera",
-      "date": "2026-08-26",
-      "readTime": "15 min",
-      "image": "assets/images/beat-the-heat-productivity-hacks-for-your-summer-work-from-home-setup.jpg",
-      "tags": [
-        "work from home",
-        "summer productivity",
-        "heat management",
-        "remote work tips",
-        "home office setup",
-        "energy efficiency",
-        "time management",
-        "hydration for productivity",
-        "tech hacks",
-        "alex rivera"
       ]
     }
   ]

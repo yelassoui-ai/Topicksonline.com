@@ -2,7 +2,7 @@
   "title": "Healthy Eating on a Budget Articles",
   "category": "Healthy Eating on a Budget",
   "description": "All articles about Healthy Eating on a Budget",
-  "articleCount": 9,
+  "articleCount": 10,
   "articles": [
     {
       "id": "articles/budget-planner-healthier-lifestyle-balance-fitness-food-finances",
@@ -63,6 +63,29 @@
       "difficulty": "Beginner",
       "readTime": "12 min read",
       "description": "I failed at meal prep 3 times before figuring it out. Here's how to avoid my expensive mistakes and actually make meal prep work for busy people who want healthy meals without the stress."
+    },
+    {
+      "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-common-mistakes-to-avoid",
+      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-meals-common-mistakes-to-avoid.jpg",
+      "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals & Common Mistakes to Avoid",
+      "author": "Jessica Chen",
+      "date": "2026-09-09",
+      "category": "Healthy Eating on a Budget",
+      "tags": [
+        "fall meal prep",
+        "budget meals",
+        "healthy eating",
+        "meal planning",
+        "cozy recipes",
+        "batch cooking",
+        "money saving tips",
+        "time management",
+        "fall recipes",
+        "kitchen efficiency"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "25 min",
+      "description": "Struggling with healthy, budget-friendly fall meals for busy weeks? I used to spend $150+ weekly on groceries and felt constantly stressed. After overhauling my meal prep strategy for 6 months, I cut my food bill by 47% and reclaimed 10 hours a week. Discover my secrets, common mistakes to avoid, and cozy, actionable recipes."
     },
     {
       "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-for-your-busiest-weeks",

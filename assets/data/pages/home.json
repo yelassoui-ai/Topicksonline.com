@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/back-to-routine-rebuilding-your-home-fitness-habit-after-summer",
+      "title": "Back-to-Routine: Rebuilding Your Home Fitness Habit After Summer",
+      "description": "After a summer of disrupted routines, I gained 7 pounds and lost 15% of my strength. Learn how I rebuilt my home fitness habit in just 8 weeks, improving my energy by 30% and maintaining consistency for over 6 months, with actionable steps you can implement today.",
+      "category": "Motivation & Mental Health",
+      "difficulty": "Beginner",
+      "author": "Maya Singh",
+      "date": "2026-09-11",
+      "readTime": "16 min",
+      "image": "assets/images/back-to-routine-rebuilding-your-home-fitness-habit-after-summer.jpg",
+      "tags": [
+        "home fitness",
+        "routine building",
+        "post-summer fitness",
+        "habit formation",
+        "mindful movement",
+        "wellness journey",
+        "consistency",
+        "motivation",
+        "budget fitness",
+        "mental well-being"
+      ]
+    },
+    {
       "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-common-mistakes-to-avoid",
       "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals & Common Mistakes to Avoid",
       "description": "Struggling with healthy, budget-friendly fall meals for busy weeks? I used to spend $150+ weekly on groceries and felt constantly stressed. After overhauling my meal prep strategy for 6 months, I cut my food bill by 47% and reclaimed 10 hours a week. Discover my secrets, common mistakes to avoid, and cozy, actionable recipes.",
@@ -197,29 +220,6 @@
         "healthy habits",
         "space-efficient workouts",
         "budget fitness"
-      ]
-    },
-    {
-      "id": "articles/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce",
-      "title": "Summer Grocery Guide: Slashed Bills & Fresh Flavors with Seasonal Produce",
-      "description": "Tired of grocery bills that spiral out of control? I once spent $650 a month on groceries for my family of four. After implementing seasonal shopping, I cut my bill by 35% in 90 days! Discover how leveraging summer produce can save you hundreds, boost nutrition, and transform your kitchen.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Beginner",
-      "author": "Jessica Martinez",
-      "date": "2026-08-28",
-      "readTime": "18 min",
-      "image": "assets/images/summer-grocery-guide-slashed-bills-fresh-flavors-with-seasonal-produce.jpg",
-      "tags": [
-        "summer produce",
-        "budget groceries",
-        "seasonal eating",
-        "meal planning",
-        "grocery savings",
-        "healthy eating",
-        "food budgeting",
-        "fresh produce",
-        "cost-cutting",
-        "sustainable eating"
       ]
     }
   ]

@@ -2,8 +2,31 @@
   "title": "Motivation & Mental Health Articles",
   "category": "Motivation & Mental Health",
   "description": "All articles about Motivation & Mental Health",
-  "articleCount": 1,
+  "articleCount": 2,
   "articles": [
+    {
+      "id": "articles/back-to-routine-rebuilding-your-home-fitness-habit-after-summer",
+      "image": "assets/images/back-to-routine-rebuilding-your-home-fitness-habit-after-summer.jpg",
+      "title": "Back-to-Routine: Rebuilding Your Home Fitness Habit After Summer",
+      "author": "Maya Singh",
+      "date": "2026-09-11",
+      "category": "Motivation & Mental Health",
+      "tags": [
+        "home fitness",
+        "routine building",
+        "post-summer fitness",
+        "habit formation",
+        "mindful movement",
+        "wellness journey",
+        "consistency",
+        "motivation",
+        "budget fitness",
+        "mental well-being"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "16 min",
+      "description": "After a summer of disrupted routines, I gained 7 pounds and lost 15% of my strength. Learn how I rebuilt my home fitness habit in just 8 weeks, improving my energy by 30% and maintaining consistency for over 6 months, with actionable steps you can implement today."
+    },
     {
       "id": "articles/stay-motivated-working-out-alone-at-home",
       "image": "assets/images/stay-motivated-working-out-alone-at-home.jpg",

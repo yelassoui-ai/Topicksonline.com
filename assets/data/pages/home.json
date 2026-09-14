@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december",
+      "title": "Holiday Grocery Budget: Avoid 7 Common Mistakes & Save 30%+ Before December",
+      "description": "Don't wait for December to blow your holiday grocery budget! I personally slashed my holiday food spending by 38% last year by avoiding common mistakes. Learn my proven strategies to save hundreds, starting today.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "Sarah Mitchell",
+      "date": "2026-09-14",
+      "readTime": "18 min",
+      "image": "assets/images/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december.jpg",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "frugal living",
+        "pre-holiday prep",
+        "common mistakes",
+        "food waste",
+        "smart shopping",
+        "budget meals",
+        "financial planning"
+      ]
+    },
+    {
       "id": "articles/back-to-routine-rebuilding-your-home-fitness-habit-after-summer",
       "title": "Back-to-Routine: Rebuilding Your Home Fitness Habit After Summer",
       "description": "After a summer of disrupted routines, I gained 7 pounds and lost 15% of my strength. Learn how I rebuilt my home fitness habit in just 8 weeks, improving my energy by 30% and maintaining consistency for over 6 months, with actionable steps you can implement today.",
@@ -197,29 +220,6 @@
         "seasonal shopping",
         "financial wellness",
         "holiday prep"
-      ]
-    },
-    {
-      "id": "articles/hydrate-thrive-summer-home-workouts-common-mistakes-to-avoid",
-      "title": "Hydrate & Thrive: Summer Home Workouts & Common Mistakes to Avoid",
-      "description": "I transformed my summer fitness, losing 28 pounds in 12 weeks with home workouts. Discover how to stay hydrated, avoid common mistakes, and get fit on a budget, just like I did!",
-      "category": "At-Home Fitness",
-      "difficulty": "Intermediate",
-      "author": "Jessica Chen",
-      "date": "2026-08-31",
-      "readTime": "14 min",
-      "image": "assets/images/hydrate-thrive-summer-home-workouts-common-mistakes-to-avoid.jpg",
-      "tags": [
-        "summer fitness",
-        "home workout",
-        "hydration tips",
-        "common workout mistakes",
-        "bodyweight exercises",
-        "at-home fitness",
-        "workout tips",
-        "healthy habits",
-        "space-efficient workouts",
-        "budget fitness"
       ]
     }
   ]

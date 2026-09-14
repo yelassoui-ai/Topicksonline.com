@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 20,
+  "articleCount": 21,
   "articles": [
+    {
+      "id": "articles/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december",
+      "image": "assets/images/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december.jpg",
+      "title": "Holiday Grocery Budget: Avoid 7 Common Mistakes & Save 30%+ Before December",
+      "author": "Sarah Mitchell",
+      "date": "2026-09-14",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "frugal living",
+        "pre-holiday prep",
+        "common mistakes",
+        "food waste",
+        "smart shopping",
+        "budget meals",
+        "financial planning"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "18 min",
+      "description": "Don't wait for December to blow your holiday grocery budget! I personally slashed my holiday food spending by 38% last year by avoiding common mistakes. Learn my proven strategies to save hundreds, starting today."
+    },
     {
       "id": "articles/holiday-grocery-hacks-slash-your-bill-by-30-before-december-hits",
       "image": "assets/images/holiday-grocery-hacks-slash-your-bill-by-30-before-december-hits.jpg",

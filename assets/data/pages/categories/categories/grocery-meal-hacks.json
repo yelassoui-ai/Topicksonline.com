@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 21,
+  "articleCount": 22,
   "articles": [
+    {
+      "id": "articles/holiday-grocery-budget-mastery-save-40-before-december-hits",
+      "image": "assets/images/holiday-grocery-budget-mastery-save-40-before-december-hits.jpg",
+      "title": "Holiday Grocery Budget Mastery: Save 40%+ Before December Hits",
+      "author": "David Kim",
+      "date": "2026-09-16",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "budget living",
+        "pre-holiday shopping",
+        "food hacks",
+        "frugal living",
+        "december savings",
+        "pantry stocking",
+        "couponing strategy"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "19 min",
+      "description": "I slashed my holiday grocery bill by 47% last year, saving $350 by starting my shopping in October. Discover my data-driven strategies to save big on holiday groceries before December, complete with actionable steps and personal insights."
+    },
     {
       "id": "articles/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december",
       "image": "assets/images/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december.jpg",

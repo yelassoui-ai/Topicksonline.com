@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/slash-your-holiday-grocery-bill-7-proven-hacks-before-december",
+      "title": "Slash Your Holiday Grocery Bill: 7 Proven Hacks Before December",
+      "description": "Don't let holiday groceries derail your budget! As Sarah Mitchell, I've personally cut my holiday food spending by 47% in just one season. Discover 7 actionable strategies to save hundreds before December even hits, based on my 6 months of testing and proven results.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "Sarah Mitchell",
+      "date": "2026-09-18",
+      "readTime": "16 min",
+      "image": "assets/images/slash-your-holiday-grocery-bill-7-proven-hacks-before-december.jpg",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "frugal living",
+        "pre-holiday prep",
+        "money saving tips",
+        "budget groceries",
+        "financial planning",
+        "food waste reduction",
+        "seasonal shopping"
+      ]
+    },
+    {
       "id": "articles/holiday-grocery-budget-mastery-save-40-before-december-hits",
       "title": "Holiday Grocery Budget Mastery: Save 40%+ Before December Hits",
       "description": "I slashed my holiday grocery bill by 47% last year, saving $350 by starting my shopping in October. Discover my data-driven strategies to save big on holiday groceries before December, complete with actionable steps and personal insights.",
@@ -197,29 +220,6 @@
         "smart shopping",
         "food waste reduction",
         "financial wellness"
-      ]
-    },
-    {
-      "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-for-your-busiest-weeks",
-      "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals for Your Busiest Weeks",
-      "description": "I once wasted 30% of my groceries, but with these fall meal prep strategies, I slashed my food bill by 47% in 6 months. Learn my cozy, budget-friendly secrets for busy weeks!",
-      "category": "Healthy Eating on a Budget",
-      "difficulty": "Intermediate",
-      "author": "Jessica Chen",
-      "date": "2026-09-04",
-      "readTime": "18 min",
-      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-meals-for-your-busiest-weeks.jpg",
-      "tags": [
-        "fall meal prep",
-        "budget meals",
-        "healthy eating",
-        "cozy recipes",
-        "busy weeknights",
-        "seasonal produce",
-        "food waste reduction",
-        "batch cooking",
-        "money saving tips",
-        "meal planning"
       ]
     }
   ]

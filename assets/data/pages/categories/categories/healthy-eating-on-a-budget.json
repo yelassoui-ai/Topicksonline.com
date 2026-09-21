@@ -2,7 +2,7 @@
   "title": "Healthy Eating on a Budget Articles",
   "category": "Healthy Eating on a Budget",
   "description": "All articles about Healthy Eating on a Budget",
-  "articleCount": 10,
+  "articleCount": 11,
   "articles": [
     {
       "id": "articles/budget-planner-healthier-lifestyle-balance-fitness-food-finances",
@@ -63,6 +63,29 @@
       "difficulty": "Beginner",
       "readTime": "12 min read",
       "description": "I failed at meal prep 3 times before figuring it out. Here's how to avoid my expensive mistakes and actually make meal prep work for busy people who want healthy meals without the stress."
+    },
+    {
+      "id": "articles/fall-meal-prep-for-beginners-cozy-budget-friendly-weeks-made-easy",
+      "image": "assets/images/fall-meal-prep-for-beginners-cozy-budget-friendly-weeks-made-easy.jpg",
+      "title": "Fall Meal Prep for Beginners: Cozy, Budget-Friendly Weeks Made Easy",
+      "author": "Rachel Chen",
+      "date": "2026-09-21",
+      "category": "Healthy Eating on a Budget",
+      "tags": [
+        "fall meal prep",
+        "budget friendly recipes",
+        "beginner meal prep",
+        "healthy eating",
+        "frugal living",
+        "cozy fall food",
+        "meal planning",
+        "time saving meals",
+        "weekly meal prep",
+        "healthy budget meals"
+      ],
+      "difficulty": "Beginner",
+      "readTime": "18 min",
+      "description": "Struggling with healthy eating and a tight budget this fall? I did too, gaining 15 lbs and spending $800/month on food. Discover how I lost 28 lbs in 12 weeks and cut my food bill by 47% with these beginner-friendly fall meal prep ideas."
     },
     {
       "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-common-mistakes-to-avoid",

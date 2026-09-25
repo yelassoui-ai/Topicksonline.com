@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 23,
+  "articleCount": 24,
   "articles": [
+    {
+      "id": "articles/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december",
+      "image": "assets/images/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december.jpg",
+      "title": "Holiday Grocery Planning: Advanced Tips to Slash Your Bill Before December",
+      "author": "Sarah Mitchell",
+      "date": "2026-09-25",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "advanced tips",
+        "pre-december savings",
+        "financial planning",
+        "food hacks",
+        "budget living",
+        "smart shopping",
+        "holiday cooking"
+      ],
+      "difficulty": "Advanced",
+      "readTime": "15 min",
+      "description": "Don't wait until December to panic! I personally cut my holiday grocery bill by 47% by implementing these advanced, pre-December strategies. Learn how to save hundreds with my proven tips."
+    },
     {
       "id": "articles/slash-your-holiday-grocery-bill-7-proven-hacks-before-december",
       "image": "assets/images/slash-your-holiday-grocery-bill-7-proven-hacks-before-december.jpg",

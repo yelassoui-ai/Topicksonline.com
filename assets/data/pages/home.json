@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december",
+      "title": "Holiday Grocery Planning: Advanced Tips to Slash Your Bill Before December",
+      "description": "Don't wait until December to panic! I personally cut my holiday grocery bill by 47% by implementing these advanced, pre-December strategies. Learn how to save hundreds with my proven tips.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Advanced",
+      "author": "Sarah Mitchell",
+      "date": "2026-09-25",
+      "readTime": "15 min",
+      "image": "assets/images/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december.jpg",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "advanced tips",
+        "pre-december savings",
+        "financial planning",
+        "food hacks",
+        "budget living",
+        "smart shopping",
+        "holiday cooking"
+      ]
+    },
+    {
       "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-for-busy-weeks-mistakes-quick-wins",
       "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals for Busy Weeks (Mistakes & Quick Wins)",
       "description": "Tired of expensive takeout and frantic weeknights? I cut my grocery bill by 35% and gained 6 hours a week with smart fall meal prep. Learn my secrets to cozy, budget-friendly meals, avoiding common mistakes for quick, lasting results.",
@@ -197,29 +220,6 @@
         "smart shopping",
         "budget meals",
         "financial planning"
-      ]
-    },
-    {
-      "id": "articles/back-to-routine-rebuilding-your-home-fitness-habit-after-summer",
-      "title": "Back-to-Routine: Rebuilding Your Home Fitness Habit After Summer",
-      "description": "After a summer of disrupted routines, I gained 7 pounds and lost 15% of my strength. Learn how I rebuilt my home fitness habit in just 8 weeks, improving my energy by 30% and maintaining consistency for over 6 months, with actionable steps you can implement today.",
-      "category": "Motivation & Mental Health",
-      "difficulty": "Beginner",
-      "author": "Maya Singh",
-      "date": "2026-09-11",
-      "readTime": "16 min",
-      "image": "assets/images/back-to-routine-rebuilding-your-home-fitness-habit-after-summer.jpg",
-      "tags": [
-        "home fitness",
-        "routine building",
-        "post-summer fitness",
-        "habit formation",
-        "mindful movement",
-        "wellness journey",
-        "consistency",
-        "motivation",
-        "budget fitness",
-        "mental well-being"
       ]
     }
   ]

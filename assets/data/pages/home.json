@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-for-busy-weeks-beginner-to-advanced",
+      "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals for Busy Weeks (Beginner to Advanced)",
+      "description": "Unlock the secrets to effortless fall meal prep! As Dr. Lisa Chen, I'll share how I personally cut my grocery bill by 47% and saved 10+ hours weekly. This guide offers actionable, data-backed strategies for beginners to advanced preppers.",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Beginner",
+      "author": "Dr. Lisa Chen",
+      "date": "2026-09-28",
+      "readTime": "18 min",
+      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-meals-for-busy-weeks-beginner-to-advanced.jpg",
+      "tags": [
+        "fall meal prep",
+        "budget friendly recipes",
+        "healthy eating",
+        "meal planning",
+        "time saving meals",
+        "beginner meal prep",
+        "advanced meal prep tips",
+        "cozy fall recipes",
+        "dr lisa chen",
+        "food budgeting"
+      ]
+    },
+    {
       "id": "articles/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december",
       "title": "Holiday Grocery Planning: Advanced Tips to Slash Your Bill Before December",
       "description": "Don't wait until December to panic! I personally cut my holiday grocery bill by 47% by implementing these advanced, pre-December strategies. Learn how to save hundreds with my proven tips.",
@@ -197,29 +220,6 @@
         "december savings",
         "pantry stocking",
         "couponing strategy"
-      ]
-    },
-    {
-      "id": "articles/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december",
-      "title": "Holiday Grocery Budget: Avoid 7 Common Mistakes & Save 30%+ Before December",
-      "description": "Don't wait for December to blow your holiday grocery budget! I personally slashed my holiday food spending by 38% last year by avoiding common mistakes. Learn my proven strategies to save hundreds, starting today.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "Sarah Mitchell",
-      "date": "2026-09-14",
-      "readTime": "18 min",
-      "image": "assets/images/holiday-grocery-budget-avoid-7-common-mistakes-save-30-before-december.jpg",
-      "tags": [
-        "holiday budget",
-        "grocery savings",
-        "meal planning",
-        "frugal living",
-        "pre-holiday prep",
-        "common mistakes",
-        "food waste",
-        "smart shopping",
-        "budget meals",
-        "financial planning"
       ]
     }
   ]

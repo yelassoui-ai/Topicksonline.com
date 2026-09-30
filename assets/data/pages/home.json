@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday",
+      "title": "Holiday Grocery Savings: Slash Your December Food Bill by 30% Before Black Friday",
+      "description": "As David Kim, I've personally cut my grocery bill by 35% during the holidays after years of overspending. Learn my data-driven strategies to save hundreds on groceries before December even begins, with actionable steps you can implement today.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "David Kim",
+      "date": "2026-09-30",
+      "readTime": "18 min",
+      "image": "assets/images/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday.jpg",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "food waste",
+        "budget living",
+        "frugal holidays",
+        "november prep",
+        "smart shopping",
+        "cost reduction",
+        "financial planning"
+      ]
+    },
+    {
       "id": "articles/fall-meal-prep-cozy-budget-friendly-meals-for-busy-weeks-beginner-to-advanced",
       "title": "Fall Meal Prep: Cozy, Budget-Friendly Meals for Busy Weeks (Beginner to Advanced)",
       "description": "Unlock the secrets to effortless fall meal prep! As Dr. Lisa Chen, I'll share how I personally cut my grocery bill by 47% and saved 10+ hours weekly. This guide offers actionable, data-backed strategies for beginners to advanced preppers.",
@@ -197,29 +220,6 @@
         "financial planning",
         "food waste reduction",
         "seasonal shopping"
-      ]
-    },
-    {
-      "id": "articles/holiday-grocery-budget-mastery-save-40-before-december-hits",
-      "title": "Holiday Grocery Budget Mastery: Save 40%+ Before December Hits",
-      "description": "I slashed my holiday grocery bill by 47% last year, saving $350 by starting my shopping in October. Discover my data-driven strategies to save big on holiday groceries before December, complete with actionable steps and personal insights.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "David Kim",
-      "date": "2026-09-16",
-      "readTime": "19 min",
-      "image": "assets/images/holiday-grocery-budget-mastery-save-40-before-december-hits.jpg",
-      "tags": [
-        "holiday budget",
-        "grocery savings",
-        "meal planning",
-        "budget living",
-        "pre-holiday shopping",
-        "food hacks",
-        "frugal living",
-        "december savings",
-        "pantry stocking",
-        "couponing strategy"
       ]
     }
   ]

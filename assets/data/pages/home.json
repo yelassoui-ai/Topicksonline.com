@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/fall-meal-prep-cozy-budget-friendly-strategies-for-thriving-busy-weeks",
+      "title": "Fall Meal Prep: Cozy, Budget-Friendly Strategies for Thriving Busy Weeks",
+      "description": "As Dr. Lisa Chen, I transformed my chaotic meal times and cut my grocery bill by 38% in just 10 weeks through strategic fall meal prep. Discover how I lost 22 pounds in 8 months and gained back 6 hours a week by implementing these cozy, budget-friendly strategies for thriving busy weeks.",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Intermediate",
+      "author": "Dr. Lisa Chen",
+      "date": "2026-10-02",
+      "readTime": "25 min",
+      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-strategies-for-thriving-busy-weeks.jpg",
+      "tags": [
+        "fall meal prep",
+        "budget friendly recipes",
+        "healthy eating",
+        "meal planning",
+        "busy weeknights",
+        "seasonal ingredients",
+        "cost savings",
+        "nutritious meals",
+        "batch cooking",
+        "food waste reduction"
+      ]
+    },
+    {
       "id": "articles/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday",
       "title": "Holiday Grocery Savings: Slash Your December Food Bill by 30% Before Black Friday",
       "description": "As David Kim, I've personally cut my grocery bill by 35% during the holidays after years of overspending. Learn my data-driven strategies to save hundreds on groceries before December even begins, with actionable steps you can implement today.",
@@ -197,29 +220,6 @@
         "time saving meals",
         "weekly meal prep",
         "healthy budget meals"
-      ]
-    },
-    {
-      "id": "articles/slash-your-holiday-grocery-bill-7-proven-hacks-before-december",
-      "title": "Slash Your Holiday Grocery Bill: 7 Proven Hacks Before December",
-      "description": "Don't let holiday groceries derail your budget! As Sarah Mitchell, I've personally cut my holiday food spending by 47% in just one season. Discover 7 actionable strategies to save hundreds before December even hits, based on my 6 months of testing and proven results.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "Sarah Mitchell",
-      "date": "2026-09-18",
-      "readTime": "16 min",
-      "image": "assets/images/slash-your-holiday-grocery-bill-7-proven-hacks-before-december.jpg",
-      "tags": [
-        "holiday budget",
-        "grocery savings",
-        "meal planning",
-        "frugal living",
-        "pre-holiday prep",
-        "money saving tips",
-        "budget groceries",
-        "financial planning",
-        "food waste reduction",
-        "seasonal shopping"
       ]
     }
   ]

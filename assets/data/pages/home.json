@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/holiday-grocery-savings-slash-your-bill-before-december-hits",
+      "title": "Holiday Grocery Savings: Slash Your Bill Before December Hits!",
+      "description": "Stop holiday grocery stress before it starts! I slashed my November-December food bill by 47% in one year. Learn my proven strategies to save hundreds on holiday groceries before December even begins, with actionable tips and personal insights.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "Jessica Martinez",
+      "date": "2026-10-09",
+      "readTime": "25 min",
+      "image": "assets/images/holiday-grocery-savings-slash-your-bill-before-december-hits.jpg",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "frugal living",
+        "budget hacks",
+        "food waste",
+        "seasonal eating",
+        "bulk buying",
+        "personal finance",
+        "december prep"
+      ]
+    },
+    {
       "id": "articles/fall-meal-prep-cozy-budget-friendly-recipes-for-busy-weeks-my-proven-system",
       "title": "Fall Meal Prep: Cozy, Budget-Friendly Recipes for Busy Weeks – My Proven System",
       "description": "Discover how I transformed my fall eating habits, cutting my grocery bill by 32% and reclaiming 8 hours a week, with data-driven, cozy, budget-friendly meal prep strategies. Learn my proven system for delicious, nutritious, and affordable autumn meals, even on the busiest schedules.",
@@ -197,29 +220,6 @@
         "cozy fall recipes",
         "dr lisa chen",
         "food budgeting"
-      ]
-    },
-    {
-      "id": "articles/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december",
-      "title": "Holiday Grocery Planning: Advanced Tips to Slash Your Bill Before December",
-      "description": "Don't wait until December to panic! I personally cut my holiday grocery bill by 47% by implementing these advanced, pre-December strategies. Learn how to save hundreds with my proven tips.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Advanced",
-      "author": "Sarah Mitchell",
-      "date": "2026-09-25",
-      "readTime": "15 min",
-      "image": "assets/images/holiday-grocery-planning-advanced-tips-to-slash-your-bill-before-december.jpg",
-      "tags": [
-        "holiday budget",
-        "grocery savings",
-        "meal planning",
-        "advanced tips",
-        "pre-december savings",
-        "financial planning",
-        "food hacks",
-        "budget living",
-        "smart shopping",
-        "holiday cooking"
       ]
     }
   ]

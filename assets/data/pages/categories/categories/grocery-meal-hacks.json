@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 25,
+  "articleCount": 26,
   "articles": [
+    {
+      "id": "articles/holiday-grocery-savings-slash-your-bill-before-december-hits",
+      "image": "assets/images/holiday-grocery-savings-slash-your-bill-before-december-hits.jpg",
+      "title": "Holiday Grocery Savings: Slash Your Bill Before December Hits!",
+      "author": "Jessica Martinez",
+      "date": "2026-10-09",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "frugal living",
+        "budget hacks",
+        "food waste",
+        "seasonal eating",
+        "bulk buying",
+        "personal finance",
+        "december prep"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "25 min",
+      "description": "Stop holiday grocery stress before it starts! I slashed my November-December food bill by 47% in one year. Learn my proven strategies to save hundreds on holiday groceries before December even begins, with actionable tips and personal insights."
+    },
     {
       "id": "articles/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday",
       "image": "assets/images/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday.jpg",

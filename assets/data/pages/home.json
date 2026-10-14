@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/fall-meal-prep-magic-cozy-budget-friendly-meals-for-busy-weeks",
+      "title": "Fall Meal Prep Magic: Cozy, Budget-Friendly Meals for Busy Weeks",
+      "description": "Tired of expensive takeout and frantic weeknights? I was too! I cut my grocery bill by 47% and saved 8 hours a week by mastering fall meal prep. Learn my budget-friendly, cozy strategies.",
+      "category": "Healthy Eating on a Budget",
+      "difficulty": "Intermediate",
+      "author": "Jessica Martinez",
+      "date": "2026-10-14",
+      "readTime": "28 min",
+      "image": "assets/images/fall-meal-prep-magic-cozy-budget-friendly-meals-for-busy-weeks.jpg",
+      "tags": [
+        "fall meal prep",
+        "budget friendly recipes",
+        "healthy eating",
+        "meal planning",
+        "cozy fall meals",
+        "seasonal produce",
+        "time saving",
+        "weekly meal prep",
+        "affordable cooking",
+        "nutrition"
+      ]
+    },
+    {
       "id": "articles/fall-meal-prep-for-beginners-cozy-budget-friendly-meals-that-saved-me-47-5-hours-weekly",
       "title": "Fall Meal Prep for Beginners: Cozy, Budget-Friendly Meals That Saved Me 47% & 5 Hours Weekly",
       "description": "Struggling with healthy eating on a budget? I transformed my fall meals, cutting grocery bills by 47% and saving 5 hours weekly. This beginner's guide shares my journey and actionable steps for cozy, budget-friendly meal prep.",
@@ -197,29 +220,6 @@
         "nutritious meals",
         "batch cooking",
         "food waste reduction"
-      ]
-    },
-    {
-      "id": "articles/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday",
-      "title": "Holiday Grocery Savings: Slash Your December Food Bill by 30% Before Black Friday",
-      "description": "As David Kim, I've personally cut my grocery bill by 35% during the holidays after years of overspending. Learn my data-driven strategies to save hundreds on groceries before December even begins, with actionable steps you can implement today.",
-      "category": "Grocery & Meal Hacks",
-      "difficulty": "Intermediate",
-      "author": "David Kim",
-      "date": "2026-09-30",
-      "readTime": "18 min",
-      "image": "assets/images/holiday-grocery-savings-slash-your-december-food-bill-by-30-before-black-friday.jpg",
-      "tags": [
-        "holiday budget",
-        "grocery savings",
-        "meal planning",
-        "food waste",
-        "budget living",
-        "frugal holidays",
-        "november prep",
-        "smart shopping",
-        "cost reduction",
-        "financial planning"
       ]
     }
   ]

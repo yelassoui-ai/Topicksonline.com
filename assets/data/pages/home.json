@@ -85,6 +85,29 @@
       ]
     },
     {
+      "id": "articles/holiday-budget-planning-slash-grocery-bills-by-35-before-december",
+      "title": "Holiday Budget Planning: Slash Grocery Bills by 35% BEFORE December",
+      "description": "As a data-driven budget strategist, I once faced a $700 holiday grocery bill. By implementing a pre-December planning system, I cut my holiday food costs by 35% last year, saving over $245. Discover my proven, actionable strategies to lock in significant grocery savings before the holiday rush even begins.",
+      "category": "Grocery & Meal Hacks",
+      "difficulty": "Intermediate",
+      "author": "David Kim",
+      "date": "2026-10-16",
+      "readTime": "18 min",
+      "image": "assets/images/holiday-budget-planning-slash-grocery-bills-by-35-before-december.jpg",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "pre-holiday shopping",
+        "budget living",
+        "food cost reduction",
+        "couponing strategies",
+        "pantry stocking",
+        "financial planning",
+        "frugal holidays"
+      ]
+    },
+    {
       "id": "articles/fall-meal-prep-magic-cozy-budget-friendly-meals-for-busy-weeks",
       "title": "Fall Meal Prep Magic: Cozy, Budget-Friendly Meals for Busy Weeks",
       "description": "Tired of expensive takeout and frantic weeknights? I was too! I cut my grocery bill by 47% and saved 8 hours a week by mastering fall meal prep. Learn my budget-friendly, cozy strategies.",
@@ -197,29 +220,6 @@
         "nutrition planning",
         "autumn recipes",
         "batch cooking"
-      ]
-    },
-    {
-      "id": "articles/fall-meal-prep-cozy-budget-friendly-strategies-for-thriving-busy-weeks",
-      "title": "Fall Meal Prep: Cozy, Budget-Friendly Strategies for Thriving Busy Weeks",
-      "description": "As Dr. Lisa Chen, I transformed my chaotic meal times and cut my grocery bill by 38% in just 10 weeks through strategic fall meal prep. Discover how I lost 22 pounds in 8 months and gained back 6 hours a week by implementing these cozy, budget-friendly strategies for thriving busy weeks.",
-      "category": "Healthy Eating on a Budget",
-      "difficulty": "Intermediate",
-      "author": "Dr. Lisa Chen",
-      "date": "2026-10-02",
-      "readTime": "25 min",
-      "image": "assets/images/fall-meal-prep-cozy-budget-friendly-strategies-for-thriving-busy-weeks.jpg",
-      "tags": [
-        "fall meal prep",
-        "budget friendly recipes",
-        "healthy eating",
-        "meal planning",
-        "busy weeknights",
-        "seasonal ingredients",
-        "cost savings",
-        "nutritious meals",
-        "batch cooking",
-        "food waste reduction"
       ]
     }
   ]

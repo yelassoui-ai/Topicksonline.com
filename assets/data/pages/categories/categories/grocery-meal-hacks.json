@@ -2,8 +2,31 @@
   "title": "Grocery & Meal Hacks Articles",
   "category": "Grocery & Meal Hacks",
   "description": "All articles about Grocery & Meal Hacks",
-  "articleCount": 26,
+  "articleCount": 27,
   "articles": [
+    {
+      "id": "articles/holiday-budget-planning-slash-grocery-bills-by-35-before-december",
+      "image": "assets/images/holiday-budget-planning-slash-grocery-bills-by-35-before-december.jpg",
+      "title": "Holiday Budget Planning: Slash Grocery Bills by 35% BEFORE December",
+      "author": "David Kim",
+      "date": "2026-10-16",
+      "category": "Grocery & Meal Hacks",
+      "tags": [
+        "holiday budget",
+        "grocery savings",
+        "meal planning",
+        "pre-holiday shopping",
+        "budget living",
+        "food cost reduction",
+        "couponing strategies",
+        "pantry stocking",
+        "financial planning",
+        "frugal holidays"
+      ],
+      "difficulty": "Intermediate",
+      "readTime": "18 min",
+      "description": "As a data-driven budget strategist, I once faced a $700 holiday grocery bill. By implementing a pre-December planning system, I cut my holiday food costs by 35% last year, saving over $245. Discover my proven, actionable strategies to lock in significant grocery savings before the holiday rush even begins."
+    },
     {
       "id": "articles/holiday-grocery-savings-slash-your-bill-before-december-hits",
       "image": "assets/images/holiday-grocery-savings-slash-your-bill-before-december-hits.jpg",
